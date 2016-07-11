@@ -3428,21 +3428,21 @@ $_ADMINLANG['healthCheck']['permissionCheckUnownedDirectories2'] = "您可以查
 $_ADMINLANG['healthCheck']['customTemplates'] = "默认模板的使用";
 $_ADMINLANG['healthCheck']['customTemplatesSuccess'] = "您的 WHMCS 正使用自定义模板，将不会在升级时覆盖。";
 $_ADMINLANG['healthCheck']['customTemplatesFailure'] = "我们检测到您的 WHMCS 当前正在使用一个或更多的默认的模板名，如果您对模板做了修改，我们强烈建议您新建一个自定义的模板目录以免下次升级导致定制丢失。<br /><br />您当前以下位置正使用默认模板：";
-$_ADMINLANG['healthCheck']['customTemplatesFailure2'] = "请参考我们的 <a :href>文档</a> 帮助制作自定义主题。";
+$_ADMINLANG['healthCheck']['customTemplatesFailure2'] = "请参阅我们的 <a :href>文档</a> 帮助您了解如何制作自定义主题。";
 $_ADMINLANG['healthCheck']['phpVersion'] = "PHP 版本";
 $_ADMINLANG['healthCheck']['phpVersionWhmcsSupported'] = "您的 PHP 版本 <strong>:version</strong> 支持 WHMCS。";
-$_ADMINLANG['healthCheck']['phpVersionWhmcsUnsupported'] = "您的 PHP 版本 <strong>:version</strong> 不支持 WHMCS。WHMCS 需要的最小版本为 5.3.7。";
+$_ADMINLANG['healthCheck']['phpVersionWhmcsUnsupported'] = "您的 PHP 版本 <strong>:version</strong> 不支持 WHMCS。WHMCS 需要的最小 PHP 版本为 5.3.7。";
 $_ADMINLANG['healthCheck']['phpVersionPhpSupported'] = "您的 PHP 版本受 PHP 积极地的支持，包括错误修复和安全补丁更新。";
 $_ADMINLANG['healthCheck']['phpVersionPhpSecurityUpdatesOnly'] = "您的 PHP 分支 :version 已经不再接收常规错误修复，只接收严重安全问题更新直至结束生命周期。我们建议您更新到受支持的 PHP 版本。请查阅 <a href=\"http://php.net/supported-versions.php\">http://php.net/supported-versions.php</a> 了解更多信息。";
 $_ADMINLANG['healthCheck']['phpVersionPhpUnsupported'] = "您的 PHP 分支 :version 已结束生命周期将不会收到严重错误修复或安全更新。我们建议您升级到受支持的 PHP 版本。请查阅 <a href=\"http://php.net/supported-versions.php\">http://php.net/supported-versions.php</a> 了解更多信息。";
 $_ADMINLANG['healthCheck']['requiredPhpExtensions'] = "依赖的 PHP 扩展";
 $_ADMINLANG['healthCheck']['requiredPhpExtensionsSuccess'] = "您的 PHP 加载并启用了 WHMCS 操作所需的所有扩展。";
 $_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure'] = "以下 PHP 扩展可以更充分的使用 WHMCS 功能：";
-$_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure2'] = "请查看当前 WHMCS <a :href>系统要求</a> 并确保您的系统能够满足。";
+$_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure2'] = "请查看当前 WHMCS <a :href>系统要求</a> 并确保您的系统能够满足条件。";
 $_ADMINLANG['healthCheck']['recommendedPhpExtensions'] = "建议的 PHP 扩展";
 $_ADMINLANG['healthCheck']['recommendedPhpExtensionsSuccess'] = "您的 PHP 已加载并启用了 WHMCS 的某些模块和插件所推荐的所有扩展。";
 $_ADMINLANG['healthCheck']['recommendedPhpExtensionsFailure'] = "为了更高性能且无故障运行，推荐安装如下 PHP 扩展。虽然对 WHMCS 核心功能来说是可选的，但是一些模块和插件需要使用他们来完整的实现预期的功能：";
-$_ADMINLANG['healthCheck']['recommendedPhpExtensionsFailure2'] = "请参考当前 <a :href>系统推荐</a> 并查找我们的相关文档了解您使用的特殊模块。";
+$_ADMINLANG['healthCheck']['recommendedPhpExtensionsFailure2'] = "请参阅当前的 <a :href>系统推荐</a> 并查找我们的相关文档帮助您了解您使用的特殊模块的更多信息。";
 $_ADMINLANG['healthCheck']['requiredPhpFunctions'] = "依赖的 PHP 功能";
 $_ADMINLANG['healthCheck']['requiredPhpFunctionsSuccess'] = "您的 PHP 启用了 WHMCS 操作所需的所有功能。";
 $_ADMINLANG['healthCheck']['requiredPhpFunctionsFailure'] = "为实现 WHMCS 预期的完整功能，必须启用如下 PHP 功能：";
@@ -3467,7 +3467,7 @@ $_ADMINLANG['healthCheck']['curlSslSupportFailure'] = "cURL 不支持 SSL。请�
 
 $_ADMINLANG['healthCheck']['curlSecureTlsSupport'] = "cURL 支持安全 TLS";
 $_ADMINLANG['healthCheck']['curlSecureTlsSupportSuccess'] = "cURL 支持安全的 TLS 1.1 和 1.2。";
-$_ADMINLANG['healthCheck']['curlSecureTlsSupportFailure'] = "cURL 不支持安全的 TLS 1.1 和 1.2。请确认已安装支持 TLS 1.1 和 1.2 的 SSL 运行库并支持 cURL。";
+$_ADMINLANG['healthCheck']['curlSecureTlsSupportFailure'] = "cURL 不支持安全的 TLS 1.1 和 1.2。请确保已安装的 SSL 运行库支持 TLS 1.1 和 1.2 且支持 cURL。";
 
 $_ADMINLANG['healthCheck']['phpSessionSupport'] = "PHP Session 支持";
 $_ADMINLANG['healthCheck']['phpSessionSupportEnabled'] = "PHP session 支持已启用。";
