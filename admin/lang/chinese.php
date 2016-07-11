@@ -3437,7 +3437,7 @@ $_ADMINLANG['healthCheck']['phpVersionPhpSecurityUpdatesOnly'] = "您的 PHP 分
 $_ADMINLANG['healthCheck']['phpVersionPhpUnsupported'] = "您的 PHP 分支 :version 已结束生命周期将不会收到严重错误修复或安全更新。我们建议您升级到受支持的 PHP 版本。请查阅 <a href=\"http://php.net/supported-versions.php\">http://php.net/supported-versions.php</a> 了解更多信息。";
 $_ADMINLANG['healthCheck']['requiredPhpExtensions'] = "依赖的 PHP 扩展";
 $_ADMINLANG['healthCheck']['requiredPhpExtensionsSuccess'] = "您的 PHP 加载并启用了 WHMCS 操作所需的所有扩展。";
-$_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure'] = "以下 PHP 扩展可以更充分的使用 WHMCS 功能：";
+$_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure'] = "需要安装以下 PHP 扩展才能让 WHMCS 更充分的发挥作用：";
 $_ADMINLANG['healthCheck']['requiredPhpExtensionsFailure2'] = "请查看当前 WHMCS <a :href>系统要求</a> 并确保您的系统能够满足条件。";
 $_ADMINLANG['healthCheck']['recommendedPhpExtensions'] = "建议的 PHP 扩展";
 $_ADMINLANG['healthCheck']['recommendedPhpExtensionsSuccess'] = "您的 PHP 已加载并启用了 WHMCS 的某些模块和插件所推荐的所有扩展。";
