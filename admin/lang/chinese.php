@@ -2566,8 +2566,8 @@ $_ADMINLANG['general']['enableTranslationsDescription'] = "启用本地化多语
 
 $_ADMINLANG['general']['utf8mb4cut'] = "移除 UTF-8 扩展字符";
 $_ADMINLANG['general']['utf8mb4cuttext'] = "自动移除 4 字节的 UTF-8 字符，例如服务工单和邮件中的表情。";
-$_ADMINLANG['general']['ordergrace'] = "订单超时时间";
-$_ADMINLANG['general']['ordergraceinfo'] = "在超时之前允许支付的天数";
+$_ADMINLANG['general']['ordergrace'] = "订单超时宽限";
+$_ADMINLANG['general']['ordergraceinfo'] = "订单在逾期之前允许支付的天数（超时后将无法支付，设置为 0 永不超时）";
 $_ADMINLANG['general']['defaultordertemplate'] = "默认订单模板";
 $_ADMINLANG['general']['orderfrmsidebartoggle'] = "侧边栏切换选项";
 $_ADMINLANG['general']['orderfrmsidebartoggleinfo'] = "选中复选框，在产品选择页订单上显示侧边栏切换按钮";
