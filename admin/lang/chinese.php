@@ -1262,7 +1262,7 @@ $_ADMINLANG['affiliates']['withdrawalsonly'] = "仅记录已提现";
 
 # Utilities
 $_ADMINLANG['utilities']['title'] = "其他选项";
-$_ADMINLANG['utilities']['addonmodules'] = "插件安装";
+$_ADMINLANG['utilities']['addonmodules'] = "插件管理";
 $_ADMINLANG['utilities']['emailmarketer'] = "邮件营销";
 $_ADMINLANG['utilities']['linktracking'] = "链接跟踪";
 $_ADMINLANG['utilities']['calendar'] = "日历显示";
@@ -1315,7 +1315,7 @@ $_ADMINLANG['setup']['escalationrules'] = "升级规则";
 $_ADMINLANG['setup']['spam'] = "垃圾邮件管理";
 $_ADMINLANG['setup']['other'] = "其他服务";
 $_ADMINLANG['setup']['securityqs'] = "密保问题";
-$_ADMINLANG['setup']['addonmodules'] = "模块插件";
+$_ADMINLANG['setup']['addonmodules'] = "插件模块";
 $_ADMINLANG['setup']['bannedips'] = "禁止的 IP 地址";
 $_ADMINLANG['setup']['bannedemails'] = "禁止的邮箱";
 $_ADMINLANG['setup']['backups'] = "数据库备份";
