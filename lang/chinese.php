@@ -475,7 +475,7 @@ $_LANG['knowledgebaseratingtext'] = "用户发现这个很有用";
 $_LANG['knowledgebaserelated'] = "相关文章";
 $_LANG['knowledgebasesearch'] = "搜索";
 $_LANG['knowledgebasetitle'] = "帮助中心";
-$_LANG['knowledgebaseviews'] = "查看";
+$_LANG['knowledgebaseviews'] = "查看次数";
 $_LANG['knowledgebasevote'] = "投票";
 $_LANG['knowledgebasevotes'] = "投票";
 $_LANG['knowledgebaseyes'] = "是";
@@ -900,10 +900,10 @@ $_LANG['subaccountallowedperms'] = "您批准的权限为：";
 $_LANG['subaccountcontactmaster'] = "请联系管理员。";
 $_LANG['subaccountSsoDenied'] = "您没有权限使用单点登录。";
 
-$_LANG['knowledgebasealsoread'] = "阅读建议";
+$_LANG['knowledgebasealsoread'] = "建议阅读";
 
 $_LANG['orderpaymenttermtriennially'] = "三年";
-$_LANG['orderpaymentterm36month'] = "36 个月价格";
+$_LANG['orderpaymentterm36month'] = "36 个月的价格";
 
 $_LANG['domainrenewals'] = "域名续费";
 $_LANG['domaindaysuntilexpiry'] = "到期";
