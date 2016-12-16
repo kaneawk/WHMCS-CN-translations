@@ -5,7 +5,7 @@ if (!defined("WHMCS")) die("This file cannot be accessed directly");
 $_ADMINLANG['locale'] = "zh_CN";
 
 # Global
-$_ADMINLANG['global']['hometitle'] = "管理概览";
+$_ADMINLANG['global']['hometitle'] = "仪表盘";
 $_ADMINLANG['global']['searchfilter'] = "搜索";
 $_ADMINLANG['global']['search'] = "搜索";
 $_ADMINLANG['global']['recordsfound'] = "条记录";
@@ -120,6 +120,19 @@ $_ADMINLANG['global']['resendEmail'] = "重新发送验证邮件";
 $_ADMINLANG['global']['translate'] = "翻译";
 $_ADMINLANG['global']['bulkActions'] = "批量操作";
 $_ADMINLANG['global']['showAdvancedOptions'] = "显示高级选项";
+$_ADMINLANG['global']['sessionExpiredPleaseRefresh'] = "您的会话已过期。请刷新后继续。";
+$_ADMINLANG['global']['unknown'] = "未知";
+$_ADMINLANG['global']['retry'] = "重试";
+$_ADMINLANG['global']['viewLog'] = "查看日志";
+$_ADMINLANG['global']['warnings'] = "警告";
+$_ADMINLANG['global']['settings'] = "设置";
+$_ADMINLANG['global']['logLevel'] = "日志级别";
+$_ADMINLANG['global']['logEntry'] = "日志条目";
+$_ADMINLANG['global']['timestamp'] = "时间戳";
+$_ADMINLANG['global']['description'] = "描述";
+$_ADMINLANG['global']['lastUpdated'] = "最后更新";
+$_ADMINLANG['global']['addAnother'] = "添加其他";
+$_ADMINLANG['global']['learnMore'] = "了解更多";
 
 # Home
 $_ADMINLANG['home']['title'] = "后台首页";
@@ -479,6 +492,7 @@ $_ADMINLANG['domains']['addons'] = "域名附加选项";
 $_ADMINLANG['domains']['dnsmanagement'] = "DNS 管理";
 $_ADMINLANG['domains']['emailforwarding'] = "邮件转发";
 $_ADMINLANG['domains']['idprotection'] = "域名隐私保护";
+$_ADMINLANG['domains']['idprotectioncontrolna'] = "无法使用所选的注册商模块自动管理域名隐私保护。需要直接在注册商处进行更改。";
 $_ADMINLANG['domains']['checkingavailability'] = "查询域名是否可以注册…";
 $_ADMINLANG['domains']['viewwhois'] = "查看 Whois 信息";
 $_ADMINLANG['domains']['modifycontact'] = "修改域名联系人";
@@ -595,6 +609,16 @@ $_ADMINLANG['domains']['addSpotlight'] = "添加热门";
 $_ADMINLANG['domains']['priceOverride'] = "重写注册价格";
 $_ADMINLANG['domains']['renewOverride'] = "重写续费价格";
 $_ADMINLANG['domains']['priceOverrideWarning'] =  "（仅输入以手动覆写默认价格）";
+$_ADMINLANG['domains']['enablePremiumDomainFailure'] = "请求启用溢价域名失败。请重新载入页面，然后重试。";
+$_ADMINLANG['domains']['premiumLevelsTitle'] = "配置溢价域名级别";
+$_ADMINLANG['domains']['levelUnique'] = "价格级别是唯一的";
+$_ADMINLANG['domains']['premiumDomain'] = "溢价域名";
+$_ADMINLANG['domains']['periodPremiumDomains'] = "无法更改溢价域名注册期限";
+$_ADMINLANG['domains']['premiumRenewalCost'] = "溢价域名续费成本";
+$_ADMINLANG['domains']['premiumBandsInformation'] = "溢价域名成本价格是从域名注册商的 API 实时获取的。价格标记已在如下定义。标记百分比基于分段，可根据需要进行定义。";
+$_ADMINLANG['domains']['premiumDomains'] = "溢价域名";
+$_ADMINLANG['domains']['lookupProvider'] = "查询提供商";
+
 # Orders
 $_ADMINLANG['orders']['title'] = "订单管理";
 $_ADMINLANG['orders']['manage'] = "管理订单";
@@ -1143,6 +1167,7 @@ $_ADMINLANG['support']['reply'] = "回复";
 $_ADMINLANG['support']['returnToTicketList'] = "返回工单列表";
 $_ADMINLANG['support']['ticketWatchers'] = '工单查看权';
 $_ADMINLANG['support']['anyStatus'] = "任意状态";
+$_ADMINLANG['support']['addTag'] = "添加标签…";
 
 # Network Issues
 $_ADMINLANG['networkissues']['title'] = "网络维护";
@@ -1274,12 +1299,14 @@ $_ADMINLANG['utilities']['domainresolver'] = "解析检查";
 $_ADMINLANG['utilities']['integrationcode'] = "整合代码";
 $_ADMINLANG['utilities']['cpanelimport'] = "cPanel/WHM 导入";
 $_ADMINLANG['utilities']['system'] = "系统相关";
+$_ADMINLANG['utilities']['automationStatus'] = "自动运行状态";
 $_ADMINLANG['utilities']['dbstatus'] = "数据库状态";
 $_ADMINLANG['utilities']['syscleanup'] = "系统清理";
 $_ADMINLANG['utilities']['phpinfo'] = "PHP 信息";
 $_ADMINLANG['utilities']['logs'] = "日志记录";
 $_ADMINLANG['utilities']['activitylog'] = "系统日志";
 $_ADMINLANG['utilities']['modulelog'] = "模块日志";
+$_ADMINLANG['utilities']['moduleQueue'] = "模块队列";
 $_ADMINLANG['utilities']['adminlog'] = "管理员日志";
 $_ADMINLANG['utilities']['emaillog'] = "电子邮件日志";
 $_ADMINLANG['utilities']['ticketmaillog'] = "邮件导入工单日志";
@@ -1480,6 +1507,7 @@ $_ADMINLANG['fields']['logo'] = "Logo";
 $_ADMINLANG['fields']['language'] = "语言";
 $_ADMINLANG['fields']['controlpanel'] = "控制面板";
 $_ADMINLANG['fields']['hostnameip'] = "主机名/IP";
+$_ADMINLANG['fields']['lastCaptureAttempt'] = "最后尝试获取";
 
 # Contact Permissions
 $_ADMINLANG['contactpermissions']['permprofile'] = "修改主账户资料";
@@ -1536,6 +1564,8 @@ $_ADMINLANG['status']['medium'] = "中";
 $_ADMINLANG['status']['low'] = "低";
 $_ADMINLANG['status']['onetime'] = "一次性";
 $_ADMINLANG['status']['draft'] = "已草稿";
+$_ADMINLANG['status']['transferredaway'] = "已转移";
+$_ADMINLANG['status']['completed'] = "已完成";
 
 # Permissions
 $_ADMINLANG['permissions']['accessdenied'] = "权限不足";
@@ -1623,6 +1653,7 @@ $_ADMINLANG['permissions']['51'] = "Whois 查询";
 $_ADMINLANG['permissions']['52'] = "域名解析查询";
 $_ADMINLANG['permissions']['53'] = "查看整合代码";
 $_ADMINLANG['permissions']['54'] = "WHM 导入脚本";
+$_ADMINLANG['permissions']['138'] = "自动运行状态";
 $_ADMINLANG['permissions']['55'] = "数据库状态";
 $_ADMINLANG['permissions']['56'] = "系统清理选项";
 $_ADMINLANG['permissions']['57'] = "查看 PHP 信息";
@@ -1632,6 +1663,7 @@ $_ADMINLANG['permissions']['60'] = "查看邮件日志";
 $_ADMINLANG['permissions']['61'] = "查看工单邮件导入日志";
 $_ADMINLANG['permissions']['62'] = "查看 Whois 查询日志";
 $_ADMINLANG['permissions']['103'] = "查看模块调试日志";
+$_ADMINLANG['permissions']['137'] = "查看模块队列";
 $_ADMINLANG['permissions']['63'] = "配置常规设置";
 $_ADMINLANG['permissions']['133'] = "配置应用链接";
 $_ADMINLANG['permissions']['134'] = "配置 OpenID 连接";
@@ -2155,6 +2187,7 @@ $_ADMINLANG['automation']['sendAutoSuspendEmail'] = "发送暂停邮件";
 $_ADMINLANG['automation']['sendAutoSuspendEmailInfo'] = "选中复选框，当成功暂停时发送服务暂停通知邮件。";
 $_ADMINLANG['automation']['sendAutoUnsuspendEmail'] = "发送解除暂停邮件";
 $_ADMINLANG['automation']['sendAutoUnsuspendEmailInfo'] = "勾选此框当成功解除暂停时发送解除暂停邮件。";
+$_ADMINLANG['automation']['changeOfDailyCronHourHelpText'] = "您更改了要执行的每日自动 cron 任务的计划时间。请注意，您必须在此时间内在虚拟主机控制面板中至少执行一次 WHMCS System Cron (cron.php)才能成功执行 cron 任务。";
 
 # Payment Gateways
 $_ADMINLANG['gateways']['intro'] = "这是您提供给客户的付款方式/网关接口配置。如果此处未列出您要使用的网关，那么您可以为 WHMCS 建立您自己的模块 - 您可以参考文档@";
@@ -3386,8 +3419,8 @@ $_ADMINLANG['eNomNameSpinner']['excludeTldFromSuggestionsExample'] = "例如：*
 $_ADMINLANG['whmcsConnect']['whmcsConnectName'] = "WHMCS 连接";
 $_ADMINLANG['whmcsConnect']['returnToWhmcs'] = "返回到 WHMCS";
 $_ADMINLANG['whmcsConnect']['noServerGroup'] = "未分组服务器";
-$_ADMINLANG['whmcsConnect']['typeToFilterList'] = "输入过滤列表";
-$_ADMINLANG['whmcsConnect']['helperTypeToFilter'] = "在此输入过滤服务器列表";
+$_ADMINLANG['whmcsConnect']['typeToFilterList'] = "输入以筛选列表";
+$_ADMINLANG['whmcsConnect']['helperTypeToFilter'] = "请在此处输入以筛选服务器列表";
 $_ADMINLANG['whmcsConnect']['helperMinimiseSidebar'] = "您可以随时最小化侧边栏";
 $_ADMINLANG['whmcsConnect']['helperReturnToWhmcs'] = "并且您可以在此返回 WHMCS。";
 
@@ -3530,16 +3563,6 @@ $_ADMINLANG['appLinks']['linkDescription'] = "链接描述";
 $_ADMINLANG['appLinks']['displayLabel'] = "显示标签";
 $_ADMINLANG['appLinks']['configAppLinks'] = "配置应用链接";
 
-$_ADMINLANG['global']['viewLog'] = "查看日志";
-$_ADMINLANG['global']['warnings'] = "警告";
-$_ADMINLANG['global']['settings'] = "设置";
-$_ADMINLANG['global']['logLevel'] = "日志级别";
-$_ADMINLANG['global']['logEntry'] = "清空日志";
-$_ADMINLANG['global']['timestamp'] = "时间戳";
-$_ADMINLANG['global']['description'] = "描述";
-$_ADMINLANG['global']['lastUpdated'] = "最后更新";
-$_ADMINLANG['global']['addAnother'] = "添加其他";
-
 $_ADMINLANG['openid']['newApiSuccess'] = "新 API 凭证集生成成功。";
 $_ADMINLANG['openid']['newSecretSuccess'] = "新客户密钥生成成功。";
 $_ADMINLANG['openid']['apiCredDeleted'] = "已删除 API 凭证";
@@ -3577,6 +3600,10 @@ $_ADMINLANG['healthCheck']['sslIsRecommended'] = "这将会阻止一些特性，
 $_ADMINLANG['healthCheck']['sslNotConfigured'] = ":url 未配置 SSL，这意味着连接未加密，密码可以以明文发送。";
 $_ADMINLANG['healthCheck']['caSslNotDetected'] = "检测到您网站 :site 的 SSL 证书未通过证书颁发机构的验证。";
 $_ADMINLANG['healthCheck']['caSslDetectedOk'] = "检测到您网站上的 SSL 证书已通过验证。";
+
+$_ADMINLANG['healthCheck']['phpTimezone'] = "PHP 时区";
+$_ADMINLANG['healthCheck']['phpTimezoneOk'] = "您的 PHP 环境正使用有效的时区。";
+$_ADMINLANG['healthCheck']['phpTimezoneNotSet'] = "您的 PHP 环境没有有效的时区设置。请设置 php.ini 中的 date.timezone 以确保正确的处理日期和时间。如果您已经在 php.ini 中设置了 date.timezone，但仍显示此警告，请检查时区标识符拼写是否正确。";
 
 $_ADMINLANG['system']['errorSendingEmail'] = "发送邮件时发生错误：";
 
@@ -3709,3 +3736,19 @@ $_ADMINLANG['wizard']['setupComplete'] = "设置完成！";
 $_ADMINLANG['wizard']['readyToBeginUsing'] = "您现在可以使用 WHMCS 了。";
 $_ADMINLANG['wizard']['runAgainMsg'] = "如果您需要，您随时可以从“帮助中心”菜单再次运行此向导。";
 $_ADMINLANG['wizard']['invalidLogoImage'] = "您上传的 Logo 图像必须是 JPEG 或者 PNG 格式的文件。";
+
+$_ADMINLANG['queue']['title'] = "模块队列";
+$_ADMINLANG['queue']['clientService'] = "客户/服务";
+$_ADMINLANG['queue']['moduleAction'] = "模块/操作";
+$_ADMINLANG['queue']['failureReason'] = "失败原因";
+$_ADMINLANG['queue']['retryAll'] = "重试所有";
+$_ADMINLANG['queue']['markResolved'] = "标记为已解决";
+$_ADMINLANG['queue']['lastAttempt'] = "最后尝试";
+$_ADMINLANG['queue']['communicating'] = "正在通过远程 API 通信…请稍候…";
+$_ADMINLANG['queue']['queued'] = "正在排队";
+$_ADMINLANG['queue']['markedResolved'] = "项目已标记为已解决";
+$_ADMINLANG['queue']['retrySuccess'] = "操作已成功完成";
+$_ADMINLANG['queue']['retryResponse'] = "重试返回：:error";
+$_ADMINLANG['queue']['numberItems'] = "队列中有 :count 个项目";
+$_ADMINLANG['queue']['numberItem'] = "队列中有 :count 个项目";
+$_ADMINLANG['queue']['noItems'] = "无队列模块操作";

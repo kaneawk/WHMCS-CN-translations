@@ -1699,6 +1699,7 @@ $_LANG['domainsCancelled'] = "已取消";
 $_LANG['domainsFraud'] = "反欺诈";
 $_LANG['domainsPending'] = "待处理";
 $_LANG['domainsPendingTransfer'] = "待转移";
+$_LANG['domainsTransferredAway'] = "已转移";
 $_LANG['domainsExpiringInTheNext30Days'] = "在 30 天内到期";
 $_LANG['domainsExpiringInTheNext90Days'] = "在 30 天内到期";
 $_LANG['domainsExpiringInTheNext180Days'] = "在 180 天内到期";
@@ -2119,10 +2120,29 @@ $_LANG['orderForm']['domainPriceTransferLabel'] = '转移并延长 1 年使用�
 
 $_LANG['change'] = "更改";
 
+$_LANG['filemanagement']['nofileuploaded'] = "无文件上传。";
+$_LANG['filemanagement']['invalidname'] = "有效的文件名只包含字母、数字、点、连字符和下划线。";
+$_LANG['filemanagement']['couldNotSaveFile'] = "无法保存上传的文件。";
+$_LANG['filemanagement']['checkPermissions'] = "请检查权限。";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "请检查磁盘剩余空间。";
+$_LANG['filemanagement']['fileAlreadyExists'] = "文件已存在。";
+$_LANG['filemanagement']['noUniqueName'] = "未找到唯一的文件名。";
+
 $_LANG['cartSimpleCaptcha'] = "请输入如下所示的验证码";
 
 $_LANG['clientHomePanels']['showingRecent100'] = "显示最近 100 条记录";
 $_LANG['orderForm']['domainLetterOrNumber'] = "域名必须以字母或数字开头";
 $_LANG['orderForm']['domainLengthRequirements'] = "并且长度为 <span class=\"min-length\"></span> 至 <span class=\"max-length\"></span> 之间的字符";
+
+$_LANG['clientareatransferredaway'] = "已转移";
+$_LANG['clientareacompleted'] = "已完成";
+$_LANG['domainContactUs'] = "联系我们";
+
+$_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
+$_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
+
+$_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
+$_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
+$_LANG['domainCheckerSalesGroup']['new'] = "New";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
