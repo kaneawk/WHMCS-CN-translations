@@ -1502,7 +1502,7 @@ $_ADMINLANG['fields']['dateSent'] = "发送日期";
 $_ADMINLANG['fields']['export'] = "导出";
 $_ADMINLANG['fields']['featured'] = "特性";
 $_ADMINLANG['fields']['terminationDate'] = "终止日期";
-$_ADMINLANG['fields']['emailverified'] = "邮箱已验证";
+$_ADMINLANG['fields']['emailverified'] = "邮箱验证";
 $_ADMINLANG['fields']['logo'] = "Logo";
 $_ADMINLANG['fields']['language'] = "语言";
 $_ADMINLANG['fields']['controlpanel'] = "控制面板";
@@ -3462,6 +3462,7 @@ $_ADMINLANG['healthCheck']['installedCurlVersion'] = "已安装的 cURL 版本";
 $_ADMINLANG['healthCheck']['curlCurrentMessage'] = "您当前已安装的 cURL 版本为 <strong>:version</strong>。";
 $_ADMINLANG['healthCheck']['curlCurrentMessageSuccess'] = "此版本使用的是安全的加密算法列表。";
 $_ADMINLANG['healthCheck']['curlNotSecure'] = "此版本有已知的 <a href=':link' target='_blank'>安全问题</a>。";
+$_ADMINLANG['healthCheck']['curlNotSecureAdvice'] = "请更新 cURL 为最新版本并确保其版本高于 :last_bad_version。";
 $_ADMINLANG['healthCheck']['currentChangeLogLink'] = "当前版本(:version)更新日志";
 $_ADMINLANG['healthCheck']['latestChangeLogLink'] = "最新版本(:version)更新日志";
 $_ADMINLANG['healthCheck']['currentReleaseNotesLink'] = "当前版本(:version)发行说明";
@@ -3544,13 +3545,14 @@ $_ADMINLANG['healthCheck']['dbCollationsNotOk'] = "一个或多个数据表或�
 $_ADMINLANG['healthCheck']['updaterTitle'] = "自动更新要求";
 $_ADMINLANG['healthCheck']['updaterFopen'] = "自动更新需要您在 PHP 配置中启用 allow_url_fopen 函数。";
 $_ADMINLANG['healthCheck']['updaterZip'] = "自动更新需要您安装 PHP Zip 模块或 proc_open 函数可用。";
+$_ADMINLANG['healthCheck']['updaterChmod'] = "自动更新需要您的 PHP 支持 chmod 函数。";
+$_ADMINLANG['healthCheck']['updaterEscapeShellArg'] = "自动更新需要您的 PHP 支持 escapeshellarg 函数。";
 $_ADMINLANG['healthCheck']['updaterDisabledFunctions'] = "自动更新需要启用如下 PHP 函数：:functions。";
 $_ADMINLANG['healthCheck']['updaterVendorWriteable'] = "自动更新请求 whmcs 目录 /vendor/whmcs/whmcs/ 为可写。";
 $_ADMINLANG['healthCheck']['updaterTempSet'] = "自动更新需要一个可写的目录以保存在更新过程中的暂存文件。您必须在更新配置中提供一个目录，然后才能更新。";
 $_ADMINLANG['healthCheck']['updaterTempWriteable'] = "自动更新需要一个可写的目录以保存在更新过程中的暂存文件。当前设置的临时路径不可写。请检查并更正权限。";
 $_ADMINLANG['healthCheck']['updaterMemoryLimit'] = "自动更新需要至少分配给 PHP 进程 128MB 的可用内存。您当前的 PHP memory_limit 设置低于此值，如要更新，请将 PHP 配置中的 memory_limit 增加到 128MB 或更高的值。";
 $_ADMINLANG['healthCheck']['updaterSuccess'] = "您的环境似乎符合自动更新所需的最低要求。为更新您必须确保您的磁盘空间至少为 250MB。";
-
 
 $_ADMINLANG['appLinks']['description'] = "应用链接允许您授予第三方应用程序访问 WHMCS 的用户账户。";
 $_ADMINLANG['appLinks']['description2'] = "已在下面列出所有支持应用链接的应用，可通过下面的开关简单的启用/禁用。启用应用链接将会在后台队列中创建初始的应用链接。请等待 30 分钟后才可以对所有产品/服务生效。";
@@ -3616,6 +3618,7 @@ $_ADMINLANG['update']['title'] = "更新 WHMCS";
 $_ADMINLANG['update']['updateNow'] = "立即更新";
 $_ADMINLANG['update']['missingUpdateTempDir'] = "临时更新路径无效。请指定一个可写的临时路径以进行更新。";
 $_ADMINLANG['update']['updateTempDirNotWritable'] = "当前设置的临时路径不可写。";
+$_ADMINLANG['update']['notWritablePath'] = "权限错误。无法创建或修改路径：:path";
 
 // Wizard
 $_ADMINLANG['wizard']['enable'] = "启用";
