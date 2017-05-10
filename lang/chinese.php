@@ -1765,7 +1765,7 @@ $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "您目前有 :numberOfInvoic
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "域名即将过期";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "您目前有 :numberOfDomains 个域名将于 :days 天后过期，请尽快续期，以免被注销。";
 $_LANG['clientHomePanels']['activeProductsServices'] = "您已激活的产品/服务";
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "看来您还没有订购我们的产品呢。<a href=\"cart.php\">来选一个吧？</a>？";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "看来您还没有订购我们的产品呢。<a href=\"cart.php\">来选一个吧</a>？";
 $_LANG['clientHomePanels']['recentNews'] = "最近的消息";
 $_LANG['clientHomePanels']['affiliateProgram'] = "联盟计划";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "最近的工单";
