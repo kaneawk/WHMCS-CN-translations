@@ -420,6 +420,7 @@ $_ADMINLANG['services']['cancelSubscription'] = "取消订阅";
 $_ADMINLANG['services']['cancelSubscriptionSure'] = "您确定要请求取消订阅？";
 $_ADMINLANG['services']['cancelSubscriptionSuccess'] = "订阅已成功退订。";
 $_ADMINLANG['services']['cancelSubscriptionFailed'] = "退订失败。请检查接口日志。";
+$_ADMINLANG['services']['renewSure'] = "远程服务提供商可能会收取本产品的续订费用。<br><br>您确定要对此产品执行续订操作吗？";
 
 $_ADMINLANG['sso']['fatalerror'] = "发生致命错误。请查看活动日志获取更多详情。";
 $_ADMINLANG['sso']['servicelogin'] = "登录控制面板";
@@ -441,7 +442,6 @@ $_ADMINLANG['modulebuttons']['transfer'] = "转移";
 # Addons
 $_ADMINLANG['addons']['title'] = "附加套餐";
 $_ADMINLANG['addons']['relatedservice'] = "关联产品/服务";
-$_ADMINLANG['addons']['areyousuredelete'] = "是否要删除此附加套餐？任何分配到此套餐的客户都会自动设置为一个相同名称的自定义套餐。";
 $_ADMINLANG['addons']['regdate'] = "注册日期";
 $_ADMINLANG['addons']['name'] = "名称";
 $_ADMINLANG['addons']['addnew'] = "添加新附加套餐";
@@ -473,6 +473,19 @@ $_ADMINLANG['addons']['suspendparentproductinfo'] = "选中复选框，当此附
 $_ADMINLANG['addons']['weighting'] = "附加套餐权重";
 $_ADMINLANG['addons']['weightinginfo'] = "在这里输入一个数字来覆盖默认的按字母排序";
 $_ADMINLANG['addons']['applicableproducts'] = "适用产品";
+$_ADMINLANG['addons']['setupInstantlyAfterOrder'] = "当客户下单（未付款）后自动配置附加套餐";
+$_ADMINLANG['addons']['setupAfterPayment'] = "当收到客户的首付款后自动配置附加套餐";
+$_ADMINLANG['addons']['setupAfterAcceptOrder'] = "当手动审核订单后自动配置附加套餐";
+$_ADMINLANG['addons']['noAutomaticSetup'] = "不要自动配置此附加套餐";
+$_ADMINLANG['addons']['availableProducts'] = "可用产品";
+$_ADMINLANG['addons']['filterProducts'] = "筛选产品";
+$_ADMINLANG['addons']['selectedProducts'] = "已选择的产品";
+$_ADMINLANG['addons']['availableDownloads'] = "可用下载";
+$_ADMINLANG['addons']['filterDownloads'] = "筛选下载";
+$_ADMINLANG['addons']['selectedDownloads'] = "已选择的下载";
+$_ADMINLANG['addons']['noDelete'] = "无法删除";
+$_ADMINLANG['addons']['deleteAddonError'] = "您无法删除正在使用的附加产品。您首先需要重新分配或删除正在使用该附加产品的服务，才能删除它。";
+$_ADMINLANG['addons']['areYouSureDelete'] = "您确定要删除此附加产品吗？";
 
 # Domains
 $_ADMINLANG['domains']['title'] = "域名";
@@ -851,6 +864,8 @@ $_ADMINLANG['invoices']['publishAndSendEmail'] = "发布并发送邮件";
 $_ADMINLANG['invoices']['draftInvoiceNotice'] = "这是一个账单草稿。此账单在发布之前客户无法访问此账单。";
 $_ADMINLANG['invoices']['zeroPaid'] = "点击标记为已支付并执行全部发送付款操作，即使未收到款项。";
 $_ADMINLANG['invoices']['invoiceIsDraft'] = "这是一个账单草稿。";
+$_ADMINLANG['invoices']['reverse'] = "反向付款";
+$_ADMINLANG['invoices']['reverseDescription'] = "撤销本次交易触发的自动操作 - 当功能可用时。";
 
 # Billable Items
 $_ADMINLANG['billableitems']['title'] = "收费项目";
@@ -1317,6 +1332,7 @@ $_ADMINLANG['setup']['title'] = "系统设置";
 $_ADMINLANG['setup']['config'] = "配置";
 $_ADMINLANG['setup']['general'] = "常规设置";
 $_ADMINLANG['setup']['automation'] = "自动任务";
+$_ADMINLANG['setup']['marketconnect'] = "市场连接";
 $_ADMINLANG['setup']['emailtpls'] = "邮件模板";
 $_ADMINLANG['setup']['fraud'] = "欺诈保护";
 $_ADMINLANG['setup']['clientgroups'] = "客户分组";
@@ -1325,6 +1341,7 @@ $_ADMINLANG['setup']['staff'] = "员工管理";
 $_ADMINLANG['setup']['admins'] = "管理员管理";
 $_ADMINLANG['setup']['adminroles'] = "管理员分组";
 $_ADMINLANG['setup']['twofa'] = "双重验证";
+$_ADMINLANG['setup']['apicredentials'] = "管理 API 凭证";
 $_ADMINLANG['setup']['payments'] = "付款设置";
 $_ADMINLANG['setup']['currencies'] = "货币设置";
 $_ADMINLANG['setup']['gateways'] = "支付接口";
@@ -1343,6 +1360,7 @@ $_ADMINLANG['setup']['escalationrules'] = "升级规则";
 $_ADMINLANG['setup']['spam'] = "垃圾邮件管理";
 $_ADMINLANG['setup']['other'] = "其他服务";
 $_ADMINLANG['setup']['securityqs'] = "密保问题";
+$_ADMINLANG['setup']['activatesecurityqs'] = "激活并配置安全问题 - 设置 > 其他 > 安全问题";
 $_ADMINLANG['setup']['addonmodules'] = "插件模块";
 $_ADMINLANG['setup']['bannedips'] = "禁止的 IP 地址";
 $_ADMINLANG['setup']['bannedemails'] = "禁止的邮箱";
@@ -1385,6 +1403,7 @@ $_ADMINLANG['fields']['username'] = "用户名";
 $_ADMINLANG['fields']['password'] = "密码";
 $_ADMINLANG['fields']['phonenumber'] = "电话号码";
 $_ADMINLANG['fields']['product'] = "产品/服务";
+$_ADMINLANG['fields']['parentProduct'] = "父产品/服务";
 $_ADMINLANG['fields']['services'] = "服务";
 $_ADMINLANG['fields']['created'] = "创建时间";
 $_ADMINLANG['fields']['price'] = "价格";
@@ -1566,6 +1585,7 @@ $_ADMINLANG['status']['onetime'] = "一次性";
 $_ADMINLANG['status']['draft'] = "已草稿";
 $_ADMINLANG['status']['transferredaway'] = "已转移";
 $_ADMINLANG['status']['completed'] = "已完成";
+$_ADMINLANG['status']['paymentpending'] = "待付款";
 
 # Permissions
 $_ADMINLANG['permissions']['accessdenied'] = "权限不足";
@@ -1666,10 +1686,12 @@ $_ADMINLANG['permissions']['103'] = "查看模块调试日志";
 $_ADMINLANG['permissions']['137'] = "查看模块队列";
 $_ADMINLANG['permissions']['63'] = "配置常规设置";
 $_ADMINLANG['permissions']['133'] = "配置应用链接";
+$_ADMINLANG['permissions']['141'] = "管理市场连接";
 $_ADMINLANG['permissions']['134'] = "配置 OpenID 连接";
 $_ADMINLANG['permissions']['64'] = "配置管理员";
 $_ADMINLANG['permissions']['65'] = "配置管理员分工";
 $_ADMINLANG['permissions']['127'] = "配置双重验证";
+$_ADMINLANG['permissions']['142'] = "管理 API 凭证";
 $_ADMINLANG['permissions']['100'] = "配置插件模块";
 $_ADMINLANG['permissions']['91'] = "配置客户分组";
 $_ADMINLANG['permissions']['66'] = "配置服务器";
@@ -1694,6 +1716,7 @@ $_ADMINLANG['permissions']['108'] = "创建/编辑优惠码";
 $_ADMINLANG['permissions']['109'] = "删除优惠码";
 $_ADMINLANG['permissions']['74'] = "配置域名价格";
 $_ADMINLANG['permissions']['75'] = "配置客服部门";
+$_ADMINLANG['permissions']['140'] = "配置升级规则";
 $_ADMINLANG['permissions']['96'] = "设置工单状态";
 $_ADMINLANG['permissions']['76'] = "配置垃圾邮件控制";
 $_ADMINLANG['permissions']['110'] = "查看禁止的 IP 地址";
@@ -1708,6 +1731,7 @@ $_ADMINLANG['permissions']['83'] = "设置数据库备份";
 $_ADMINLANG['permissions']['81'] = "API 访问";
 $_ADMINLANG['permissions']['131'] = "WHMCS 连接";
 $_ADMINLANG['permissions']['132'] = "健康与更新";
+$_ADMINLANG['permissions']['139'] = "查看最新消息";
 
 # Addon Modules
 $_ADMINLANG['addonmodules']['choose'] = "在下面选择一个插件模块";
@@ -1892,6 +1916,8 @@ $_ADMINLANG['transactions']['amountOrFeeInvalidFormat'] = "余额或手续费必
 $_ADMINLANG['transactions']['amountInFeeMustBePositive'] = "收入手续费流水信息必须为正值。";
 $_ADMINLANG['transactions']['amountOutCannotBeUsedWithAddCredit'] = "您不能使用添加为余额和支出。请在客户摘要中使用余额管理";
 $_ADMINLANG['transactions']['invoiceIDAndCreditInvalid'] = "您不能使用添加为余额和指定账单编号。多付的款项将会自动添加为余额。";
+$_ADMINLANG['transactions']['duplicateTransaction'] = "交易编号已存在";
+$_ADMINLANG['transactions']['forceDuplicateTransaction'] = "输入的交易编号已存在。这可能表示交易已重复。<br />您确定要继续吗？";
 
 # Products
 $_ADMINLANG['products']['associateddl'] = "相关下载";
@@ -2035,6 +2061,8 @@ $_ADMINLANG['products']['moduleSettingsChooseAProduct'] = '选择要载入配置
 $_ADMINLANG['products']['switchAdvanced'] = "切换到高级模式";
 $_ADMINLANG['products']['switchSimple'] = "返回简易模式";
 $_ADMINLANG['products']['refreshDynamicInfo'] = "点此重新获取信息值";
+$_ADMINLANG['products']['marketConnectManageRedirectMsg'] = "如需修改此产品的价格和设置，您需要使用市场连接管理接口。";
+$_ADMINLANG['products']['marketConnectManageRedirectBtn'] = "立即前往";
 
 # Downloads
 $_ADMINLANG['downloads']['ctrlmultiple'] = "使用“Ctrl+单击”选择多个下载文件";
@@ -2059,6 +2087,9 @@ $_ADMINLANG['adminroles']['accountemails'] = "账户邮件（例如：客户下�
 $_ADMINLANG['adminroles']['supportemails'] = "客服邮件（例如：有新工单和工单回复时通知）";
 $_ADMINLANG['adminroles']['deletesuccess'] = "删除管理角色";
 $_ADMINLANG['adminroles']['deletesuccessinfo'] = "所选管理员角色已成功删除";
+$_ADMINLANG['adminroles']['reports'] = "报告访问控制";
+$_ADMINLANG['adminroles']['doNotRestrictReports'] = "无限制";
+$_ADMINLANG['adminroles']['restrictReports'] = "限制访问";
 
 # Administrators
 $_ADMINLANG['administrators']['title'] = "管理员";
@@ -2144,6 +2175,10 @@ $_ADMINLANG['automation']['latefeedaysinfo'] = "请输入当账单逾期几天�
 $_ADMINLANG['automation']['overages'] = "逾期滞纳金";
 $_ADMINLANG['automation']['overageslastday'] = "在月底统计并对相关产品/服务生成独立的逾期滞纳金账单";
 $_ADMINLANG['automation']['overagesnextinvoice'] = "在月底统计滞纳金并加在下个付款周期的账单里";
+$_ADMINLANG['automation']['revchangeinvoicestatus'] = "修改账单状态";
+$_ADMINLANG['automation']['revchangeinvoicestatusinfo'] = "允许逆转付款更改账单状态";
+$_ADMINLANG['automation']['revchangeduedates'] = "修改到期日期";
+$_ADMINLANG['automation']['revchangeduedatesinfo'] = "允许逆转付款更改服务到期日期";
 $_ADMINLANG['automation']['ccsettings'] = "信用卡收费设置";
 $_ADMINLANG['automation']['ccdaysbeforedue'] = "在到期前几天自动向信用卡收费";
 $_ADMINLANG['automation']['ccdaysbeforedueinfo'] = "请输入当账单逾期前几天开始从信用卡付费（例如 3，表示在产品到期前 3 天自动向客户保存的信用卡尝试收费）。";
@@ -2727,8 +2762,6 @@ $_ADMINLANG['general']['supportlastreplyupdatealways'] = "每次做出回复时�
 $_ADMINLANG['general']['supportlastreplyupdateonlystatuschange'] = "每次工作人员回复后，只在客户状态改变时更新";
 $_ADMINLANG['general']['disablereplylogging'] = "禁用邮件回复记录";
 $_ADMINLANG['general']['disablereplylogginginfo'] = "不为工单回复创建邮件日志（内容已经在工单中记录，所以这样可以节省磁盘空间）";
-$_ADMINLANG['general']['kbseourls'] = "常见问题使用伪静态";
-$_ADMINLANG['general']['kbseourlsinfo'] = "选中复选框启用伪静态（Apache 服务器需要把网站根目录的 htaccess.txt 重命名为 .htaccess）";
 $_ADMINLANG['general']['allowedattachments'] = "允许的附件类型";
 $_ADMINLANG['general']['allowedattachmentsinfo'] = "扩展名以英文逗号分隔";
 $_ADMINLANG['general']['networklogin'] = "网络问题，需要登录";
@@ -2869,8 +2902,15 @@ $_ADMINLANG['general']['creditdowngrade'] = "降级退还至余额";
 $_ADMINLANG['general']['creditdowngradeinfo'] = "选中复选框，当客户降级产品时按照未用时间比例退款给客户";
 $_ADMINLANG['general']['monthlyaffreport'] = "每月推介报告";
 $_ADMINLANG['general']['monthlyaffreportinfo'] = "选中复选框，在每月 1 日向推介人发送每月推介报告";
+$_ADMINLANG['general']['errorreportinglevel_none'] = '无';
+$_ADMINLANG['general']['errorreportinglevel_debug'] = '错误、警告和通知';
+$_ADMINLANG['general']['errorreportinglevel_warnings'] = '错误和警告';
+$_ADMINLANG['general']['errorreportinglevel_errors'] = '仅错误';
+$_ADMINLANG['general']['errorreportinglevel_inherit'] = '从运行时继承';
 $_ADMINLANG['general']['displayerrors'] = "显示错误";
-$_ADMINLANG['general']['displayerrorsinfo'] = "选中复选框开启 PHP 错误报告（不推荐在生产环境中开启）";
+$_ADMINLANG['general']['displayerrorsinfo'] = "选中复选框启用显示 PHP 错误报告（不推荐在生产环境中使用）";
+$_ADMINLANG['general']['logerrors'] = "记录错误";
+$_ADMINLANG['general']['logerrorsinfo'] = "选中复选框启用记录 PHP 错误当可用时（不推荐在日常生产环境中使用）";
 $_ADMINLANG['general']['sqldebugmode'] = "SQL 调试模式";
 $_ADMINLANG['general']['sqldebugmodeinfo'] = "勾选启用 SQL 错误日志（仅用于测试）";
 $_ADMINLANG['general']['hooksdebugmode'] = "调试模式钩子";
@@ -3055,6 +3095,8 @@ $_ADMINLANG['sendmessage']['marketingemail'] = "营销邮件？";
 $_ADMINLANG['sendmessage']['dontsendemailunsubscribe'] = "不要为已经退订营销邮件的客户发送此邮件。";
 $_ADMINLANG['sendmessage']['marketingemaildesc'] = "记住使用 %s 包含营销邮件退订链接是符合 CAN-SPAM 法案的";
 $_ADMINLANG['sendmessage']['loadMessage'] = "载入消息";
+$_ADMINLANG['sendmessage']['noSaveNameEntered'] = "您必须输入一个名称才能保存信息并作为邮件模板";
+$_ADMINLANG['sendmessage']['uniqueSaveNameRequired'] = "邮件模板的保存必须是唯一的";
 
 # Support Ticket Spam Control
 $_ADMINLANG['stspamcontrol']['stspamcontroltitle'] = "支持工单垃圾邮件控制";
@@ -3275,6 +3317,7 @@ $_ADMINLANG['reports']['leaveBlankAll'] = "留空为所有时间";
 $_ADMINLANG['reports']['averageDaysActive'] = "平均激活天数";
 $_ADMINLANG['reports']['averageYearsMonthsActive'] = "平均年/月激活";
 $_ADMINLANG['reports']['productCount'] = "产品计数";
+$_ADMINLANG['reports']['accessDenied'] = "访问 \":report\" 报告被拒绝";
 
 # WHOIS
 $_ADMINLANG['whois']['title'] = "域名 WHOIS 查询";
@@ -3367,6 +3410,8 @@ $_ADMINLANG['configservers']['testconnectionsuccess'] = "连接成功！";
 $_ADMINLANG['configservers']['testconnectionfailed'] = "连接失败。";
 $_ADMINLANG['configservers']['testconnectionunknownerror'] = "发生未知错误";
 $_ADMINLANG['configservers']['testconnectionnotsupported'] = "此模块在当前时间不支持连接测试";
+$_ADMINLANG['configservers']['apiToken'] = "API 令牌";
+$_ADMINLANG['configservers']['apiTokenInfo'] = "如需创建一个新的 API 令牌，您需要登录 WHM 并转至管理 API 令牌";
 
 # 2FA Security
 $_ADMINLANG['twofa']['title'] = "双重验证";
@@ -3755,3 +3800,18 @@ $_ADMINLANG['queue']['retryResponse'] = "重试返回：:error";
 $_ADMINLANG['queue']['numberItems'] = "队列中有 :count 个项目";
 $_ADMINLANG['queue']['numberItem'] = "队列中有 :count 个项目";
 $_ADMINLANG['queue']['noItems'] = "无队列模块操作";
+
+$_ADMINLANG['apicredentials']['create'] = "生成新的 API 凭证";
+$_ADMINLANG['apicredentials']['reveal'] = "展示";
+$_ADMINLANG['apicredentials']['generate'] = "生成";
+$_ADMINLANG['apicredentials']['delete'] = "删除凭证";
+$_ADMINLANG['apicredentials']['deletePrompt'] = "您是否要删除这些凭证？<br><br>此操作无法撤销。";
+
+$_ADMINLANG['uriPathMgmt']['labelFriendlyUrls'] = '友好的 URL';
+$_ADMINLANG['uriPathMgmt']['btnModeRewrite'] = '完整友好地 Rewrite';
+$_ADMINLANG['uriPathMgmt']['btnModeAcceptPathInfo'] = '友好的 index.php';
+$_ADMINLANG['uriPathMgmt']['btnModeBasic'] = '基本 URL';
+$_ADMINLANG['uriPathMgmt']['labelManualOverride'] = '手动覆盖';
+$_ADMINLANG['uriPathMgmt']['labelSystemDetected'] = '系统检测';
+
+$_ADMINLANG['whatsNew']['menuTitle'] = "最新消息";

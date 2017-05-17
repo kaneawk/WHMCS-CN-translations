@@ -731,7 +731,7 @@ $_LANG['sslerrorselectserver'] = "您必须选择服务器类型";
 $_LANG['sslinvalidlink'] = "无效链接";
 $_LANG['sslorderdate'] = "订购日期";
 $_LANG['sslserverinfo'] = "服务器信息";
-$_LANG['sslserverinfodetails'] = "您必须拥有一个有效的“CSR”（证书签发请求）去配置您的 SSL 证书。CSR 是一段由要安装 SSL 证书的 Web 服务器生成的加密文本。如果您还没有 CSR，您必须创建一个或者让您的虚拟主机提供商给您创建一个。请确认您的信息填写正确，当 SSL 证书签发后它将无法更改。";
+$_LANG['sslserverinfodetails'] = "您必须拥有一个有效的“CSR”（证书签发请求）去配置您的 SSL 证书。CSR 是一段由要安装 SSL 证书的 Web 服务器生成的加密文本。如果您还没有 CSR，您必须创建一个或者让您的虚拟主机提供商给您创建一个。";
 $_LANG['sslservertype'] = "Web 服务器类型";
 $_LANG['sslstatus'] = "配置状态";
 $_LANG['statscreditbalance'] = "账户余额";
@@ -1677,9 +1677,9 @@ $_LANG['sslconfssl'] = "配置 SSL";
 $_LANG['sslnoconfigurationpossible'] = "配置完成！如果您遇到问题，请联系技术支持。";
 
 $_LANG['adminloggedin'] = "已用管理员账户登录";
-$_LANG['returntoadminarea'] = "返回到管理界面";
-$_LANG['adminmasqueradingasclient'] = "您正在查看客户的界面";
-$_LANG['logoutandreturntoadminarea'] = "退出并返回到管理界面";
+$_LANG['returntoadminarea'] = "点此返回后台管理页面";
+$_LANG['adminmasqueradingasclient'] = "您当前正在以客户登录";
+$_LANG['logoutandreturntoadminarea'] = "退出并返回到后台管理页面";
 
 $_LANG['supportAndUpdatesExpired'] = "支持和更新已过期";
 $_LANG['supportAndUpdatesExpiredLicense'] = "您此授权许可的支持和更新已过期";
@@ -2144,5 +2144,62 @@ $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
 $_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
 $_LANG['domainCheckerSalesGroup']['new'] = "New";
+
+$_LANG['pricing']['browseExtByCategory'] = "按类别浏览扩展";
+$_LANG['pricing']['register'] = "新价格";
+$_LANG['pricing']['transfer'] = "转移";
+$_LANG['pricing']['renewal'] = "续期";
+
+$_LANG['navStore'] = "存储";
+$_LANG['navBrowseProductsServices'] = "浏览全部";
+
+$_LANG['navWebsiteSecurity'] = "网站与安全";
+$_LANG['navMarketConnectService']['symantec'] = "SSL 证书";
+$_LANG['navMarketConnectService']['weebly'] = "网站构建工具";
+$_LANG['navMarketConnectService']['spamexperts'] = "电子邮件服务";
+
+$_LANG['store']['emailServices']['title'] = "电子邮件服务";
+$_LANG['store']['ssl']['title'] = "SSL 证书";
+$_LANG['store']['ssl']['dv']['title'] = "域名验证型 SSL";
+$_LANG['store']['ssl']['ov']['title'] = "组织验证型 SSL";
+$_LANG['store']['ssl']['ev']['title'] = "扩展验证型 SSL";
+$_LANG['store']['ssl']['wildcard']['title'] = "通配型 SSL";
+$_LANG['store']['websiteBuilder']['title'] = "网站构建工具";
+$_LANG['store']['configure']['configureProduct'] = "配置产品";
+
+$_LANG['store']['ssl']['dv']['tagline'] = "保护您的网站仅仅需要几分钟！";
+$_LANG['store']['ssl']['dv']['descriptionTitle'] = "什么是标准 DV SSL？";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>域名验证型证书提供了经济快捷的方式为您的网站提供 SSL。域名验证型证书会验证您是否拥有该域名，但不执行任何其他组织级验证。</p><p>域名验证型证书适用于个人网站、博客和社交媒体，或任何不传送私人和机密信息的网站。域名验证型证书会激活浏览器绿锁，并使用 https 来确保您认真地对待网站访问者和客户的隐私。</p>";
+
+$_LANG['store']['ssl']['ov']['tagline'] = "高保证 SSL 为网站访问者显示您的身份标识。";
+$_LANG['store']['ssl']['ov']['descriptionTitle'] = "什么是组织验证型 SSL？";
+$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>组织验证型 SSL 证书为您的网站和业务提供即时身份确认和强大的 SSL 保护。</p><p>OV SSL 是一种组织验证型证书，为您的网站提供了一个验证域名证书的步骤提高可信度。它将会激活浏览器的绿锁，显示您的企业身份，并为您的客户保证您非常重视安全。网站访问者可以验证该网站是否由合法公司经营，不是假冒的网站。</p>";
+
+$_LANG['store']['ssl']['ev']['tagline'] = "激活绿色地址栏以获得最高的信任和转化";
+$_LANG['store']['ssl']['ev']['descriptionTitle'] = "什么是扩展验证型 SSL？";
+$_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL 是一种扩展验证型证书，是当今能提供的最高级别的 SSL，与使用组织或域名验证型的 SSL 证书相比，为您的网站提供了更多的信誉和信任。</p><p>扩展验证型 SSL 会激活绿色的地址栏，并在浏览器地址栏中显示您的公司或组织名称。这些突出的视觉安全标识让访问者知道采取额外的步骤来确认他们正在访问的网站，增加用户对您网站的信任及其信誉 – 这就是为什么大多数大型企业和组织选择 EV 证书。</p>";
+
+$_LANG['store']['ssl']['wildcard']['tagline'] = "使用单个证书保护无限个子域名。";
+$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "什么是通配型 SSL 证书？";
+$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>通配型 SSL 允许您使用单个证书保护无限个子域名。对于托管或管理同一域上存在的多个站点或页面的任何人来说，这是一个很好的解决方案。证书的一次性费用将会涵盖您将来可能添加的其他子域名。</p><p>不像一般的仅为单个合格的域名签发的 SSL 证书那样，例如 www.yourdomain.com，当其签发后它只能用于保护确切的域名，通配型 SSL 证书将会签发为 *.yourdomain.com，星号代表所有可能的子域名。</p><p>通配型 SSL 可用于 DV 和 OV 证书。</p>";
+
+$_LANG['store']['websiteBuilder']['headline'] = "建设一个网站从未如此简单";
+$_LANG['store']['websiteBuilder']['tagline'] = "使用强大的拖放工具建设完美的网站";
+$_LANG['store']['websiteBuilder']['introduction'] = "Weebly 的拖放网站构建工具可以轻松的创建一个功能强大、专业的网站，而无需任何专业技能，超过 400 万的中小型企业已经使用 Weebly 来创建他们的网站、博客或商店。";
+
+$_LANG['store']['emailServices']['headline'] = "为您建设安全的电子邮件";
+$_LANG['store']['emailServices']['tagline'] = "收回您收件箱的控制权";
+$_LANG['store']['emailServices']['blockSpamHeadline'] = "在邮件到达您的收件箱之前阻拦将近 100% 的病毒、恶意软件和垃圾邮件";
+
+$_LANG['navManageSsl'] = "管理 SSL 证书";
+
+$_LANG['invoicesPaymentPending'] = "待付款";
+
+$_LANG['ssl']['changeApproverEmail'] = "更改审批者邮件地址";
+$_LANG['ssl']['reissueCertificate'] = "重新签发证书";
+$_LANG['ssl']['retrieveCertificate'] = "检索证书";
+
+$_LANG['upgradeCredit'] = "更新余额";
+$_LANG['upgradeCreditDescription'] = "基于 :daysRemaining 未用日期 :totalDays 总日期计算在当前账单周期。";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
