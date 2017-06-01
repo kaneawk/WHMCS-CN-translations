@@ -1679,7 +1679,7 @@ $_LANG['sslnoconfigurationpossible'] = "配置完成！如果您遇到问题，�
 $_LANG['adminloggedin'] = "已用管理员账户登录";
 $_LANG['returntoadminarea'] = "点此返回后台管理页面";
 $_LANG['adminmasqueradingasclient'] = "您当前正在以客户登录";
-$_LANG['logoutandreturntoadminarea'] = "退出并返回到后台管理页面";
+$_LANG['logoutandreturntoadminarea'] = "退出并返回到后台页面";
 
 $_LANG['supportAndUpdatesExpired'] = "支持和更新已过期";
 $_LANG['supportAndUpdatesExpiredLicense'] = "您此授权许可的支持和更新已过期";
@@ -2149,6 +2149,7 @@ $_LANG['pricing']['browseExtByCategory'] = "按类别浏览扩展";
 $_LANG['pricing']['register'] = "新价格";
 $_LANG['pricing']['transfer'] = "转移";
 $_LANG['pricing']['renewal'] = "续期";
+$_LANG['pricing']['selectExtCategory'] = "请从上面选择一个类别。";
 
 $_LANG['navStore'] = "存储";
 $_LANG['navBrowseProductsServices'] = "浏览全部";
