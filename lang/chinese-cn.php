@@ -758,7 +758,7 @@ $_LANG['supportticketserrornomessage'] = "您没有填写内容";
 $_LANG['supportticketserrornoname'] = "您没有填写姓名";
 $_LANG['supportticketserrornosubject'] = "您没有填写主题";
 $_LANG['supportticketsfilenotallowed'] = "您试图上传的文件不被允许。";
-$_LANG['supportticketsheader'] = "您可以在此提交您遇到的问题，客服人员在收到后会尽快回答。<br/><br/><b>使用说明：</b><br/>1. 请先阅读常见问题，并合理使用搜索引擎，您的问题也许很普遍，已经在网上被回答了很多次，直接找到答案会更加节省您的时间。<br/>2. 请选择正确的部门提交您的问题，每个部门所处理的具体事项在部门名称后有具体说明。<br/>3. 各部门的工作时间为每天 9:00-23：00。<br/><br/><b>服务承诺：</b><br/>您在工作时间内提交的问题，将在 6 小时内答复，24 小时内解决。非工作时间提交的问题，由值班人员尽快答复。<br/><br/><b>请在此选择受理您提问的部门：</b><br/>";
+$_LANG['supportticketsheader'] = "您可以在此提交您遇到的问题，客服人员在收到后会尽快回答。<br/><br/><b>使用说明：</b><br/>1. 请先阅读『帮助中心』的文档，并合理使用搜索引擎，您的问题也许很普遍，已经在网上被回答了很多次，直接找到答案会更加节省您的时间。<br/>2. 请选择正确的部门提交您的问题，每个部门所处理的具体事项在部门名称后有具体说明。<br/>3. 各部门的工作时间为每天 9:00-23：00。<br/><br/><b>服务承诺：</b><br/>您在工作时间内提交的问题，将在 6 小时内答复，24 小时内解决。非工作时间提交的问题，由值班人员尽快答复。<br/><br/><b>请在此选择受理您提问的部门：</b><br/>";
 $_LANG['supportticketsnotfound'] = "未找到工单";
 $_LANG['supportticketsopentickets'] = "开启的工单";
 $_LANG['supportticketspagetitle'] = "工单";
@@ -1074,7 +1074,7 @@ $_LANG['cartsubdomainchoice'] = "我希望使用免费的域名 %s";
 $_LANG['carterrordomainconfigskipped'] = "您需要返回配置一个有效的域名";
 $_LANG['cartproductchooseoptions'] = "选择设置";
 $_LANG['cartproductselection'] = "产品选择";
-$_LANG['cartreviewcheckout'] = "支付结账";
+$_LANG['cartreviewcheckout'] = "确认信息";
 $_LANG['cartchoosecycle'] = "付款周期";
 $_LANG['cartavailableaddons'] = "可用增值服务";
 $_LANG['cartsetupfees'] = "初装费";
@@ -1545,7 +1545,7 @@ $_LANG['announcementsolder'] = "较早的公告";
 $_LANG['createnewcontact'] = "新建联系人…";
 $_LANG['due'] = "过期";
 $_LANG['affiliatessignups'] = "注册数";
-$_LANG['affiliatesconversionrate'] = "转化数";
+$_LANG['affiliatesconversionrate'] = "转化率";
 $_LANG['affiliatesclicks'] = "点击数";
 $_LANG['contacts'] = "联系人";
 $_LANG['backtoservicedetails'] = "返回服务详情";
@@ -2202,5 +2202,8 @@ $_LANG['ssl']['retrieveCertificate'] = "检索证书";
 
 $_LANG['upgradeCredit'] = "更新余额";
 $_LANG['upgradeCreditDescription'] = "基于 :daysRemaining 未用日期 :totalDays 总日期计算在当前账单周期。";
+
+$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "您的域名当前不支持转移到我们这里，请尝试其他域名。";
+$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "您的域名不满足转移到我们这里的条件，请尝试其他域名。";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
