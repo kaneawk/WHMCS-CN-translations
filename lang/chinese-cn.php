@@ -2151,7 +2151,7 @@ $_LANG['pricing']['transfer'] = "转移";
 $_LANG['pricing']['renewal'] = "续期";
 $_LANG['pricing']['selectExtCategory'] = "请从上面选择一个类别。";
 
-$_LANG['navStore'] = "存储";
+$_LANG['navStore'] = "在线购买";
 $_LANG['navBrowseProductsServices'] = "浏览全部";
 
 $_LANG['navWebsiteSecurity'] = "网站与安全";
