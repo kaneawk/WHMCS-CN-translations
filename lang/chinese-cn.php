@@ -2206,4 +2206,52 @@ $_LANG['upgradeCreditDescription'] = "基于 :daysRemaining 未用日期 :totalD
 $_LANG['orderForm']['domainExtensionTransferNotSupported'] = "您的域名当前不支持转移到我们这里，请尝试其他域名。";
 $_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "您的域名不满足转移到我们这里的条件，请尝试其他域名。";
 
+$_LANG['remoteAuthn']['success'] = '成功！';
+$_LANG['remoteAuthn']['errorExclamation'] = '错误！';
+$_LANG['remoteAuthn']['error'] = '错误';
+$_LANG['remoteAuthn']['linkInitiated'] = '链接已启动！';
+$_LANG['remoteAuthn']['areYouSure'] = '您确定吗？';
+$_LANG['remoteAuthn']['yesUnlinkIt'] = '是的，取消链接！';
+$_LANG['remoteAuthn']['unlinked'] = '已取消链接！';
+$_LANG['remoteAuthn']['unavailable'] = '目前无法使用。请稍后重试。';
+$_LANG['remoteAuthn']['connectError'] = '我们无法连接您的账户。请联系您的系统管理员。';
+$_LANG['remoteAuthn']['completeSignIn'] = '请使用您选择的服务提供商完成登录。';
+$_LANG['remoteAuthn']['redirecting'] = '自动登录成功！正在重定向…';
+$_LANG['remoteAuthn']['accountNowLinked'] = '您的账户现在与您的 :displayName 账户相关联。';
+$_LANG['remoteAuthn']['oneTimeAuthRequired'] = '请完成登录，将此服务与现有的账户相关联。您只需要操作一次。';
+$_LANG['remoteAuthn']['completeRegistrationForm'] = '请填写下面的注册表格。';
+$_LANG['remoteAuthn']['completeNewAccountForm'] = '请完善您的新账户信息。';
+$_LANG['remoteAuthn']['linkedToAnotherClient'] = '此账户已经链接到我们的现有账户。请在第三方认证提供商处选择不同的账户。';
+$_LANG['remoteAuthn']['alreadyLinkedToYou'] = '此账户已经连接到我们的账户。请在第三方认证提供商处选择不同的账户。';
+$_LANG['remoteAuthn']['saveTimeByLinking'] = '通过以下您已使用的任意服务注册，以节省您的时间。';
+$_LANG['remoteAuthn']['unlinkDesc'] = '这将永久解除与授权账户的关联。';
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = '将您的帐户与以下的任意服务相关联，以简化您的登录体验。我们只需要使用此信息来验证您的账户，绝不会以您的身份发布任何信息。';
+$_LANG['remoteAuthn']['titleSignUpVerb'] = '注册';
+$_LANG['remoteAuthn']['titleOr'] = '或';
+$_LANG['remoteAuthn']['titleLinkedAccounts'] = '已链接的账户';
+$_LANG['remoteAuthn']['provider'] = '提供商';
+$_LANG['remoteAuthn']['name'] = '名称';
+$_LANG['remoteAuthn']['emailAddress'] = '邮件地址';
+$_LANG['remoteAuthn']['actions'] = '操作';
+$_LANG['remoteAuthn']['noLinkedAccounts'] = '未找到链接的账户';
+
+$_LANG['unlink'] = "取消链接";
+
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "感谢您完成付款流程。我们正在等待通知，确认您刚才的付款。当我们收到邮件后，我们将立即发送一封确认邮件给您。";
+
+$_LANG['errorPage']['404']['title'] = "天哪！";
+$_LANG['errorPage']['404']['subtitle'] = "我们无法找到该页面";
+$_LANG['errorPage']['404']['description'] = "请尝试使用以下选项";
+$_LANG['errorPage']['404']['home'] = "主页";
+$_LANG['errorPage']['404']['submitTicket'] = "联系支持";
+
+$_LANG['creditCard']['removeDescription'] = "您确定要移除信用卡详细信息吗？";
+
+$_LANG['marketConnect']['weebly']['ftpHost'] = "FTP 主机";
+$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP 用户名";
+$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP 密码";
+$_LANG['marketConnect']['weebly']['ftpPath'] = "FTP 路径";
+$_LANG['marketConnect']['weebly']['updateFtp'] = "更新 FTP 凭据";
+$_LANG['marketConnect']['weebly']['manage'] = "登录至 Weebly";
+
 ////////// End of english language file.  Do not place any translation strings below this line!

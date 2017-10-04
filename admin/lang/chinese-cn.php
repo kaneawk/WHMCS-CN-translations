@@ -133,6 +133,9 @@ $_ADMINLANG['global']['description'] = "描述";
 $_ADMINLANG['global']['lastUpdated'] = "最后更新";
 $_ADMINLANG['global']['addAnother'] = "添加其他";
 $_ADMINLANG['global']['learnMore'] = "了解更多";
+$_ADMINLANG['global']['activate'] = "激活";
+$_ADMINLANG['global']['deactivate'] = "停用";
+$_ADMINLANG['global']['saveAndActivate'] = "保存并激活";
 
 # Home
 $_ADMINLANG['home']['title'] = "后台首页";
@@ -158,6 +161,7 @@ $_ADMINLANG['home']['openinvoices'] = "未付账单";
 $_ADMINLANG['home']['lastlogin'] = "最后登录";
 $_ADMINLANG['home']['lastloginip'] = "来自 IP 地址";
 $_ADMINLANG['home']['whmcsnewsfeed'] = "WHMCS 新动态";
+$_ADMINLANG['home']['configureWidgetDisplayTitle'] = "显示/隐藏小部件";
 
 # Stats
 $_ADMINLANG['stats']['title'] = "统计数据";
@@ -276,6 +280,7 @@ $_ADMINLANG['clients']['emailUnverified'] = "邮箱未验证";
 $_ADMINLANG['clients']['ccInvalid'] = "您输入的信用卡号码无效";
 $_ADMINLANG['clients']['cvvInvalid'] = "信用卡的 CVV 号码是必填的或无效";
 $_ADMINLANG['clients']['ccExpiryInvalid'] = "您输入的过期日期无效";
+$_ADMINLANG['clients']['remoteGatewayTitle'] = "远程网关信息";
 
 # Client Summary
 $_ADMINLANG['clientsummary']['title'] = "客户配置";
@@ -1369,6 +1374,7 @@ $_ADMINLANG['setup']['customfields'] = "自定义字段";
 $_ADMINLANG['setup']['orderstatuses'] = "订单状态";
 $_ADMINLANG['setup']['applicationLinks'] = "应用链接";
 $_ADMINLANG['setup']['openIdConnect'] = "OpenID 连接";
+$_ADMINLANG['setup']['signInIntegrations'] = "登录集成";
 
 # Help
 $_ADMINLANG['help']['title'] = "帮助中心";
@@ -1559,7 +1565,7 @@ $_ADMINLANG['status']['complete'] = "已完成";
 $_ADMINLANG['status']['incomplete'] = "未完成";
 $_ADMINLANG['status']['overdue'] = "已逾期";
 $_ADMINLANG['status']['refunded'] = "已退款";
-$_ADMINLANG['status']['collections'] = "已收藏";
+$_ADMINLANG['status']['collections'] = "已托收";
 $_ADMINLANG['status']['valid'] = "有效的";
 $_ADMINLANG['status']['expired'] = "过期的";
 $_ADMINLANG['status']['noinvoicedue'] = "无账单";
@@ -1591,6 +1597,8 @@ $_ADMINLANG['status']['paymentpending'] = "待付款";
 $_ADMINLANG['permissions']['accessdenied'] = "权限不足";
 $_ADMINLANG['permissions']['nopermission'] = "您没有足够的权限执行该操作！";
 $_ADMINLANG['permissions']['action'] = "请求的操作";
+$_ADMINLANG['permissions']['requiresOne'] = "需要满足下列条件之一：";
+$_ADMINLANG['permissions']['requiresAll'] = "需要满足下列所有条件：";
 $_ADMINLANG['permissions']['1'] = "主页";
 $_ADMINLANG['permissions']['2'] = "侧边栏统计";
 $_ADMINLANG['permissions']['3'] = "我的账户";
@@ -1732,6 +1740,7 @@ $_ADMINLANG['permissions']['81'] = "API 访问";
 $_ADMINLANG['permissions']['131'] = "WHMCS 连接";
 $_ADMINLANG['permissions']['132'] = "健康与更新";
 $_ADMINLANG['permissions']['139'] = "查看最新消息";
+$_ADMINLANG['permissions']['143'] = "配置登录集成";
 
 # Addon Modules
 $_ADMINLANG['addonmodules']['choose'] = "在下面选择一个插件模块";
@@ -2130,6 +2139,7 @@ $_ADMINLANG['administrators']['nosupportdeptsassigned'] = "您目前没有分配
 $_ADMINLANG['administrators']['nosupportdepts'] = "无售后部门";
 $_ADMINLANG['administrators']['confirmExistingPassword'] = "您必须输入您现有的管理员密码";
 $_ADMINLANG['administrators']['ticketNotificationsUnavailable'] = "您的权限目前阻止您接收部门的工单通知。";
+$_ADMINLANG['administrators']['emailCannotBeSupport'] = "邮件地址已被支持部门使用。请提供一个不同的邮件地址。";
 
 # Automation
 $_ADMINLANG['automation']['title'] = "自动任务设置";
@@ -2245,10 +2255,10 @@ $_ADMINLANG['gateways']['activateGatewayFirst'] = "尝试在此配置之前请�
 $_ADMINLANG['gateways']['moduleunavailable'] = "该支付方式模块无法载入，很可能已被删除。建议您立即停用它。";
 
 # Backups
-$_ADMINLANG['backups']['title'] = "数据备份";
+$_ADMINLANG['backups']['title'] = "自动备份";
 $_ADMINLANG['backups']['changesuccess'] = "更改保存成功！";
 $_ADMINLANG['backups']['changesuccessinfo'] = "备份设置保存成功。";
-$_ADMINLANG['backups']['description'] = "数据库用于储存 WHMCS 系统数据所以非常重要。建议您定期备份。WHMCS 系统自带了 2 种备份方案，会在每天自动任务执行时自动备份：1，将备份以电子邮件附件形式发到您设置的邮箱中；2，FTP远程备份，将数据自动上传至预设的远程FTP服务器里。";
+$_ADMINLANG['backups']['description'] = "我们建议您定期备份以防止数据丢失。WHMCS 可以通过以下一种或多种方法执行数据库的每日自动备份。但作为预防措施，您应该使用您自己的备份方案。";
 $_ADMINLANG['backups']['dailyemail'] = "每天通过邮件备份";
 $_ADMINLANG['backups']['emailinfo'] = "输入接收数据库备份文件的邮件地址";
 $_ADMINLANG['backups']['blanktodisable'] = "留空则不启用";
@@ -2263,6 +2273,44 @@ $_ADMINLANG['backups']['ftppath'] = "FTP 路径";
 $_ADMINLANG['backups']['ftppassivemode'] = "FTP 被动模式";
 $_ADMINLANG['backups']['backupDisabled'] = "备份已停用";
 $_ADMINLANG['backups']['zipExtensionRequired'] = "需要使用 <a href='http://php.net/manual/en/book.zip.php'>PHP Zip 扩展</a> 来进行数据库备份";
+$_ADMINLANG['backups']['cpanelBackupSuccess'] = "cPanel 备份设置已更改";
+$_ADMINLANG['backups']['cpanelBackupActivationSuccess'] = "cPanel 备份已激活，设置已更新";
+$_ADMINLANG['backups']['emailBackupSuccess'] = "邮件备份设置已更改";
+$_ADMINLANG['backups']['emailBackupActivationSuccess'] = "邮件备份已激活，设置已更新";
+$_ADMINLANG['backups']['ftpBackupSuccess'] = "FTP 备份设置已更改";
+$_ADMINLANG['backups']['ftpBackupActivationSuccess'] = "FTP 备份已激活，设置已更新";
+$_ADMINLANG['backups']['testConnection'] = "测试连接";
+$_ADMINLANG['backups']['saveAndActivate'] = "保存并激活";
+$_ADMINLANG['backups']['deactivate'] = "停用";
+$_ADMINLANG['backups']['testSuccess'] = "测试连接成功";
+$_ADMINLANG['backups']['deactivateSuccess'] = "备份禁用成功";
+$_ADMINLANG['backups']['ftp'] = "FTP/SFTP 备份";
+$_ADMINLANG['backups']['useSecureFtp'] = "使用安全 FTP/SFTP（推荐）";
+$_ADMINLANG['backups']['cpanel'] = "cPanel 备份";
+$_ADMINLANG['backups']['cpanelHostname'] = "cPanel/WHM 服务器主机名";
+$_ADMINLANG['backups']['cpanelUsername'] = "WHM API 用户名";
+$_ADMINLANG['backups']['cpanelUsernameDescription'] = "请输入您的服务器的 WHM 用户名";
+$_ADMINLANG['backups']['cpanelApiToken'] = "WHM API 令牌";
+$_ADMINLANG['backups']['cpanelApiTokenDescription'] = "在 WHM > 开发 > 管理 API 令牌中创建一个 API 令牌。我们建议您为备份生成一个新的 API 令牌。";
+$_ADMINLANG['backups']['cpanelBackupUser'] = "cPanel 用户名";
+$_ADMINLANG['backups']['cpanelBackupUserDescription'] = "请输入托管 WHMCS 安装的 cPanel 用户名";
+$_ADMINLANG['backups']['cpanelBackupDestination'] = "备份目标";
+$_ADMINLANG['backups']['cpanelBackupDestinationHomeDirectory'] = "主目录";
+$_ADMINLANG['backups']['cpanelBackupDestinationSCP'] = "安全复制（SCP）";
+$_ADMINLANG['backups']['cpanelBackupDestinationFTP'] = "远程 FTP 服务器";
+$_ADMINLANG['backups']['cpanelBackupDestinationPassiveFTP'] = "远程 FTP 服务器（被动连接）";
+$_ADMINLANG['backups']['cpanelBackupDestinationHostname'] = "远程目标主机名";
+$_ADMINLANG['backups']['cpanelBackupDestinationPort'] = "端口";
+$_ADMINLANG['backups']['cpanelBackupDestinationUser'] = "远程目标用户";
+$_ADMINLANG['backups']['cpanelBackupDestinationPassword'] = "远程目标密码";
+$_ADMINLANG['backups']['cpanelBackupDestinationDirectory'] = "远程目标目录";
+$_ADMINLANG['backups']['cpanelBackupNotifyEmail'] = "邮件地址";
+$_ADMINLANG['backups']['cpanelBackupNotifyEmailDescription'] = "备份完成后应收到确认邮件的邮件地址。";
+$_ADMINLANG['backups']['emailBackupEmail'] = "邮件地址";
+$_ADMINLANG['backups']['emailBackupEmailInfo'] = "请输入要将备份发送到的邮件地址。";
+$_ADMINLANG['backups']['testingConnection'] = "正在测试连接…";
+$_ADMINLANG['backups']['confirmDeactivate'] = "确认停用";
+$_ADMINLANG['backups']['deactivateAreYouSure'] = "您确定要停用此备份类型吗？";
 
 # System
 $_ADMINLANG['system']['activitylog'] = "系统日志";
@@ -2485,6 +2533,7 @@ $_ADMINLANG['emailtpls']['copyto'] = "副本";
 $_ADMINLANG['emailtpls']['cannotCreateTemplate'] = "无法创建模板";
 $_ADMINLANG['emailtpls']['nameNotUniqueInfo'] = "请选择唯一的模板名称";
 $_ADMINLANG['emailtpls']['nameCannotBeBlank'] = "模板名称不可以留空。";
+$_ADMINLANG['emailtpls']['bcc'] = "密送至";
 
 # Merge Fields
 $_ADMINLANG['mergefields']['title'] = "可合并区域";
@@ -3010,6 +3059,7 @@ $_ADMINLANG['supportticketdepts']['pop3user'] = "邮件地址";
 $_ADMINLANG['supportticketdepts']['pop3pass'] = "邮箱密码";
 $_ADMINLANG['supportticketdepts']['feedbackRequest'] = "反馈请求";
 $_ADMINLANG['supportticketdepts']['feedbackRequestDescription'] = "当工单结束后发送反馈请求评价/审核工单";
+$_ADMINLANG['supportticketdepts']['emailCannotBeAdmin'] = "邮件地址已被管理员用户使用。请提供一个不同的邮件地址。";
 
 # Support Ticket Escalations
 $_ADMINLANG['supportticketescalations']['supportticketescalationstitle'] = "支持工单升级";
@@ -3097,6 +3147,7 @@ $_ADMINLANG['sendmessage']['marketingemaildesc'] = "请记住使用 %s 包含营
 $_ADMINLANG['sendmessage']['loadMessage'] = "载入消息";
 $_ADMINLANG['sendmessage']['noSaveNameEntered'] = "您必须输入一个名称才能保存信息并作为邮件模板";
 $_ADMINLANG['sendmessage']['uniqueSaveNameRequired'] = "邮件模板的保存必须是唯一的";
+$_ADMINLANG['sendmessage']['bcc'] = "密送";
 
 # Support Ticket Spam Control
 $_ADMINLANG['stspamcontrol']['stspamcontroltitle'] = "支持工单垃圾邮件控制";
@@ -3596,7 +3647,8 @@ $_ADMINLANG['healthCheck']['updaterDisabledFunctions'] = "自动更新需要启�
 $_ADMINLANG['healthCheck']['updaterVendorWriteable'] = "自动更新请求 whmcs 目录 /vendor/whmcs/whmcs/ 为可写。";
 $_ADMINLANG['healthCheck']['updaterTempSet'] = "自动更新需要一个可写的目录以保存在更新过程中的暂存文件。您必须在更新配置中提供一个目录，然后才能更新。";
 $_ADMINLANG['healthCheck']['updaterTempWriteable'] = "自动更新需要一个可写的目录以保存在更新过程中的暂存文件。当前设置的临时路径不可写。请检查并更正权限。";
-$_ADMINLANG['healthCheck']['updaterMemoryLimit'] = "自动更新需要至少分配给 PHP 进程 128MB 的可用内存。您当前的 PHP memory_limit 设置低于此值，如要更新，请将 PHP 配置中的 memory_limit 增加到 128MB 或更高的值。";
+$_ADMINLANG['healthCheck']['updaterGeneralMemoryLimit'] = "自动更新需要至少分配给 PHP 进程 :memoryLimitRequired 的可用内存。您当前的 PHP memory_limit 设置低于此值，如要更新，请将 PHP 配置中的 memory_limit 增加到 :memoryLimitRequired 或更高的值。";
+$_ADMINLANG['healthCheck']['updaterVersionMemoryLimit'] = "自动更新至 :updateVersion 需要至少分配给 PHP 进程 :memoryLimitRequired 的可用内存。您当前的 PHP memory_limit 设置低于此值，如要更新，请将 PHP 配置中的 memory_limit 增加到 :memoryLimitRequired 或更高的值。";
 $_ADMINLANG['healthCheck']['updaterSuccess'] = "您的环境似乎符合自动更新所需的最低要求。为更新您必须确保您的磁盘空间至少为 250MB。";
 
 $_ADMINLANG['appLinks']['description'] = "应用链接允许您授予第三方应用程序访问 WHMCS 的用户账户。";
@@ -3814,4 +3866,42 @@ $_ADMINLANG['uriPathMgmt']['btnModeBasic'] = '基本 URL';
 $_ADMINLANG['uriPathMgmt']['labelManualOverride'] = '手动覆盖';
 $_ADMINLANG['uriPathMgmt']['labelSystemDetected'] = '系统检测';
 
+$_ADMINLANG['remoteAuthn']['remoteClientAuthentication'] = '登录集成';
+$_ADMINLANG['remoteAuthn']['settingsDesc'] = '支持以下第三方服务，允许用户注册并登录。您可以激活这些中的一个或多个。';
+
 $_ADMINLANG['whatsNew']['menuTitle'] = "最新消息";
+
+$_ADMINLANG['signIn']['linkedTableTitle'] = "已链接的登录账户";
+$_ADMINLANG['signIn']['provider'] = "提供商";
+$_ADMINLANG['signIn']['name'] = "名称";
+$_ADMINLANG['signIn']['emailAddress'] = "邮件地址";
+$_ADMINLANG['signIn']['emptyTable'] = "未找到已链接的账户";
+$_ADMINLANG['signIn']['delCheckTitle'] = "您确定吗？";
+$_ADMINLANG['signIn']['delCheckBody'] = "这将永久解除与授权账户的关联。";
+$_ADMINLANG['signIn']['docLink'] = "更多详细信息，请参阅 <a href='https://docs.whmcs.com/Configuring_Sign-In_using_%s' target='_blank'>帮助文档</a>。";
+$_ADMINLANG['signIn']['invalidDetails'] = "<strong>详细信息无效无法保存。</strong>请验证您的详细信息，然后重试。";
+
+$_ADMINLANG['errorPage']['general']['oops'] = '天哪！';
+$_ADMINLANG['errorPage']['general']['tryOtherNav'] = "请尝试使用如下选项。";
+$_ADMINLANG['errorPage']['general']['home'] = "主页";
+$_ADMINLANG['errorPage']['general']['submitTicket'] = "联系支持";
+$_ADMINLANG['errorPage']['general']['invalidCsrfToken'] = "无效的 CSRF 令牌";
+$_ADMINLANG['errorPage']['400']['title'] = "错误的请求";
+$_ADMINLANG['errorPage']['400']['subtitle'] = "无效的请求。";
+$_ADMINLANG['errorPage']['400']['description'] = "";
+$_ADMINLANG['errorPage']['401']['title'] = "拒绝访问 - 未授权";
+$_ADMINLANG['errorPage']['401']['subtitle'] = "访问此页面需要授权。";
+$_ADMINLANG['errorPage']['401']['description'] = "";
+$_ADMINLANG['errorPage']['403']['title'] = "拒绝访问 - 禁止访问";
+$_ADMINLANG['errorPage']['403']['subtitle'] = "您没有权限执行所选的操作！";
+$_ADMINLANG['errorPage']['403']['description'] = "";
+$_ADMINLANG['errorPage']['404']['title'] = "页面未找到";
+$_ADMINLANG['errorPage']['404']['subtitle'] = "我们找不到该页面。";
+$_ADMINLANG['errorPage']['404']['description'] = "";
+$_ADMINLANG['errorPage']['405']['title'] = "HTTP 方式不允许";
+$_ADMINLANG['errorPage']['405']['subtitle'] = "无效的请求";
+$_ADMINLANG['errorPage']['405']['description'] = "";
+$_ADMINLANG['errorPage']['500']['title'] = "内部错误";
+$_ADMINLANG['errorPage']['500']['subtitle'] = "发生意外错误。";
+$_ADMINLANG['errorPage']['500']['description'] = "如果问题仍然存在，请联系技术支持。";
+

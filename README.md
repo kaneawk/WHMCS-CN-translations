@@ -4,11 +4,11 @@
 
 ### 1. Upload file
 
-    1. Upload lang/chinese.php to your whmcs_install_dir/lang/ path.
+    1. Upload lang/chinese-cn.php to your whmcs_install_dir/lang/ path.
 
     if you current use WHMCS v6.3.0 or higher, you should rename original chinese.php to chinese-tw.php manually. Because original chinese.php was a Traditional Chinese edition.
 
-    2. Upload admin/lang/chinese.php to your whmcs_install_dir/admin_dir/lang/ path.
+    2. Upload admin/lang/chinese-cn.php to your whmcs_install_dir/admin_dir/lang/ path.
 
 ### 2. Choose Chinese language and set it to default
 
