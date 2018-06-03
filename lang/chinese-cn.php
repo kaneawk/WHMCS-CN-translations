@@ -2366,4 +2366,6 @@ $_LANG['upgradeService']['currentProduct'] = "您当前的产品";
 $_LANG['upgradeService']['recommended'] = "推荐";
 $_LANG['upgradeService']['select'] = "选择";
 
+$_LANG['feeds']['itemsInBasket'] = "在您的购物车中有 <b>:count</b> 个物品";
+
 ////////// End of english language file.  Do not place any translation strings below this line!
