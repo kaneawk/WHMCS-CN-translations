@@ -2368,4 +2368,203 @@ $_LANG['upgradeService']['select'] = "选择";
 
 $_LANG['feeds']['itemsInBasket'] = "在您的购物车中有 <b>:count</b> 个物品";
 
+$_LANG['validation']['accepted'] = "必须接受 :attribute。";
+$_LANG['validation']['active_url'] = ":attribute 不是一个有效的 URL。";
+$_LANG['validation']['after'] = ":attribute 必须是 :date 之后的日期。";
+$_LANG['validation']['alpha'] = ":attribute 只能包含字母。";
+$_LANG['validation']['alpha_dash'] = ":attribute 只能包含字母，数字和短划线。";
+$_LANG['validation']['alpha_num'] = ":attribute 只能包含字母和数字。";
+$_LANG['validation']['array'] = ":attribute 必须为一个数组。";
+$_LANG['validation']['before'] = ":attribute 必须是 :date 之前的日期。";
+$_LANG['validation']['between']['numeric'] = ":attribute 必须介于 :min 和 :max 之间。";
+$_LANG['validation']['between']['file'] = ":attribute 必须介于 :min 和 :maxKB 之间。";
+$_LANG['validation']['between']['string'] = ":attribute 必须介于 :min 和 :max 个字符之间。";
+$_LANG['validation']['between']['array'] = ":attribute 必须介于 :min 和 :max 个项目之间。";
+$_LANG['validation']['boolean'] = ":attribute 字段必须为 true 或者 false。";
+$_LANG['validation']['confirmed'] = ":attribute 确认信息不匹配。";
+$_LANG['validation']['date'] = ":attribute 不是一个有效的日期。";
+$_LANG['validation']['date_format'] = ":attribute 不匹配格式 :format。";
+$_LANG['validation']['different'] = ":attribute 和 :other 必须不相同。";
+$_LANG['validation']['digits'] = ":attribute 必须为 :digits 个数字。";
+$_LANG['validation']['digits_between'] = ":attribute 必须介于 :min 和 :max 个数字之间。";
+$_LANG['validation']['email'] = ":attribute 必须为一个有效的邮件地址。";
+$_LANG['validation']['exists'] = "所选的 :attribute 无效。";
+$_LANG['validation']['filled'] = ":attribute 字段为必填项。";
+$_LANG['validation']['image'] = ":attribute 必须为一个图像。";
+$_LANG['validation']['in'] = "所选的 :attribute 无效。";
+$_LANG['validation']['integer'] = ":attribute 必须是一个整数。";
+$_LANG['validation']['ip'] = ":attribute 必须为一个有效的 IP 地址。";
+$_LANG['validation']['json'] = ":attribute 必须是有效的 JSON 字符串。";
+$_LANG['validation']['max']['numeric'] = ":attribute 不能大于 :max。";
+$_LANG['validation']['max']['file'] = ":attribute 不能大于 :maxKB。";
+$_LANG['validation']['max']['string'] = ":attribute 不能多于 :max 个字符。";
+$_LANG['validation']['max']['array'] = ":attribute 不能多于 :max 个项目。";
+$_LANG['validation']['mimes'] = ":attribute 必须为一个 :values 格式的文件。";
+$_LANG['validation']['min']['numeric'] = ":attribute 必须至少为 :min。";
+$_LANG['validation']['min']['file'] = ":attribute 必须至少为 :minKB。";
+$_LANG['validation']['min']['string'] = ":attribute 必须至少为 :min 个字符。";
+$_LANG['validation']['min']['array'] = ":attribute 必须至少为 :min 个项目。";
+$_LANG['validation']['not_in'] = "所选的 :attribute 无效。";
+$_LANG['validation']['numeric'] = ":attribute 必须为数字。";
+$_LANG['validation']['present'] = ":attribute 字段必须存在。";
+$_LANG['validation']['regex'] = ":attribute 格式无效。";
+$_LANG['validation']['required'] = ":attribute 字段为必填项。";
+$_LANG['validation']['required_if'] = "当 :other 为 :value 时，:attribute 为必填项。";
+$_LANG['validation']['required_unless'] = "除非 :other 为 :values 时，:attribute 才需要填写。";
+$_LANG['validation']['required_with'] = "当 :values 存在时，:attribute 为必填项。";
+$_LANG['validation']['required_with_all'] = "当 :values 存在时，:attribute 字段为必填项。";
+$_LANG['validation']['required_without'] = "当 :values 不存在时，:attribute 字段为必填项。";
+$_LANG['validation']['required_without_all'] = "当 :values 都不存在时，:attribute 字段为必填项。";
+$_LANG['validation']['same'] = ":attribute 和 :other 必须匹配。";
+$_LANG['validation']['size']['numeric'] = ":attribute 必须为 :size。";
+$_LANG['validation']['size']['file'] = ":attribute 必须为 :sizeKB。";
+$_LANG['validation']['size']['string'] = ":attribute 必须为 :size 个字符。";
+$_LANG['validation']['size']['array'] = ":attribute 必须包含 :size 个项目。";
+$_LANG['validation']['string'] = ":attribute 必须是一个字符串。";
+$_LANG['validation']['timezone'] = ":attribute 必须为一个有效的区域。";
+$_LANG['validation']['unique'] = ":attribute 已经被使用。";
+$_LANG['validation']['url'] = ":attribute 格式无效。";
+
+$_LANG['orderErrorServerHostnameInvalid'] = "您的服务器主机名无效。";
+$_LANG['orderErrorServerNameserversInvalid'] = "域名服务器前缀无效。";
+
+$_LANG['checkAll'] = "全选";
+$_LANG['uncheckAll'] = "反选";
+
+$_LANG['maxmind']['manualReview'] = "您的订单已经进行人工审核。<br /><br />如果您认为本信息有错误，请谅解并通过 <a href=\"submitticket.php\">提交支持工单</a> 联系客户服务团队，谢谢。";
+
+$_LANG['nodomain'] = "未指定域名";
+
+$_LANG['store']['ssl']['cartTitle'] = "通过 SSL 保护您的网站";
+$_LANG['store']['ssl']['cartShortDescription'] = "将 SSL 添加到您的虚拟主机中，让访问者相信您的网站是安全可靠的，并有助于建立信任。";
+
+$_LANG['store']['weebly']['cartTitle'] = "强大的网站构建工具";
+$_LANG['store']['weebly']['cartShortDescription'] = "将 Weebly 拖放式网站创建工具添加到您的主机，以帮助您创建一个很棒的网站，商店或博客。";
+
+$_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts 邮件安全";
+$_LANG['store']['spamexperts']['cartShortDescription'] = "添加专业的电子邮件安全和归档到您的域名中，保护您的电子邮件免受攻击和恶意软件的侵害。";
+
+$_LANG['store']['sitelock']['cartTitle'] = "SiteLock 网站安全";
+
+$_LANG['store']['ssl']['promo']['sidebar']['title'] = "添加 SSL 到您的网站";
+$_LANG['store']['ssl']['promo']['sidebar']['body'] = "激活小绿锁图标并保护用户隐私";
+
+$_LANG['store']['weebly']['promo']['sidebar']['title'] = "强大的网站构建工具";
+$_LANG['store']['weebly']['promo']['sidebar']['body'] = "Weebly 以前所未有的速度创建一个令人惊叹的网站";
+
+$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "获取垃圾邮件保护";
+$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "通过专业垃圾邮件过滤阻止垃圾邮件";
+
+$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "恶意软件保护";
+$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "自动发现恶意软件并保障您的在线声誉";
+
+$_LANG['store']['recommendedForYou'] = "强烈建议您";
+$_LANG['store']['lastChance'] = "最后的机会";
+
+$_LANG['domains']['importantReminder'] = "重要提醒";
+$_LANG['domains']['irtpNotice'] = "您所做的更改将为此域启用 IRTP 转移锁定。";
+$_LANG['domains']['optOut'] = "选择退出转移锁定（如果可用）";
+$_LANG['domains']['optOutReason'] = "退出原因（可选）";
+$_LANG['domains']['contactChangePending'] = "正在准备更改联系人";
+$_LANG['domains']['verificationRequired'] = "需要验证";
+$_LANG['domains']['contactsChanged'] = "更改 WHOIS 信息的请求需要验证联系人信息。已向注册域名所有者发送了一封邮件以批准更改。";
+$_LANG['domains']['contactsChangedDate'] = "更改 WHOIS 信息的请求需要验证联系人信息。已向注册域名所有者发送了一封邮件以批准更改。本操作必须在 :date 之前完成。";
+$_LANG['domains']['newRegistration'] = "已向注册域名所有者发送了一封电子邮件。请务必完成验证以避免暂停。";
+$_LANG['domains']['newRegistrationDate'] = "已向注册域名所有者发送了一封电子邮件。请务必在 :date 之前完成验证以避免暂停。";
+$_LANG['domains']['irtpLockEnabled'] = "IRTP 转移锁定已启用";
+$_LANG['domains']['irtpLockDescription'] = "由于联系人更改或新注册，此域名目前转移已被锁定。";
+$_LANG['domains']['irtpLockDescriptionDate'] = "由于联系人更改或新注册，此域名目前转移已被锁定。这将于 :date 失效。";
+$_LANG['domains']['resendNotification'] = "重新发送验证邮件";
+$_LANG['domains']['resendNotificationQuestion'] = "您确定要重新发送验证邮件吗？";
+$_LANG['domains']['resendNotificationSuccess'] = "验证邮件已经发送。";
+$_LANG['domains']['modifyPending'] = "需要验证";
+$_LANG['domains']['changePending'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请点击邮件中的链接以允许修改。";
+$_LANG['domains']['changePendingDate'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请在 :days 天内点击邮件中的链接以允许修改。";
+
+$_LANG['getStartedNow'] = "立即开始";
+$_LANG['notificationsnew'] = "新";
+
+$_LANG['store']['websiteBuilder']['tab']['overview'] = "概览";
+$_LANG['store']['websiteBuilder']['tab']['features'] = "特性";
+$_LANG['store']['websiteBuilder']['tab']['pricing'] = "价格";
+$_LANG['store']['websiteBuilder']['tab']['faq'] = "常见问题";
+$_LANG['store']['websiteBuilder']['ddEditor'] = "拖放构建工具";
+$_LANG['store']['websiteBuilder']['ddEditorDescription'] = "通过简单的拖放，帮助您创建一个专业的网站，并不需要您具有专业技能。选择不同的元素即可添加照片，地图或视频，只需将其从浏览器中拖放到您需要的位置即可。";
+$_LANG['store']['websiteBuilder']['features']['builder'] = "构建工具";
+$_LANG['store']['websiteBuilder']['features']['builderDescription'] = "使用强大的拖放工具创建完美的网站";
+$_LANG['store']['websiteBuilder']['features']['ecommerce'] = "电子商务";
+$_LANG['store']['websiteBuilder']['features']['ecommerceDescription'] = "完整的电子商务解决方案，帮助您在线拓展业务";
+$_LANG['store']['websiteBuilder']['features']['forms'] = "表单";
+$_LANG['store']['websiteBuilder']['features']['formsDescription'] = "创建自定义联系表单，RSVP 列表和调查";
+$_LANG['store']['websiteBuilder']['features']['templates'] = "模板";
+$_LANG['store']['websiteBuilder']['features']['templatesDescription'] = "专业设计的网站模板，完全自定义";
+$_LANG['store']['websiteBuilder']['features']['gallery'] = "图片";
+$_LANG['store']['websiteBuilder']['features']['galleryDescription'] = "创建画廊，幻灯片和自定义背景";
+$_LANG['store']['websiteBuilder']['features']['blogging'] = "博客";
+$_LANG['store']['websiteBuilder']['features']['bloggingDescription'] = "在几分钟内创建一个令人惊叹的博客";
+$_LANG['store']['websiteBuilder']['features']['video'] = "视频";
+$_LANG['store']['websiteBuilder']['features']['videoDescription'] = "";
+$_LANG['store']['websiteBuilder']['features']['seo'] = "SEO";
+$_LANG['store']['websiteBuilder']['features']['seoDescription'] = "强大的 SEO 工具帮助搜索引擎找到您";
+$_LANG['store']['websiteBuilder']['pricing']['lite']['headline'] = "尝试 Weebly";
+$_LANG['store']['websiteBuilder']['pricing']['lite']['tagline'] = "创建 1 个页面您所需的一切";
+$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "适用于：:for";
+$_LANG['store']['websiteBuilder']['pricing']['siteFeatures'] = "站点特性";
+$_LANG['store']['websiteBuilder']['pricing']['eCommerceFeatures'] = "电子商务特性";
+$_LANG['store']['websiteBuilder']['pricing']['features']['ddBuilder'] = "拖放构建工具";
+$_LANG['store']['websiteBuilder']['pricing']['features']['pages'] = "无限页面";
+$_LANG['store']['websiteBuilder']['pricing']['features']['noAds'] = "无 Weebly 广告";
+$_LANG['store']['websiteBuilder']['pricing']['features']['search'] = "站点搜索";
+$_LANG['store']['websiteBuilder']['pricing']['features']['passwords'] = "密码保护";
+$_LANG['store']['websiteBuilder']['pricing']['features']['backgrounds'] = "视频背景";
+$_LANG['store']['websiteBuilder']['pricing']['features']['hdVideo'] = "高清视频和音频";
+$_LANG['store']['websiteBuilder']['pricing']['features']['memberCount'] = "最多 100 个用户";
+$_LANG['store']['websiteBuilder']['pricing']['features']['registration'] = "会员注册";
+$_LANG['store']['websiteBuilder']['pricing']['features']['emailCampaigns'] = "电子邮件广告系列";
+$_LANG['store']['websiteBuilder']['pricing']['features']['3pcFee'] = "3% Weebly 结算费用";
+$_LANG['store']['websiteBuilder']['pricing']['features']['tenProducts'] = "最多 10 个产品";
+$_LANG['store']['websiteBuilder']['pricing']['features']['checkoutOnWeebly'] = "去 Weebly.com 结账";
+$_LANG['store']['websiteBuilder']['pricing']['features']['twentyFiveProducts'] = "最多 25 个产品";
+$_LANG['store']['websiteBuilder']['pricing']['features']['0pcFee'] = "0% Weebly 结算费用";
+$_LANG['store']['websiteBuilder']['pricing']['features']['unlimitedProducts'] = "无限个产品";
+$_LANG['store']['websiteBuilder']['pricing']['features']['checkoutDomain'] = "结算您的域名";
+$_LANG['store']['websiteBuilder']['pricing']['features']['inventory'] = "库存管理";
+$_LANG['store']['websiteBuilder']['pricing']['features']['coupons'] = "优惠券";
+$_LANG['store']['websiteBuilder']['pricing']['features']['tax'] = "税费计算器";
+$_LANG['store']['websiteBuilder']['pricing']['features']['shipping'] = "实时运费";
+$_LANG['store']['websiteBuilder']['pricing']['features']['abandonedCart'] = "丢弃购物车邮件";
+$_LANG['store']['websiteBuilder']['pricing']['features']['giftCards'] = "礼品卡";
+$_LANG['store']['websiteBuilder']['adminPreview'] = "Weebly 计划您激活将在这里显示";
+$_LANG['store']['websiteBuilder']['faq']['title'] = "常见问题";
+$_LANG['store']['websiteBuilder']['faq']['q1'] = "我可以创建一个博客么？";
+$_LANG['store']['websiteBuilder']['faq']['q2'] = "我的网站是否兼容移动端？";
+$_LANG['store']['websiteBuilder']['faq']['q3'] = "我可以添加图片到我们的网站么？";
+$_LANG['store']['websiteBuilder']['faq']['q4'] = "我可以通过我的网站售卖产品么？";
+$_LANG['store']['websiteBuilder']['faq']['q5'] = "我可以在我的网站上添加表单么？";
+$_LANG['store']['websiteBuilder']['faq']['q6'] = "我的网站可以被搜索引擎收录么？";
+$_LANG['store']['websiteBuilder']['faq']['q7'] = "是否有多种款式可供选择？";
+$_LANG['store']['websiteBuilder']['faq']['q8'] = "我可以升级么？";
+$_LANG['store']['websiteBuilder']['faq']['a1'] = "是的，网站构建工具允许您包含博客功能。";
+$_LANG['store']['websiteBuilder']['faq']['a2'] = "是的，使用 Weebly 网站构建工具创建的所有网站都针对移动设备进行了优化";
+$_LANG['store']['websiteBuilder']['faq']['a3'] = "是的，您可以将照片添加到您的网站，但高清视频和音频仅适用于 Pro & Business 方案。";
+$_LANG['store']['websiteBuilder']['faq']['a4'] = "是的，电子商务功能包含在所有计划中，但您可以提供的产品数量各不相同。";
+$_LANG['store']['websiteBuilder']['faq']['a5'] = "是的，通过 Weebly 网站构建工具可以很轻松地创建联系表单、RSVP 列表、问卷调查和更多。";
+$_LANG['store']['websiteBuilder']['faq']['a6'] = "所有 Weebly 创建的网站都包括功能强大的搜索引擎优化工具，以帮助最大限度地提高您网站的的搜索引擎排名。";
+$_LANG['store']['websiteBuilder']['faq']['a7'] = "是的，有多个预先制作的模板供您选择。";
+$_LANG['store']['websiteBuilder']['faq']['a8'] = "是的，您可以随时升级。 只需登录您的账户并选择升级选项即可。";
+$_LANG['store']['websiteBuilder']['trust'] = "受到全球超过 4000,0000 人的信赖";
+$_LANG['store']['toggleNav'] = "切换导航";
+$_LANG['store']['websiteBuilder']['upgrade']['title'] = "Weebly 升级";
+$_LANG['store']['websiteBuilder']['upgrade']['required'] = "需要升级";
+$_LANG['store']['websiteBuilder']['upgrade']['requiredDescription'] = "要访问您请求的功能，您需要升级 Weebly Site Builder 方案";
+$_LANG['store']['websiteBuilder']['upgrade']['recommended'] = "显示推荐方案。";
+$_LANG['store']['websiteBuilder']['upgrade']['login'] = "要查看可用选项，请登录。";
+$_LANG['store']['websiteBuilder']['upgrade']['no'] = "无升级可用";
+$_LANG['store']['websiteBuilder']['upgrade']['noUpgrade'] = "当前无更新可用。";
+$_LANG['store']['websiteBuilder']['upgrade']['submitTicket'] = "联系技术支持";
+$_LANG['store']['websiteBuilder']['upgrade']['to'] = "升级到 :product 为 :amount";
+$_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "无已激活的 Weebly 方案";
+$_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "您当前已通过 :email 登录";
+$_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "注销/切换用户";
+
 ////////// End of english language file.  Do not place any translation strings below this line!
