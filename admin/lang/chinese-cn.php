@@ -704,6 +704,7 @@ $_ADMINLANG['domains']['resendNotificationSuccess'] = "验证邮件已经发送�
 $_ADMINLANG['domains']['modifyPending'] = "需要验证";
 $_ADMINLANG['domains']['changePending'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请点击邮件中的链接以允许修改。";
 $_ADMINLANG['domains']['changePendingDate'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请在 :days 天内点击邮件中的链接以允许修改。";
+$_ADMINLANG['domains']['releasedAndDeleted'] = "域名 ':domain' 已成功发布到新标签 ':tag' 并删除。";
 
 # Orders
 $_ADMINLANG['orders']['title'] = "订单管理";
