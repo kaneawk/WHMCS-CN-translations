@@ -9,14 +9,14 @@
  * which will be safely preserved through the upgrade process.
  *
  * For instructions on overrides, please visit:
- *   http://docs.whmcs.com/Language_Overrides
+ *   https://developers.whmcs.com/languages/overrides/
  *
  * @package    WHMCS
  * @author     WHMCS Limited <development@whmcs.com>
- * @copyright  Copyright (c) WHMCS Limited 2005-2015
- * @license    http://www.whmcs.com/license/ WHMCS Eula
+ * @copyright  Copyright (c) WHMCS Limited 2005-2018
+ * @license    https://www.whmcs.com/license/ WHMCS Eula
  * @version    $Id$
- * @link       http://www.whmcs.com/
+ * @link       https://www.whmcs.com/
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
@@ -214,6 +214,7 @@ $_LANG['clientareanavsupporttickets'] = "我的工单";
 $_LANG['clientareanocontacts'] = "未发现任何联系人";
 $_LANG['clientareapassword'] = "密码";
 $_LANG['clientareapending'] = "审核中";
+$_LANG['clientareapendingregistration'] = "待注册";
 $_LANG['clientareapendingtransfer'] = "转移确认中";
 $_LANG['clientareaphonenumber'] = "手机号码";
 $_LANG['clientareapostcode'] = "邮编";
@@ -1703,6 +1704,7 @@ $_LANG['domainsExpired'] = "已过期";
 $_LANG['domainsCancelled'] = "已取消";
 $_LANG['domainsFraud'] = "反欺诈";
 $_LANG['domainsPending'] = "待处理";
+$_LANG['domainsPendingRegistration'] = "待注册";
 $_LANG['domainsPendingTransfer'] = "待转移";
 $_LANG['domainsTransferredAway'] = "已转移";
 
@@ -1775,6 +1777,7 @@ $_LANG['clientHomePanels']['affiliateSummary'] = "您已经通过推广赚到了
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "您当前的佣金余额为 :commissionBalance，您现在可以提现了。";
 
 $_LANG['upgradeNotPossible'] = "无法升级此产品。如果您认为错误的跳转到了此页面，请联系我们的支持部门。否则请返回并仔细查看您的选项。";
+$_LANG['upgradeSameProductMustExtendCycle'] = "要升级结算周期，请选择一个大于当前结算周期的周期。";
 
 $_LANG['hostingInfo'] = "主机信息";
 $_LANG['additionalInfo'] = "附加信息";
@@ -1945,7 +1948,7 @@ $_LANG['orderForm']['postcode'] = "邮编";
 $_LANG['orderForm']['domainAlternativeContact'] = "代替其他人或团体下订单时，您可以填写对方的信息。如果不是，请忽略本提示。";
 $_LANG['orderForm']['accountSecurity'] = "账户安全";
 $_LANG['orderForm']['mediumStrength'] = "中等强度";
-$_LANG['orderForm']['paymentDetails'] = "付款方式";
+$_LANG['orderForm']['paymentDetails'] = "付款方式（此处可自由切换）";
 $_LANG['orderForm']['preferredPaymentMethod'] = "请选择您的首选付款方式。";
 $_LANG['orderForm']['cardNumber'] = "信用卡号码";
 $_LANG['orderForm']['cvv'] = "CVV 安全码";
@@ -1966,6 +1969,7 @@ $_LANG['orderForm']['tryRegisteringInstead'] = "尝试注册这个域名来代�
 $_LANG['orderForm']['domainAvailabilityCached'] = "域名可用性结果是缓存的，这可能会导致最近注册的域名被显示为可用。";
 $_LANG['orderForm']['submitTicket'] = "提交工单";
 $_LANG['orderForm']['promotionAccepted'] = "优惠码验证通过，产品价格已经更新";
+$_LANG['orderForm']['promoCycles'] = "在 :cycles 个结算周期后过期";
 $_LANG['orderForm']['productOptions'] = "产品/选项";
 $_LANG['orderForm']['qty'] = "数量";
 $_LANG['orderForm']['priceCycle'] = "价格/周期";
@@ -2193,6 +2197,19 @@ $_LANG['store']['websiteBuilder']['introduction'] = "Weebly 的拖放网站构�
 $_LANG['store']['emailServices']['headline'] = "为您建设安全的电子邮件";
 $_LANG['store']['emailServices']['tagline'] = "收回您收件箱的控制权";
 $_LANG['store']['emailServices']['blockSpamHeadline'] = "在邮件到达您的收件箱之前阻拦将近 100% 的病毒、恶意软件和垃圾邮件";
+
+$_LANG['pricingCycleShort']['monthly'] = "月";
+$_LANG['pricingCycleShort']['quarterly'] = "3 个月";
+$_LANG['pricingCycleShort']['semiannually'] = "6 个月";
+$_LANG['pricingCycleShort']['annually'] = "年";
+$_LANG['pricingCycleShort']['biennially'] = "2 年";
+$_LANG['pricingCycleShort']['triennially'] = "3 年";
+$_LANG['pricingCycleLong']['monthly'] = "1 个月";
+$_LANG['pricingCycleLong']['quarterly'] = "3 个月";
+$_LANG['pricingCycleLong']['semiannually'] = "6 个月";
+$_LANG['pricingCycleLong']['annually'] = "1 年";
+$_LANG['pricingCycleLong']['biennially'] = "2 年";
+$_LANG['pricingCycleLong']['triennially'] = "3 年";
 
 $_LANG['navManageSsl'] = "管理 SSL 证书";
 
@@ -2480,6 +2497,7 @@ $_LANG['domains']['resendNotificationSuccess'] = "验证邮件已经发送。";
 $_LANG['domains']['modifyPending'] = "需要验证";
 $_LANG['domains']['changePending'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请点击邮件中的链接以允许修改。";
 $_LANG['domains']['changePendingDate'] = "需要验证才能完成您的更改。所有权验证邮件已经发送到 :email。请在 :days 天内点击邮件中的链接以允许修改。";
+$_LANG['domains']['changePendingFormRequired'] = "您的注册人联系信息更改提交成功。要完成此过程，您需要填写<strong>更改注册人</ strong>表单。请查看 :form，按照说明填写表单并将其返回给我们以完成整个流程。";
 
 $_LANG['getStartedNow'] = "立即开始";
 $_LANG['notificationsnew'] = "新";
@@ -2566,5 +2584,92 @@ $_LANG['store']['websiteBuilder']['upgrade']['to'] = "升级到 :product 为 :am
 $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "无已激活的 Weebly 方案";
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "您当前已通过 :email 登录";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "注销/切换用户";
+
+$_LANG['tax']['taxLabel'] = "税号";
+$_LANG['tax']['vatLabel'] = "VAT 号码";
+$_LANG['tax']['errorInvalid'] = "提供的 :taxLabel 无效。";
+
+$_LANG['fraud']['checkConfiguration'] = "欺诈检查发生错误。 请联系支持。";
+$_LANG['fraud']['title'] = "欺诈检查";
+$_LANG['fraud']['error'] = "错误";
+$_LANG['fraud']['manualReview'] = "您的订单已经进行人工审核。<br /><br />如果您认为错误地收到了此消息，请接受我们的道歉并 <a href=\"submitticket.php\">提交支持工单</a> 联系我们的客户服务支持团队。谢谢。";
+$_LANG['fraud']['highFraudRiskScore'] = "您的订单已被标记为潜在的高风险，因此已经进行人工审核。<br /><br />如果您认为错误地收到了此消息，请接受我们的道歉并 <a href=\"submitticket.php\">提交支持工单</a> 联系我们的客户服务支持团队。谢谢。";
+$_LANG['fraud']['countryMismatch'] = "您的 IP 地址所在的国家/地区与您输入的账单地址国家/地区不符，因此我们无法接受您的订单";
+$_LANG['fraud']['highRiskCountry'] = "很遗憾，我们无法接受您的订单，因为您所在的国家/地区存在大量欺诈活动。如果您想安排其它付款方式，请与我们联系。";
+$_LANG['fraud']['anonymousProxy'] = "我们不允许使用匿名代理发出订单";
+
+$_LANG['navMarketConnectService']['codeguard'] = "网站备份";
+$_LANG['store']['codeguard']['cartTitle'] = "CodeGuard 网站备份";
+$_LANG['store']['codeguard']['cartShortDescription'] = "使用每日自动备份和一键自动恢复功能，保护您的网站免受数据丢失和攻击。";
+$_LANG['store']['codeGuard']['title'] = "CodeGuard 备份";
+$_LANG['store']['codeGuard']['headline'] = "通过每日自动备份保护<span>您的网站</span>";
+$_LANG['store']['codeGuard']['tagline'] = "使用 CodeGuard 网站备份，防范病毒，黑客甚至您自己的代码意外破坏您的网站。";
+$_LANG['store']['codeGuard']['tab']['overview'] = "概览";
+$_LANG['store']['codeGuard']['tab']['pricing'] = "价格";
+$_LANG['store']['codeGuard']['tab']['features'] = "特性";
+$_LANG['store']['codeGuard']['tab']['faq'] = "常见问题";
+$_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>每 0.65 秒</em></strong>，就有一个新网页感染了恶意软件。";
+$_LANG['store']['codeGuard']['leadText1'] = "通过 CodeGuard 的每日自动化网站备份，保护您的网站免受<strong>数据丢失和损坏</strong>，以及来自<strong>病毒，黑客和恶意软件</strong>的威胁。";
+$_LANG['store']['codeGuard']['leadText2'] = "使用 CodeGuard 网站备份，您的网站每天都会备份，如果发生灾难，您只需点击一下按钮即可将您的网站恢复到以前的某个时间点。";
+$_LANG['store']['codeGuard']['dailyBackup'] = "自动每日备份";
+$_LANG['store']['codeGuard']['malwareProtection'] = "恶意软件检测和还原";
+$_LANG['store']['codeGuard']['timeMachine'] = "网站时光机";
+$_LANG['store']['codeGuard']['wpPlugin'] = "WordPress 插件更新";
+$_LANG['store']['codeGuard']['changeAlerts'] = "文件更改预警";
+$_LANG['store']['codeGuard']['features']['dailyBackup'] = "每日自动网站备份";
+$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "通过内置冗余的异地自动日常备份保护您的网站。";
+$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "无限的文件和数据库";
+$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "备份无限数量的文件和数据库 - 仅受您使用的存储空间的限制。";
+$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "一键还原";
+$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "简单的还原过程可以轻松地将单个文件或整个网站回滚到以前的版本。";
+$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "恶意软件监控";
+$_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "轻松了解 CodeGuard 每天都在努力检查您的网站是否有变化。";
+$_LANG['store']['codeGuard']['features']['wp'] = "自动 WordPress 更新";
+$_LANG['store']['codeGuard']['features']['wpDescription'] = "自动更新 WordPress 及其插件，以便在出现问题时通过自动恢复保护其安全。";
+$_LANG['store']['codeGuard']['features']['fileMonitoring'] = "文件更改监控";
+$_LANG['store']['codeGuard']['features']['fileMonitoringDescription'] = "随时在您网站的源文件发生更改时通过电子邮件接收通知。";
+$_LANG['store']['codeGuard']['features']['servers'] = "恢复分支";
+$_LANG['store']['codeGuard']['features']['serversDescription'] = "在还原之前，通过简单的自动分支快速测试任何备份站点。";
+$_LANG['store']['codeGuard']['features']['email'] = "邮件备份";
+$_LANG['store']['codeGuard']['features']['emailDescription'] = "获得对您的电子邮件的保护，它们作为您网站文件的一部分进行备份。";
+$_LANG['store']['codeGuard']['features']['api'] = "完全自动化";
+$_LANG['store']['codeGuard']['features']['apiDescription'] = "如果出现问题，可完全自动配置和持续备份且自动通知。";
+$_LANG['store']['codeGuard']['chooseBackupPlan'] = "选择备份存储";
+$_LANG['store']['codeGuard']['faq']['title'] = "常见问题";
+$_LANG['store']['codeGuard']['faq']['q1'] = "什么是 CodeGuard？";
+$_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard 是一种完全自动化的网站备份服务，可为您提供全面的数据丢失和恶意软件防护。";
+$_LANG['store']['codeGuard']['faq']['q2'] = "为什么需要 CodeGuard？";
+$_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard 为您的网站提供独立的异地备份解决方案以及日常监控，以确保您的网站在线并免疫恶意软件。";
+$_LANG['store']['codeGuard']['faq']['q3'] = "它是如何工作的？";
+$_LANG['store']['codeGuard']['faq']['a3'] ="CodeGuard 每天自动生成您网站的自动快照。使用这些快照，您可以将整个网站或特定文件恢复到较早的状态任何时候的版本。";
+$_LANG['store']['codeGuard']['faq']['q4'] ="如果我的存储空间不足怎么办？";
+$_LANG['store']['codeGuard']['faq']['a4'] ="切换计划很简单！您可以通过我们的客户区轻松点击几下来升级和增加磁盘存储空间。";
+$_LANG['store']['codeGuard']['faq']['q5'] ="备份存储在哪里？";
+$_LANG['store']['codeGuard']['faq']['a5'] ="备份存储在 Amazon Web Services 简单存储系统上，为您的备份提供市场领先的重复性和冗余。";
+$_LANG['store']['codeGuard']['faq']['q6'] ="备份是否已加密？";
+$_LANG['store']['codeGuard']['faq']['a6'] ="是的，使用 AES-256 加密标准对备份进行加密存储。";
+$_LANG['store']['codeGuard']['faq']['q7'] ="它可以备份数据库吗？";
+$_LANG['store']['codeGuard']['faq']['a7'] ="是的，数据库也可以备份。数据库备份支持 MySQL 和 MSSQL 数据库。";
+$_LANG['store']['codeGuard']['faq']['q8'] ="什么是文件更改预警？";
+$_LANG['store']['codeGuard']['faq']['a8'] ="当您的网站发生变化时，CodeGuard 可以通过电子邮件监控并通知您，以提醒您注意新的威胁和恶意软件。";
+$_LANG['store']['codeGuard']['faq']['q9'] ="如果我的网站被感染会怎样？";
+$_LANG['store']['codeGuard']['faq']['a9'] ="使用 CodeGuard 的每日快照，如果您的网站受到攻击，您可以随时恢复到以前未受感染的版本。";
+
+$_LANG['store']['codeguard']['promo']['sidebar']['title'] = "添加网站备份";
+$_LANG['store']['codeguard']['promo']['sidebar']['body'] = "使用每日自动备份保护您的网站";
+
+$_LANG['marketConnect']['codeguard']['manage'] = "登录到 CodeGuard 控制面板";
+
+$_LANG['sslState']['sslInactive'] = "未检测到 SSL。点此选择 SSL 选项";
+$_LANG['sslState']['sslActive'] = "检测到有效的 SSL。将于 :expiry 到期";
+$_LANG['sslState']['sslUnknown'] = "无法验证 SSL 状态";
+$_LANG['sslState']['validSsl'] = "检测到有效的 SSL";
+$_LANG['sslState']['noSsl'] = "为检测到 SSL";
+$_LANG['sslState']['sslInactiveService'] = "服务不活跃";
+$_LANG['sslState']['sslInactiveDomain'] = "域名不活跃";
+$_LANG['sslState']['startDate'] = "SSL 开始日期";
+$_LANG['sslState']['expiryDate'] = "SSL 到期日期";
+$_LANG['sslState']['issuerName'] = "SSL 颁发者名称";
+$_LANG['sslState']['sslStatus'] = "SSL 状态";
 
 ////////// End of english language file.  Do not place any translation strings below this line!
