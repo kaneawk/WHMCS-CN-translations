@@ -528,7 +528,7 @@ $_LANG['networkissuesstatusreported'] = "已报告";
 $_LANG['networkissuesstatusresolved'] = "已解决";
 $_LANG['networkissuesstatusscheduled'] = "计划中";
 $_LANG['networkissuestitle'] = "网络故障";
-$_LANG['networkissuestypeother'] = "其他";
+$_LANG['networkissuestypeother'] = "其它";
 $_LANG['networkissuestypeserver'] = "服务器";
 $_LANG['networkissuestypesystem'] = "系统";
 $_LANG['newpassword'] = "新密码";
@@ -567,7 +567,7 @@ $_LANG['orderdomain'] = "域名";
 $_LANG['orderdomainoption1part1'] = "我需要";
 $_LANG['orderdomainoption1part2'] = "注册一个新域名";
 $_LANG['orderdomainoption2'] = "我不需要注册新域名，我将把已有域名解析到这里";
-$_LANG['orderdomainoption3'] = "我需要把在其他地方注册的域名转移到这里";
+$_LANG['orderdomainoption3'] = "我需要把在其它地方注册的域名转移到这里";
 $_LANG['orderdomainoption4'] = "我需要一个可以免费使用的二级域名。";
 $_LANG['orderdomainoptions'] = "域名选项";
 $_LANG['orderdomainregistration'] = "域名注册";
@@ -1062,14 +1062,14 @@ $_LANG['cartregisterhowlong'] = "您希望注册这个域名几年？";
 $_LANG['cartdomaintaken'] = "抱歉，%s 已被注册";
 $_LANG['carttransfernotregistered'] = "%s 似乎没有注册吗";
 $_LANG['carttransferpossible'] = "恭喜，我们可以为您转入 %s 到我们公司只需 %s";
-$_LANG['cartotherdomainsuggestions'] = "您可能会感兴趣的其他域名…";
+$_LANG['cartotherdomainsuggestions'] = "您可能会感兴趣的其它域名…";
 $_LANG['cartdomainsconfiginfo'] = "下面的设置您可能需要配置 *。";
 $_LANG['cartnameserverchoice'] = "DNS 服务器选择";
 $_LANG['cartnameserverchoicedefault'] = "使用本公司 DNS 服务器";
 $_LANG['cartnameserverchoicecustom'] = "使用自定义 DNS 服务器";
 $_LANG['cartfollowingaddonsavailable'] = "下面的增值服务可以应用到您的产品。";
 $_LANG['cartregisterdomainchoice'] = "我没有域名所以我需要注册一个新域名";
-$_LANG['carttransferdomainchoice'] = "我需要把在其他地方注册的已有域名转移到这里";
+$_LANG['carttransferdomainchoice'] = "我需要把在其它地方注册的已有域名转移到这里";
 $_LANG['cartexistingdomainchoice'] = "我不需要注册新域名我将把已有域名解析到这里";
 $_LANG['cartsubdomainchoice'] = "我希望使用免费的域名 %s";
 $_LANG['carterrordomainconfigskipped'] = "您需要返回配置一个有效的域名";
@@ -1079,10 +1079,10 @@ $_LANG['cartreviewcheckout'] = "确认信息";
 $_LANG['cartchoosecycle'] = "付款周期";
 $_LANG['cartavailableaddons'] = "可用增值服务";
 $_LANG['cartsetupfees'] = "初装费";
-$_LANG['cartchooseanotherproduct'] = "选择其他产品";
+$_LANG['cartchooseanotherproduct'] = "选择其它产品";
 $_LANG['cartaddandcheckout'] = "添加到购物车 & 结账";
-$_LANG['cartchooseanothercategory'] = "选择其他分类";
-$_LANG['carttryanotherdomain'] = "尝试其他域名";
+$_LANG['cartchooseanothercategory'] = "选择其它分类";
+$_LANG['carttryanotherdomain'] = "尝试其它域名";
 $_LANG['cartmakedomainselection'] = "请向我们提供您希望使用的域名。";
 $_LANG['cartfraudcheck'] = "欺诈检查";
 
@@ -1177,7 +1177,7 @@ $_LANG['bundlevaliddateserrordesc'] = "此捆绑未激活或已过期。如果�
 $_LANG['bundlemaxusesreached'] = "捆绑不可用";
 $_LANG['bundlemaxusesreacheddesc'] = "此捆绑优惠已达到允许的最大用户数量，所以很遗憾不可以用了。如果您对我们的服务感兴趣您可以与我们商谈。";
 $_LANG['bundlereqsnotmet'] = "捆绑请求不符合";
-$_LANG['bundlewarningpromo'] = "所选的捆绑不可以与其他任何促销或优惠同时使用";
+$_LANG['bundlewarningpromo'] = "所选的捆绑不可以与其它任何促销或优惠同时使用";
 $_LANG['bundlewarningproductcycle'] = "所选的捆绑需要您选择账单周期为“%s”的 %s 产品的才能符合条件";
 $_LANG['bundlewarningproductconfopreq'] = "所选的捆绑需要您为“%s”选择“%s”才能符合条件";
 $_LANG['bundlewarningproductconfopyesnoenable'] = "所选的捆绑需要您启用“%s”选项后才能符合条件";
@@ -1789,7 +1789,7 @@ $_LANG['bandwidth'] = "带宽";
 $_LANG['registered'] = "已注册";
 $_LANG['upgrade'] = "升级";
 
-$_LANG['downdoadsdesc'] = "使用手册，安装程序和其他文件";
+$_LANG['downdoadsdesc'] = "使用手册，安装程序和其它文件";
 
 $_LANG['doToday'] = "您今天要做点什么？";
 $_LANG['changeDomainNS'] = "更改您的域名的域名解析";
@@ -1823,8 +1823,8 @@ $_LANG['domaincheckerunabletooffertld'] = "此时我们无法注册此顶级域�
 $_LANG['domaincheckerbulkplaceholder'] = "最多可输入 20 个域名。\n每行一个域名\n\n例如：\nexample.com\nexample.net";
 
 $_LANG['domainchecker']['suggestiontakentitle'] = "域名不可用";
-$_LANG['domainchecker']['suggestiontakenmsg'] = "您所选的域名不可用。有可能域名已经被注册。请返回选择其他域名。";
-$_LANG['domainchecker']['suggestiontakenchooseanother'] = "选择其他域名";
+$_LANG['domainchecker']['suggestiontakenmsg'] = "您所选的域名不可用。有可能域名已经被注册。请返回选择其它域名。";
+$_LANG['domainchecker']['suggestiontakenchooseanother'] = "选择其它域名";
 
 $_LANG['domainchecker']['alreadyincarttitle'] = "已加入购物车";
 $_LANG['domainchecker']['alreadyincartmsg'] = "此域名已经添加到购物车。您可立即结账完成您的购买。";
@@ -2176,7 +2176,7 @@ $_LANG['store']['configure']['configureProduct'] = "配置产品";
 
 $_LANG['store']['ssl']['dv']['tagline'] = "保护您的网站仅仅需要几分钟！";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "什么是标准 DV SSL？";
-$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>域名验证型证书为您的网站使用 SSL 提供了经济快捷的方式。域名验证型证书会验证您是否拥有该域名，但不执行任何其他组织级验证。</p><p>域名验证型证书适用于个人网站、博客和社交媒体，或任何不传送私人和机密信息的网站。域名验证型证书会激活浏览器绿锁，并使用 https 来确保您认真地对待网站访问者和客户的隐私。</p>";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>域名验证型证书为您的网站使用 SSL 提供了经济快捷的方式。域名验证型证书会验证您是否拥有该域名，但不执行任何其它组织级验证。</p><p>域名验证型证书适用于个人网站、博客和社交媒体，或任何不传送私人和机密信息的网站。域名验证型证书会激活浏览器绿锁，并使用 https 来确保您认真地对待网站访问者和客户的隐私。</p>";
 
 $_LANG['store']['ssl']['ov']['tagline'] = "高保证 SSL 为网站访问者显示您的身份标识。";
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "什么是组织验证型 SSL？";
@@ -2188,7 +2188,7 @@ $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL 是一种扩展�
 
 $_LANG['store']['ssl']['wildcard']['tagline'] = "使用单个证书保护无限个子域名。";
 $_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "什么是通配型 SSL 证书？";
-$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>通配型 SSL 允许您使用单个证书保护无限个子域名。对于托管或管理同一域上存在的多个站点或页面的任何人来说，这是一个很好的解决方案。证书的一次性费用将会涵盖您将来可能添加的其他子域名。</p><p>不像一般的仅为单个合格的域名签发的 SSL 证书那样，例如 www.yourdomain.com，当其签发后它只能用于保护确切的域名，通配型 SSL 证书将会签发为 *.yourdomain.com，星号代表所有可能的子域名。</p><p>通配型 SSL 可用于 DV 和 OV 证书。</p>";
+$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>通配型 SSL 允许您使用单个证书保护无限个子域名。对于托管或管理同一域上存在的多个站点或页面的任何人来说，这是一个很好的解决方案。证书的一次性费用将会涵盖您将来可能添加的其它子域名。</p><p>不像一般的仅为单个合格的域名签发的 SSL 证书那样，例如 www.yourdomain.com，当其签发后它只能用于保护确切的域名，通配型 SSL 证书将会签发为 *.yourdomain.com，星号代表所有可能的子域名。</p><p>通配型 SSL 可用于 DV 和 OV 证书。</p>";
 
 $_LANG['store']['websiteBuilder']['headline'] = "建设一个网站从未如此简单";
 $_LANG['store']['websiteBuilder']['tagline'] = "使用强大的拖放工具建设完美的网站";
@@ -2222,8 +2222,8 @@ $_LANG['ssl']['retrieveCertificate'] = "检索证书";
 $_LANG['upgradeCredit'] = "更新余额";
 $_LANG['upgradeCreditDescription'] = "基于 :daysRemaining 未用日期 :totalDays 总日期计算在当前账单周期。";
 
-$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "您的域名当前不支持转移到我们这里，请尝试其他域名。";
-$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "您的域名不满足转移到我们这里的条件，请尝试其他域名。";
+$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "您的域名当前不支持转移到我们这里，请尝试其它域名。";
+$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "您的域名不满足转移到我们这里的条件，请尝试其它域名。";
 
 $_LANG['remoteAuthn']['success'] = '成功！';
 $_LANG['remoteAuthn']['errorExclamation'] = '错误！';
@@ -2280,7 +2280,7 @@ $_LANG['domainChecker']['contactSupport'] = "联系技术支持购买";
 
 $_LANG['cart']['availableCreditBalance'] = "您的可用余额为 :amount。";
 $_LANG['cart']['applyCreditAmount'] = "从我的账户余额中使用 <span>:amount</span> 支付此订单，剩余的金额通过以下所选的付款方式进行支付。";
-$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "从我的账户余额中使用 <span>:amount</span> 支付此订单，不需要再使用其他付款方式付款。";
+$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "从我的账户余额中使用 <span>:amount</span> 支付此订单，不需要再使用其它付款方式付款。";
 $_LANG['cart']['applyCreditSkip'] = "不要使用我的账户余额支付此订单，我将通过以下所选的付款方式进行支付。";
 
 $_LANG['dateTime']['monday'] = "星期一";
