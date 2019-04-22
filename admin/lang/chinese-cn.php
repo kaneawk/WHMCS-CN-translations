@@ -3213,11 +3213,11 @@ $_ADMINLANG['general']['enablesafeincludeno'] = "尝试加载所有文件";
 $_ADMINLANG['general']['displayerrors'] = "显示错误";
 $_ADMINLANG['general']['displayerrorsinfo'] = "选中复选框，启用显示 PHP 错误（不推荐在生产环境中使用）";
 $_ADMINLANG['general']['logerrors'] = "记录错误";
-$_ADMINLANG['general']['logerrorsinfo'] = "选中复选框，启用 PHP 错误日志记录（不推荐在日常生产环境中使用）";
+$_ADMINLANG['general']['logerrorsinfo'] = "选中复选框，启用 PHP 错误记录（不推荐在日常生产环境中使用）";
 $_ADMINLANG['general']['sqldebugmode'] = "SQL 调试模式";
-$_ADMINLANG['general']['sqldebugmodeinfo'] = "选中复选框，启用 SQL 错误日志记录（仅用于测试）";
-$_ADMINLANG['general']['hooksdebugmode'] = "调试模式钩子";
-$_ADMINLANG['general']['hooksdebugmodeinfo'] = "选中复选框，启用钩子调用日志记录（仅用于测试）";
+$_ADMINLANG['general']['sqldebugmodeinfo'] = "选中复选框，启用 SQL 错误记录（仅用于测试用途）";
+$_ADMINLANG['general']['hooksdebugmode'] = "Hooks 调试模式";
+$_ADMINLANG['general']['hooksdebugmodeinfo'] = "选中复选框，启用 Hooks 调用记录（仅用于测试用途）";
 
 $_ADMINLANG['general']['marketingEmails'] = "营销邮件";
 $_ADMINLANG['general']['marketingEmailsDescription'] = "选中复选框启用营销邮件订阅/退订功能";
