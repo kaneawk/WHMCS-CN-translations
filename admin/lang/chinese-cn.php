@@ -5480,4 +5480,51 @@ $_ADMINLANG['mail']['error']['systemUrlMissing'] = "要配置 OAuth2，必须先
 $_ADMINLANG['healthCheck']['cronTimeZone'] = "Cron PHP 时区";
 $_ADMINLANG['healthCheck']['cronTimeZoneAligned'] = "时区用于 WHMCS cron 脚本和 UI 匹配。";
 $_ADMINLANG['healthCheck']['cronTimeZoneMisAligned'] = "时区用于 WHMCS cron 脚本，“:crontimezone”时区与 WHMCS 使用用时区具有 :diff 的时差。要了解更多有关这些 PHP 环境设置的重要性信息，请参阅 <a :href>cron 文档</a>。";
+$_ADMINLANG['healthCheck']['cronMemoryLimitBelowMinimum'] = "Your PHP memory_limit for your Cron Job was recorded as <strong>:memorylimit</strong>. WHMCS requires a minimum of <strong>:minimumlimit</strong> to function correctly and recommends at least :recommendedlimit.<br />:learnmorelink";
+$_ADMINLANG['healthCheck']['cronMemoryLimitBelowRecommended'] = "Your PHP memory_limit for your Cron Job was recorded as <strong>:memorylimit</strong>. This is above the minimum recommended however, we recommend <strong>:recommendedlimit</strong> to ensure the best experience.<br />:learnmorelink";
+$_ADMINLANG['healthCheck']['cronMemoryLimit'] = "Cron PHP 内存限制";
+
+# Login
+
+$_ADMINLANG['login']['captchaverify'] = "请输入下图中验证码";
+$_ADMINLANG['login']['captchafailed'] = "人机验证失败";
+$_ADMINLANG['login']['rememberme'] = "记住登录";
+$_ADMINLANG['login']['login'] = "登录";
+$_ADMINLANG['login']['logout'] = "登出";
+$_ADMINLANG['login']['logoutsuccessful'] = "你已成功登出.";
+$_ADMINLANG['login']['resetpassword'] = "重置密码";
+$_ADMINLANG['login']['newpassword'] = "新密码";
+$_ADMINLANG['login']['newpasswordverify'] = "新密码(验证)";
+$_ADMINLANG['login']['forgotpassword'] = "忘记密码?";
+$_ADMINLANG['login']['usernameoremail'] = "用户名或邮箱地址";
+$_ADMINLANG['login']['backupcode'] = "安全代码";
+$_ADMINLANG['login']['backupcodereset'] = "安全代码仅一次有效，现在将重置.";
+$_ADMINLANG['login']['newbackupcode'] = "你的安全代码是 :code";
+$_ADMINLANG['login']['chooselanguage'] = "选择语言";
+$_ADMINLANG['login']['backtologin'] = "返回登录";
+$_ADMINLANG['login']['twofacantaccess2ndfactor'] = "无法使用您的双重验证设备?";
+$_ADMINLANG['login']['twofaloginusingbackupcode'] = "使用安全代码登录";
+$_ADMINLANG['login']['twofainvalid'] = "<strong>双重验证无效.</strong> 请重试.";
+$_ADMINLANG['login']['twofarequired'] = "需要双重验证来完成登录.";
+$_ADMINLANG['login']['twofabadmodule'] = "双重验证模块损坏.，请联系支持人员.";
+$_ADMINLANG['login']['loginfailed'] = "<strong>登陆失败.</strong> 请重试.";
+$_ADMINLANG['login']['expiredlink'] = "链接已过期， 请重试.";
+$_ADMINLANG['login']['invalidlink'] = "链接无效， 请重试.";
+$_ADMINLANG['login']['confirmationerror'] = "发送确认电子邮件时出现错误.";
+$_ADMINLANG['login']['emailerror'] = "发送电子邮件时出错，请重试 .";
+$_ADMINLANG['login']['emailabort'] = "邮件未发送， 请联系管理员获取支持.";
+$_ADMINLANG['login']['pwresetsuccess'] = "<strong>成功！</strong>请使用您的新密码登录.";
+$_ADMINLANG['login']['resetsuccessful'] = "<strong>成功！</strong> 请检查您的电子邮件来进行下一步...";
+$_ADMINLANG['login']['resetbegin'] = "请输入您的电子邮箱来进行操作...";
+$_ADMINLANG['login']['error'] = "发生一个错误,请重试.";
+$_ADMINLANG['login']['useremailnotfound'] = "<strong>用户或邮箱不存在.</strong> 您的IP已经被记录.";
+$_ADMINLANG['login']['disabled'] = "<strong>管理员仪表盘</strong>";
+$_ADMINLANG['login']['auth']['heading'] = "确认密码";
+$_ADMINLANG['login']['auth']['paragraph'] = "您正在进入 WHMCS 的管理区域，必须确认密码才能继续.";
+$_ADMINLANG['login']['auth']['incorrect'] = "密码不正确";
+
+$_ADMINLANG['customAdminPathWarning']['title'] = "无效管理目录";
+$_ADMINLANG['customAdminPathWarning']['description'] = "已检测到用于自动生成 URL 路径与保留名称发生冲突，请进行修改.";
+
+$_ADMINLANG['social']['accounts'] = "社交账户";
 
