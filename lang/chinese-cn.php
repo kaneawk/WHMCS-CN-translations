@@ -1689,7 +1689,7 @@ $_LANG['sslnoconfigurationpossible'] = "配置完成！如果您遇到问题，�
 
 $_LANG['adminloggedin'] = "已用管理员账户登录";
 $_LANG['returntoadminarea'] = "点此返回后台管理页面";
-$_LANG['adminmasqueradingasclient'] = "您当前正在以客户登录";
+$_LANG['adminmasqueradingasclient'] = "您当前正在以客户身份登录。";
 $_LANG['logoutandreturntoadminarea'] = "退出并返回到后台页面";
 
 $_LANG['supportAndUpdatesExpired'] = "支持和更新已过期";
@@ -2389,6 +2389,77 @@ $_LANG['store']['sitelock']['title'] = "SiteLock 网站安全";
 $_LANG['store']['sitelock']['tagline'] = "自动扫描您的网站以查找恶意软件并保护您的线上声誉";
 $_LANG['store']['sitelock']['manageService'] = "管理您的 SiteLock 服务";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock 提供了一系列旨在保护您的网站和您的企业声誉的功能。";
+$_LANG['store']['sitelock']['plansAndPricing'] = "Plans & Pricing";
+$_LANG['store']['sitelock']['featuresLink'] = "Features";
+$_LANG['store']['sitelock']['websiteHacked'] = "Website Hacked?";
+$_LANG['store']['sitelock']['faq'] = "FAQ";
+$_LANG['store']['sitelock']['contentHeadline'] = "Website security & malware protection for your website";
+$_LANG['store']['sitelock']['contentBodyParagraph1'] = "SiteLock&trade;, the global leader in website security, protects your website to give you peace of mind.";
+$_LANG['store']['sitelock']['contentBodyParagraph2'] = "SiteLock's Daily Malware Scanning identifies vulnerabilities and known malicious code and automatically removes it from your website to protect your website and visitors against threats.";
+$_LANG['store']['sitelock']['contentBodyParagraph3'] = "Plus you get the SiteLock Trust Seal which builds customer confidence and is proven to increase sales and conversion rates.";
+$_LANG['store']['sitelock']['comparePlans'] = "Compare SiteLock Plans";
+$_LANG['store']['sitelock']['comparePlansSubtitle'] = "Professional security features for your website";
+$_LANG['store']['sitelock']['featuresTitle'] = "SiteLock Features";
+$_LANG['store']['sitelock']['featuresHeadline'] = "Provides a range of features designed to protect both your website and your business’ reputation:";
+$_LANG['store']['sitelock']['featuresMalwareTitle'] = "Malware Scan";
+$_LANG['store']['sitelock']['featuresMalwareContent'] = "Proactively monitors for and alerts you about any malware that is detected on your website.";
+$_LANG['store']['sitelock']['featuresMalwareRemovalTitle'] = "Automatic malware removal";
+$_LANG['store']['sitelock']['featuresMalwareRemovalContent'] = "If a scan finds anything, SiteLock will safely remove any known malware automatically.";
+$_LANG['store']['sitelock']['featuresVulnerabilityTitle'] = "Vulnerability Scan";
+$_LANG['store']['sitelock']['featuresVulnerabilityContent'] = "Automatically checks your applications to ensure they're up-to-date and secured against known vulnerabilities.";
+$_LANG['store']['sitelock']['featuresOWASPTitle'] = "OWASP Protection";
+$_LANG['store']['sitelock']['featuresOWASPContent'] = "Get protection against the top 10 web app security flaws as recognised by OWASP, the Open Web Application Security Project.";
+$_LANG['store']['sitelock']['featuresTrustSealTitle'] = "SiteLock&trade; Trust Seal";
+$_LANG['store']['sitelock']['featuresTrustSealContent'] = "Give your visitors added confidence by showing your website is protected by SiteLock.";
+$_LANG['store']['sitelock']['featuresFirewallTitle'] = "Firewall";
+$_LANG['store']['sitelock']['featuresFirewallContent'] = "The TrueShield&trade; Web Application Firewall protects your website against hackers and attacks.";
+$_LANG['store']['sitelock']['featuresReputationTitle'] = "Protect your reputation";
+$_LANG['store']['sitelock']['featuresReputationContent'] = "Daily scans help detect malware early before search engines have a chance to find it and blacklist your site.";
+$_LANG['store']['sitelock']['featuresSetupTitle'] = "Fast automated setup";
+$_LANG['store']['sitelock']['featuresSetupContent'] = "Instant and fully automated setup gives you protection immediately without anything to install.";
+$_LANG['store']['sitelock']['featuresCDNTitle'] = "Content Delivery Network (CDN)";
+$_LANG['store']['sitelock']['featuresCDNContent'] = "Speed up your website by distributing it globally and serving it to your visitors from the closest location for faster page load speeds wherever they are.";
+$_LANG['store']['sitelock']['emergencyPlanTitle'] = "Website Hacked?";
+$_LANG['store']['sitelock']['emergencyPlanHeadline'] = "Fix it now with SiteLock Emergency Response";
+$_LANG['store']['sitelock']['emergencyPlanBody'] = "If your website has been attacked and compromised get immediate emergency assistance to quickly recover your site. Here's how SiteLock Emergency Response helps:";
+$_LANG['store']['sitelock']['emergencyPlanResponseTitle'] = "Immediate response";
+$_LANG['store']['sitelock']['emergencyPlanResponseContent'] = "Get our fastest response time with analysis and work to recover your site started within 30 minutes.";
+$_LANG['store']['sitelock']['emergencyPlanMalwareTitle'] = "Complete malware removal";
+$_LANG['store']['sitelock']['emergencyPlanMalwareContent'] = "If our automatic technology is unable to remove the malicious content we'll perform manual cleaning.";
+$_LANG['store']['sitelock']['emergencyPlanPriorityTitle'] = "Priority treatment";
+$_LANG['store']['sitelock']['emergencyPlanPriorityContent'] = "With the emergency package you get fast tracked straight to the top of the queue.";
+$_LANG['store']['sitelock']['emergencyPlanAftercareTitle'] = "7 day aftercare";
+$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "We'll continue to monitor your site for 7 days to ensure that your site remains malware-free post recovery.";
+$_LANG['store']['sitelock']['emergencyPlanUpdatesTitle'] = "Real-time updates";
+$_LANG['store']['sitelock']['emergencyPlanAftercareContent'] = "Track progress with our real-time updates throughout the process of cleaning and recovering your site.";
+$_LANG['store']['sitelock']['emergencyPlanPaymentTitle'] = "One-off payment";
+$_LANG['store']['sitelock']['emergencyPlanPaymentContent'] = "The emergency service is available for a single one-off fee, there's no recurring fees or subscription.";
+$_LANG['store']['sitelock']['emergencyPlanOnlyCost'] = "Only :price for 7 days of protection";
+$_LANG['store']['sitelock']['buyNow'] = "Buy Now";
+$_LANG['store']['sitelock']['faqTitle'] = "Frequently Asked Questions";
+$_LANG['store']['sitelock']['faqOneTitle'] = "What is SiteLock?";
+$_LANG['store']['sitelock']['faqOneBody'] = "SiteLock provides simple, fast and affordable website security to websites of all sizes. Founded in 2008, the company protects over 12 million websites worldwide. The SiteLock cloud-based suite of products offers automated website vulnerability detection and malware removal, DDoS protection, website acceleration, website risk assessments, and PCI compliance.";
+$_LANG['store']['sitelock']['faqOneBodyLearnMore'] = "To learn more about SiteLock, :learnMoreLink";
+$_LANG['store']['sitelock']['faqOneBodyLearnLinkText'] = "watch the 'How SiteLock Works' video by clicking here";
+$_LANG['store']['sitelock']['faqTwoTitle'] = "What does SiteLock do?";
+$_LANG['store']['sitelock']['faqTwoBody'] = "SiteLock provides comprehensive website security. It performs website daily scans to identify vulnerabilities or malware. When vulnerabilities or malware are found, you will be alerted immediately. Based on your SiteLock scanner, it will automatically remove any malware on your website.  For content management system (CMS) websites, SiteLock can automatically patch found vulnerabilities.";
+$_LANG['store']['sitelock']['faqThreeTitle'] = "What types of issues does SiteLock scan for?";
+$_LANG['store']['sitelock']['faqThreeBody'] = "SiteLock has the technology to perform a comprehensive website scan that encompasses:";
+$_LANG['store']['sitelock']['faqThreeBodyList1Title'] = "File-based Malware Scanning and Removal";
+$_LANG['store']['sitelock']['faqThreeBodyList1'] = "SiteLock performs daily scans of a website's files for malware. If malware is found, the website owner is alerted immediately. SiteLock also offers comprehensive scans to automatically remove the malware.";
+$_LANG['store']['sitelock']['faqThreeBodyList2Title'] = "Vulnerability Scanning";
+$_LANG['store']['sitelock']['faqThreeBodyList2'] = "SiteLock performs scans of website applications for common vulnerabilities that could lead to a compromise.";
+$_LANG['store']['sitelock']['faqThreeBodyList3Title'] = "Application Security and Vulnerability Patching";
+$_LANG['store']['sitelock']['faqThreeBodyList3'] = "SiteLock has the technology to automatically patch vulnerabilities in content management systems (CMS).";
+$_LANG['store']['sitelock']['faqFourTitle'] = "What are vulnerabilities and malware?";
+$_LANG['store']['sitelock']['faqFourBodyParagraph1'] = "A :vulnerabilityStrong is a weakness or misconfiguration in a website or web application code that allows an attacker to gain some level of control of the site, and possibly the hosting server. Most vulnerabilities are exploited through automated means, such as vulnerability scanners and botnets.";
+$_LANG['store']['sitelock']['websiteVulnerability'] = "website vulnerability";
+$_LANG['store']['sitelock']['faqFourBodyParagraph2'] = ":malwareStrong, short for malicious software, is used to gather sensitive data, gain unauthorized access to websites and even hijack computers.";
+$_LANG['store']['sitelock']['malware'] = "Malware";
+$_LANG['store']['sitelock']['faqFiveTitle'] = "Will SiteLock impact website performance?";
+$_LANG['store']['sitelock']['faqFiveBody'] = "No. During a website scan, SiteLock downloads the relevant files to a secure server and performs scans there. There is no impact to the website content, code, bandwidth or server resources on the website.";
+$_LANG['store']['sitelock']['faqSixTitle'] = "What is the SiteLock Trust Seal?";
+$_LANG['store']['sitelock']['faqSixBody'] = "The SiteLock Trust Seal is a widely-recognized security badge you can display on your website. It is a clear indication that your website is secure and malware-free. To add the seal to your website, simply include the code snippet that SiteLock provides in the footer area of your website.";
 
 $_LANG['learnmore'] = "了解更多";
 $_LANG['category'] = "目录";
@@ -3627,5 +3698,49 @@ $_LANG['unavailable'] = "不可用";
 $_LANG['orderForm']['idnNotEnabled'] = "我们目前不支持国际域名。请尝试使用其它域名。";
 
 $_LANG['store']['ssl']['landingPage']['secureInMinutes'] = "借助我们的全自动配置和部署，在几分钟之内保护您的网站";
+
+$_LANG['goCardless']['paymentPending'] = "已提交付款，将于 :date 清除您的银行付款。 <br>付款清除后，将发送付款确认电子邮件。";
+$_LANG['goCardless']['automaticPayment'] = "本账户已配置了自动付款，无需手动付款。";
+
+$_LANG['contactDetails'] = "联系人详情";
+$_LANG['createNewSupportRequest'] = "创建新的支持请求";
+
+$_LANG['nonotifications'] = "无通知";
+$_LANG['apply'] = "应用";
+$_LANG['admin']['returnToAdmin'] = "返回管理页面";
+$_LANG['searchOurKnowledgebase'] = "搜索知识库";
+$_LANG['browseProducts'] = "浏览产品";
+$_LANG['secureYourDomain'] = "立即注册以保护您的域名";
+$_LANG['secureYourDomainShort'] = "保护您的域名";
+$_LANG['transferYourDomain'] = "转移您的域名";
+$_LANG['transferExtend'] = "立即转移并为您的域名续费 1 年";
+$_LANG['howCanWeHelp'] = "可能对您有帮助";
+$_LANG['homepage']['submitTicket'] = "提交工单";
+$_LANG['homepage']['manageServices'] = "管理服务";
+$_LANG['homepage']['manageDomains'] = "管理域名";
+$_LANG['homepage']['supportRequests'] = "支持请求";
+$_LANG['homepage']['makeAPayment'] = "发起付款";
+$_LANG['homepage']['yourAccount'] = "您的账户";
+
+$_LANG['downloads']['numDownload'] = ":num 文件";
+$_LANG['downloads']['numDownloads'] = ":num 文件";
+$_LANG['knowledgebase']['numArticle'] = ":num 文章";
+$_LANG['knowledgebase']['numArticles'] = ":num 文章";
+
+$_LANG['userLogin']['createAccount'] = "创建账户";
+$_LANG['userLogin']['signInToContinue'] = "登录您的账户并继续。";
+
+$_LANG['networkIssues']['scheduled'] = "有 :count 个受影响的网络维护计划。";
+$_LANG['networkIssues']['http'] = "HTTP";
+$_LANG['networkIssues']['ftp'] = "FTP";
+$_LANG['networkIssues']['pop3'] = "POP3";
+$_LANG['networkIssues']['affectingYou'] = "此问题可能会影响您的服务";
+
+$_LANG['chooseFile'] = "选择文件";
+$_LANG['support']['postedBy'] = "由 :requestorType :name 于 :date 发表";
+
+$_LANG['requestor'] = "请求者";
+
+$_LANG['facebook']['notAuthorized'] = "您未授权使用 Facebook 进行身份验证。我们无法用它来帮您登录。";
 
 ////////// End of english language file.  Do not place any translation strings below this line!

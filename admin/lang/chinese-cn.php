@@ -70,7 +70,7 @@ $_ADMINLANG['global']['continueAnyway'] = "继续回复";
 $_ADMINLANG['global']['clickhere'] = "点击这里";
 $_ADMINLANG['global']['invalidaccessattempt'] = "无访问权限";
 $_ADMINLANG['global']['error'] = "错误";
-$_ADMINLANG['global']['version']  = "版本号";
+$_ADMINLANG['global']['version'] = "版本号";
 $_ADMINLANG['global']['or'] = "或者";
 $_ADMINLANG['global']['back'] = "返回";
 $_ADMINLANG['global']['top'] = "顶部";
@@ -117,10 +117,10 @@ $_ADMINLANG['global']['configure'] = "配置";
 $_ADMINLANG['global']['connect'] = "连接";
 $_ADMINLANG['global']['generic'] = "通用";
 $_ADMINLANG['global']['activateandconfigure'] = "激活和配置";
-$_ADMINLANG['global']['ctrlclickmultiselection'] = "使用『Ctrl+单击』选择或反选多个项目";
+$_ADMINLANG['global']['ctrlclickmultiselection'] = "使用「Ctrl+单击」选择或反选多个项目";
 $_ADMINLANG['global']['signupNow'] = "立即注册";
 $_ADMINLANG['global']['adminArea'] = "后台界面";
-$_ADMINLANG['global']['cart'] = "购物车";
+$_ADMINLANG['global']['cart'] = "订购页面";
 $_ADMINLANG['global']['typeToSearchClients'] = "在此输入要搜索的客户";
 $_ADMINLANG['global']['emailAddressNotVerified'] = "此客户的所有者尚未验证并确认邮件地址";
 $_ADMINLANG['global']['emailSent'] = "发送邮件";
@@ -326,6 +326,7 @@ $_ADMINLANG['clients']['cleardetails'] = "清除信息";
 $_ADMINLANG['clients']['ccdeletesure'] = "您确定要删除存储的信用卡信息吗？";
 $_ADMINLANG['clients']['closesure'] = "您确定要关闭此账户吗？这将会取消此账户下所有的服务和待支付账单。";
 $_ADMINLANG['clients']['deletesure'] = "您确定要删除此账户吗？这将会取消所有历史记录且无法撤销更改。";
+$_ADMINLANG['clients']['deleteUsers'] = "删除仅与此客户关联的用户";
 $_ADMINLANG['clients']['search'] = "搜索客户";
 $_ADMINLANG['clients']['marketingemailsoptout'] = "取消发送营销邮件";
 $_ADMINLANG['clients']['disablemarketingemails'] = "不要发送营销邮件";
@@ -347,6 +348,7 @@ $_ADMINLANG['clients']['invalidTaxId'] = "无效的 VAT 号码";
 $_ADMINLANG['clients']['ccUnsupported'] = "我们无法接受您的输入的卡片类型，请换不同类型的卡片。";
 $_ADMINLANG['clients']['existingUserAccount'] = "与现有用户关联。";
 $_ADMINLANG['clients']['newUserAccount'] = "创建新的用户。";
+$_ADMINLANG['clients']['deleteTransactions'] = "删除该客户的交易流水历史";
 
 # Client Summary
 $_ADMINLANG['clientsummary']['title'] = "客户配置";
@@ -432,6 +434,9 @@ $_ADMINLANG['clientsummary']['loginasowner'] = "以所有者身份登录";
 $_ADMINLANG['clientsummary']['newOwnerCreated'] = "此账户未分配所有者。已创建用户并自动将其分配为所有者。";
 $_ADMINLANG['clientsummary']['newOwnerCreatedEdit'] = "点此编辑新用户详情";
 
+# Clients Services
+$_ADMINLANG['clientsservices']['returnToService'] = "返回到服务";
+
 # Services
 $_ADMINLANG['services']['title'] = "产品/服务";
 $_ADMINLANG['services']['listall'] = "列出所有产品/服务";
@@ -507,6 +512,7 @@ $_ADMINLANG['services']['renewSure'] = "远程服务提供商可能会收取本�
 $_ADMINLANG['services']['keepDnsZone'] = "终止时保留 DNS 区域";
 $_ADMINLANG['services']['invoiceUsage'] = "生成按量账单";
 $_ADMINLANG['services']['recurCount'] = "重复计数";
+$_ADMINLANG['services']['upgradeUnpaidInvoice'] = "此服务存在未付款的账单。在支付账单之前继续升级可能会导致收入损失。";
 
 $_ADMINLANG['sso']['fatalerror'] = "发生致命错误。请查看活动日志获取更多详情。";
 $_ADMINLANG['sso']['servicelogin'] = "登录控制面板";
@@ -572,7 +578,7 @@ $_ADMINLANG['addons']['selectedDownloads'] = "已选择的下载";
 $_ADMINLANG['addons']['noDelete'] = "无法删除";
 $_ADMINLANG['addons']['deleteAddonError'] = "您无法删除正在使用的附加产品。您首先需要重新分配或删除正在使用它的服务，才能删除它。";
 $_ADMINLANG['addons']['areYouSureDelete'] = "您确定要删除此附加产品吗？";
-$_ADMINLANG['addons']['hiddenDescription'] = "允许从用户中心订单页面中隐藏此附加服务";
+$_ADMINLANG['addons']['hiddenDescription'] = "允许从用户中心订购页面中隐藏此附加服务";
 $_ADMINLANG['addons']['retired'] = "下架";
 $_ADMINLANG['addons']['retiredDescription'] = "下架的附加服务将不再显示在后台界面中（请注意，您仍然可以查看和管理现有订购）";
 
@@ -711,7 +717,7 @@ $_ADMINLANG['domains']['sale'] = "售";
 $_ADMINLANG['domains']['addSpotlight'] = "添加热门";
 $_ADMINLANG['domains']['priceOverride'] = "覆写注册价格";
 $_ADMINLANG['domains']['renewOverride'] = "覆写续费价格";
-$_ADMINLANG['domains']['priceOverrideWarning'] =  "（仅输入以手动覆写默认价格）";
+$_ADMINLANG['domains']['priceOverrideWarning'] = "（仅输入以手动覆写默认价格）";
 $_ADMINLANG['domains']['enablePremiumDomainFailure'] = "请求启用溢价域名失败。请重新载入页面，然后重试。";
 $_ADMINLANG['domains']['premiumLevelsTitle'] = "配置溢价域名级别";
 $_ADMINLANG['domains']['levelUnique'] = "价格级别是唯一的";
@@ -760,7 +766,7 @@ $_ADMINLANG['domains']['changePendingDate'] = "需要验证才能完成您的更
 $_ADMINLANG['domains']['releasedAndDeleted'] = "域名 ':domain' 已成功发布到新标签 ':tag' 并删除。";
 $_ADMINLANG['domains']['noNameservers'] = "没有提交域名服务器。请添加域名服务器，然后重试。";
 $_ADMINLANG['domains']['noNameserversWithServer'] = "没有为此域名分配的服务器定义域名服务器。请更正并重试。";
-$_ADMINLANG['domains']['noNameserversWithoutServer'] = "未在「系统设置 > 常规设置 > 域名」中定义默认域名服务器。请更新并重试。";
+$_ADMINLANG['domains']['noNameserversWithoutServer'] = "未在「配置 (:icon) > 系统设置 > 常规设置」域名选项卡中定义默认域名服务器。请更新并重试。";
 $_ADMINLANG['domains']['tldImport']['description'] = "首先，请选择一个域名注册商，以从中获取 TLD 和定价信息。";
 $_ADMINLANG['domains']['tldImport']['importCountTlds'] = "导入 :count 个 TLD";
 $_ADMINLANG['domains']['tldImport']['marginType'] = "保证金类型";
@@ -803,6 +809,9 @@ $_ADMINLANG['domains']['tldImport']['additionalCurrencies'] = "所选的注册�
 $_ADMINLANG['domains']['selectIdnLanguage'] = "选择 IDN 语言";
 $_ADMINLANG['domains']['idnLanguage'] = "IDN 语言";
 $_ADMINLANG['domains']['idnLanguageRequired'] = "需要 IDN 语言才能注册或转让此域名";
+$_ADMINLANG['domains']['notadomain'] = "不是域名";
+$_ADMINLANG['domains']['invalidNewTld'] = "TLD“:tld”无效。请检查输入并重试。";
+$_ADMINLANG['domains']['invalidTldChange'] = "无法将“:existingTld”更改为无效的 TLD“:tld”";
 
 # Orders
 $_ADMINLANG['orders']['title'] = "订单管理";
@@ -1458,6 +1467,8 @@ $_ADMINLANG['networkIssues']['fieldTitle'] = "标题";
 $_ADMINLANG['networkIssues']['none'] = "无";
 $_ADMINLANG['networkIssues']['reopen'] = "重新打开";
 $_ADMINLANG['networkIssues']['close'] = "关闭";
+$_ADMINLANG['networkIssues']['newIssueSaved'] = "网络维护计划已成功创建。";
+$_ADMINLANG['networkIssues']['existingIssueSaved'] = "网络维护计划已更新。";
 
 # Currencies
 $_ADMINLANG['currencies']['title'] = "货币设置";
@@ -1560,7 +1571,11 @@ $_ADMINLANG['utilities']['phpinfo'] = "PHP 信息";
 $_ADMINLANG['utilities']['logs'] = "日志记录";
 $_ADMINLANG['utilities']['activitylog'] = "系统日志";
 $_ADMINLANG['utilities']['modulelog'] = "模块日志";
+$_ADMINLANG['utilities']['moduleLogEnabled'] = "模块日志已启用。";
+$_ADMINLANG['utilities']['moduleLogDisabled'] = "模块日志已停用。";
+$_ADMINLANG['utilities']['moduleLogging'] = "模块记录";
 $_ADMINLANG['utilities']['moduleQueue'] = "模块队列";
+$_ADMINLANG['utilities']['tldImport'] = "注册商 TLD 同步";
 $_ADMINLANG['utilities']['adminlog'] = "管理员日志";
 $_ADMINLANG['utilities']['emaillog'] = "电子邮件日志";
 $_ADMINLANG['utilities']['ticketmaillog'] = "邮件导入工单日志";
@@ -1781,7 +1796,7 @@ $_ADMINLANG['setup']['escalationrules'] = "升级规则";
 $_ADMINLANG['setup']['spam'] = "垃圾邮件管理";
 $_ADMINLANG['setup']['other'] = "其它服务";
 $_ADMINLANG['setup']['securityqs'] = "安全问题";
-$_ADMINLANG['setup']['activatesecurityqs'] = "激活并配置安全问题 - 设置 > 其它 > 安全问题";
+$_ADMINLANG['setup']['activatesecurityqs'] = "激活并配置安全问题 - 配置 (:icon) > 系统设置 > 安全问题";
 $_ADMINLANG['setup']['addonmodules'] = "插件模块";
 $_ADMINLANG['setup']['bannedips'] = "封禁 IP 地址";
 $_ADMINLANG['setup']['bannedemails'] = "封禁邮件地址";
@@ -1835,7 +1850,7 @@ $_ADMINLANG['setupDescription']['bannedips'] = "查看和管理 IP 限制";
 $_ADMINLANG['setupDescription']['bannedemails'] = "管理封禁的邮件域名";
 $_ADMINLANG['setupDescription']['backups'] = "管理自动备份";
 $_ADMINLANG['setupDescription']['appsAndIntegrations'] = "浏览可用的模块和集成";
-$_ADMINLANG['setupDescription']['storage'] ="配置文件的存储位置";
+$_ADMINLANG['setupDescription']['storage'] = "配置文件的存储位置";
 
 $_ADMINLANG['setupTask']['general'] = "设置用户名和 Logo";
 $_ADMINLANG['setupTask']['automation'] = "设置 Cron 自动化任务";
@@ -1977,7 +1992,7 @@ $_ADMINLANG['fields']['clientid'] = "客户编号";
 $_ADMINLANG['fields']['clientsecret'] = "客户密钥";
 $_ADMINLANG['fields']['connectiontoken'] = "连接 Token";
 $_ADMINLANG['fields']['userpass'] = "用户名/密码";
-$_ADMINLANG['fields']['kb'] = "Kb";
+$_ADMINLANG['fields']['kb'] = "KB";
 $_ADMINLANG['fields']['rows'] = "行";
 $_ADMINLANG['fields']['size'] = "大小";
 $_ADMINLANG['fields']['tld'] = "顶级域名";
@@ -2168,6 +2183,7 @@ $_ADMINLANG['permissions']['18'] = "查看客户备注";
 $_ADMINLANG['permissions']['19'] = "添加/编辑客户备注";
 $_ADMINLANG['permissions']['97'] = "删除客户备注";
 $_ADMINLANG['permissions']['20'] = "删除客户";
+$_ADMINLANG['permissions']['153'] = "删除用户";
 $_ADMINLANG['permissions']['21'] = "邮件活动/群发邮件";
 $_ADMINLANG['permissions']['22'] = "查看取消请求";
 $_ADMINLANG['permissions']['23'] = "管理推广联盟";
@@ -2291,7 +2307,7 @@ $_ADMINLANG['addonmodules']['choose'] = "在下面选择一个插件模块";
 $_ADMINLANG['addonmodules']['nooutput'] = "此模块没有管理员输出";
 $_ADMINLANG['addonmodules']['error'] = "发生错误，请检查模块代码。";
 $_ADMINLANG['addonmodules']['noaccess'] = "您所在的管理组无权管理本模块。";
-$_ADMINLANG['addonmodules']['howtogrant'] = "您可以在“系统设置>插件模块”中设置访问权限";
+$_ADMINLANG['addonmodules']['howtogrant'] = "您可以在「配置 (:icon) > 系统设置 > 插件模块」中授予访问权限";
 $_ADMINLANG['addonmodules']['legacy'] = "老版本模块";
 $_ADMINLANG['addonmodules']['moduleactivated'] = "插件模块已激活";
 $_ADMINLANG['addonmodules']['moduledeactivated'] = "插件模块已停用";
@@ -2379,6 +2395,8 @@ $_ADMINLANG['calendar']['nextMonth'] = "下个月";
 $_ADMINLANG['calendar']['oneMonthAgo'] = "上个月";
 $_ADMINLANG['calendar']['oneMonthFromNow'] = "从现在起 1 个月";
 $_ADMINLANG['calendar']['oneYearFromNow'] = "从现在起 1 年";
+$_ADMINLANG['calendar']['noOptions'] = "未选择选项";
+$_ADMINLANG['calendar']['noOptionsInstructions'] = "选中下面的复选框，将相应的项目填充到日历上。";
 
 # Promotions
 $_ADMINLANG['promotions']['noaffect'] = "修改不会影响价格";
@@ -2565,7 +2583,7 @@ $_ADMINLANG['products']['sortorder'] = "产品排序";
 $_ADMINLANG['products']['sortorderdesc'] = "输入产品排列顺序覆盖默认的订单排序";
 $_ADMINLANG['products']['applytax'] = "需要交税";
 $_ADMINLANG['products']['applytaxdesc'] = "选中复选框需要客户为此产品交税";
-$_ADMINLANG['products']['hiddendesc'] = "选中复选框从订单页面中隐藏（客户在订购页面看不见该产品）";
+$_ADMINLANG['products']['hiddendesc'] = "选中复选框从订购页面中隐藏（客户在订购页面看不见该产品）";
 $_ADMINLANG['products']['retired'] = "下架";
 $_ADMINLANG['products']['retireddesc'] = "选中复选框从管理区产品下拉菜单中隐藏（不适用于已用于此产品的服务）";
 $_ADMINLANG['products']['paymenttype'] = "付款类型";
@@ -2587,8 +2605,8 @@ $_ADMINLANG['products']['modulename'] = "模块名称";
 $_ADMINLANG['products']['servergroup'] = "服务器组";
 $_ADMINLANG['products']['assignedoptiongroups'] = "分配的选项组";
 $_ADMINLANG['products']['packagesupgrades'] = "套餐升级";
-$_ADMINLANG['products']['usectrlclickpkgs'] = "使用『Ctrl+单击』选择多个套餐";
-$_ADMINLANG['products']['usectrlclickpayterms'] = "使用『Ctrl+单击』选择多个支付条款和顶级域名";
+$_ADMINLANG['products']['usectrlclickpkgs'] = "使用「Ctrl+单击」选择多个套餐";
+$_ADMINLANG['products']['usectrlclickpayterms'] = "使用「Ctrl+单击」选择多个支付条款和顶级域名";
 $_ADMINLANG['products']['tickboxallowconfigoptupdowngrades'] = "选中复选框，允许客户升级和降级已购买的产品设置。";
 $_ADMINLANG['products']['upgradeemail'] = "升级通知邮件";
 $_ADMINLANG['products']['freedomainrenewnormal'] = "仅提供一个免费的域名来注册/转移（正常续费）";
@@ -2664,9 +2682,10 @@ $_ADMINLANG['products']['slugInvalidHyphen'] = "无效的格式：Slug 别名不
 $_ADMINLANG['products']['slugDuplicate'] = "“:slug”已被使用。请选择另一个。";
 $_ADMINLANG['products']['slugChanged'] = "您的别名已更改。这将使从 WHMCS 外部链接到当前产品组 URL 无效。";
 $_ADMINLANG['products']['allowUnitQuantities'] = "是 - 可扩展服务数量：每个服务实例都允许定义数量";
+$_ADMINLANG['products']['orderFormsNotFound'] = "无法找到订购模板。请恢复 /templates/orderforms/ 目录中的内容，然后刷新本页面。";
 
 # Downloads
-$_ADMINLANG['downloads']['ctrlmultiple'] = "使用『Ctrl+单击』选择多个下载文件";
+$_ADMINLANG['downloads']['ctrlmultiple'] = "使用「Ctrl+单击」选择多个下载文件";
 
 # Admin Roles
 $_ADMINLANG['adminroles']['suredelete'] = "是否要删除此管理组？";
@@ -2735,6 +2754,7 @@ $_ADMINLANG['administrators']['nosupportdepts'] = "无售后部门";
 $_ADMINLANG['administrators']['confirmExistingPassword'] = "您必须输入您现有的管理员密码";
 $_ADMINLANG['administrators']['ticketNotificationsUnavailable'] = "您的权限目前阻止您接收部门的工单通知。";
 $_ADMINLANG['administrators']['emailCannotBeSupport'] = "邮件地址已被支持部门使用。请提供一个不同的邮件地址。";
+$_ADMINLANG['administrators']['duplicateEmail'] = "邮件地址已被其他管理员使用。请提供一个不同的邮件地址。";
 
 # Automation
 $_ADMINLANG['automation']['title'] = "自动任务设置";
@@ -2842,7 +2862,10 @@ $_ADMINLANG['automation']['domainTransferSyncFrequency'] = "域名待转同步�
 $_ADMINLANG['automation']['domainTransferSyncFrequencyInfo'] = "cron 自动任务多长时间（小时）进行一次域名待转同步。 填写 0 则为默认的 4 小时";
 $_ADMINLANG['automation']['pruneTicketAttachments'] = "清理工单附件";
 $_ADMINLANG['automation']['pruneTicketAttachmentsInfo'] = "在关闭的工单中，以最后一个回复时间算起，工单附件所保留的时间。";
-$_ADMINLANG['automation']['cronSample'] = "为了方便起见，下面提供了 cron 命令。 您应该使用服务器 crontab 工具或在网站面板中执行下面提供的命令来配置 cron 任务。";
+$_ADMINLANG['automation']['cronSample'] = "为了方便起见，下面提供了 cron 命令。您应该使用服务器 crontab 工具或在网站面板中执行下面提供的命令来配置 cron 任务。";
+$_ADMINLANG['automation']['autoDeleteInactiveClientsUsers'] = "删除未与其他任意客户账户关联的用户。";
+$_ADMINLANG['automation']['moduleLogPruning'] = "模块日志修剪";
+$_ADMINLANG['automation']['moduleLogPruningOlderThan'] = "修剪日期早于";
 
 # Payment Gateways
 $_ADMINLANG['gateways']['intro'] = "这是您提供给客户的付款方式/支付接口配置。如果此处未列出您要使用的支付接口，那么您可以创建您自己的 WHMCS 模块 - 您可以参考文档@";
@@ -3001,8 +3024,6 @@ $_ADMINLANG['system']['nottranslated'] = "下面的公告没有被翻译";
 $_ADMINLANG['system']['whois'] = "WHOIS 查询日志";
 $_ADMINLANG['system']['moduledebuglog'] = "系统模块调试日志";
 $_ADMINLANG['system']['moduledebuglogdesc'] = "此调试工具模块可用于识别和解决与远程 API 系统的通信问题。它会记录并显示从远程系统发送和接收到的原始 API 信息。日志记录只应该用于测试，并且永远不会一直保持启用。";
-$_ADMINLANG['system']['enabledebuglogging'] = "开启调试日志";
-$_ADMINLANG['system']['disabledebuglogging'] = "关闭调试日志";
 $_ADMINLANG['system']['resetdebuglogging'] = "重置模块调试日志";
 $_ADMINLANG['system']['deletedAttachmentsLimitHit'] = "在单个批次中达到附件删除的最大记录数。请再次重复此操作以继续。";
 $_ADMINLANG['system']['migrationInProgress'] = "正在进行文件系统迁移。 请稍后再试";
@@ -3243,7 +3264,9 @@ $_ADMINLANG['mergefields']['looping1'] = "遍历数据可用于循环账单项�
 $_ADMINLANG['mergefields']['date'] = "完整的发送日期";
 $_ADMINLANG['mergefields']['time'] = "完整的发送时间";
 $_ADMINLANG['mergefields']['emailMarketingOptInUrl'] = "营销邮件订阅 URL";
+$_ADMINLANG['mergefields']['emailMarketingOptInLink'] = "营销邮件订阅/订阅链接";
 $_ADMINLANG['mergefields']['emailMarketingOptOutUrl'] = "营销邮件退订 URL";
+$_ADMINLANG['mergefields']['emailMarketingOptOutLink'] = "营销邮件订阅/退订链接";
 $_ADMINLANG['mergefields']['daysUntilInformation'] = "如果已超出期限，“剩余天数”和“续费时间”会显示为 0。";
 $_ADMINLANG['mergefields']['daysUntilInformation2'] = "如果已超出期限，应该被使用“已过期天数”和“超出续费天数”。";
 $_ADMINLANG['mergefields']['daysAfterExpiry'] = "已过期天数";
@@ -3304,8 +3327,8 @@ $_ADMINLANG['general']['payto'] = "付款条文";
 $_ADMINLANG['general']['paytoinfo'] = "该文本会作为付款详情显示在账单上";
 $_ADMINLANG['general']['systemurl'] = "WHMCS 系统链接";
 $_ADMINLANG['general']['systemurlinfo'] = "您的 WHMCS 的安装地址，例如：https://www.example.com/members/";
-$_ADMINLANG['general']['template'] = "模板";
-$_ADMINLANG['general']['templateinfo'] = "选择您要使用的 WHMCS 模板";
+$_ADMINLANG['general']['template'] = "系统主题";
+$_ADMINLANG['general']['templateinfo'] = "选择您要使用的 WHMCS 主题";
 $_ADMINLANG['general']['limitactivitylog'] = "系统活动日志限制";
 $_ADMINLANG['general']['limitactivityloginfo'] = "您想保留的最多系统级活动日志条数";
 $_ADMINLANG['general']['recstodisplay'] = "每页显示记录";
@@ -3331,7 +3354,7 @@ $_ADMINLANG['general']['utf8mb4cut'] = "移除 UTF-8 扩展字符";
 $_ADMINLANG['general']['utf8mb4cuttext'] = "自动移除 4 字节的 UTF-8 字符，例如服务工单和邮件中的表情。";
 $_ADMINLANG['general']['ordergrace'] = "订单超时宽限期";
 $_ADMINLANG['general']['ordergraceinfo'] = "订单在逾期之前允许支付的天数（超时后将无法支付，设置为 0 永不超时）";
-$_ADMINLANG['general']['defaultordertemplate'] = "默认的订单模板";
+$_ADMINLANG['general']['defaultordertemplate'] = "默认的订购模板";
 $_ADMINLANG['general']['orderfrmsidebartoggle'] = "侧边栏切换选项";
 $_ADMINLANG['general']['orderfrmsidebartoggleinfo'] = "选中复选框，在产品选择页订单上显示侧边栏切换按钮";
 $_ADMINLANG['general']['tos'] = "启用同意服务条款";
@@ -3669,15 +3692,21 @@ $_ADMINLANG['general']['forbrugsforeningen'] = "Forbrugsforeningen";
 $_ADMINLANG['general']['unionpay'] = "UnionPay";
 $_ADMINLANG['general']['acceptedCardTypes'] = "接受的信用卡类型";
 $_ADMINLANG['general']['acceptedCardTypesInfo'] = "使用「Ctrl 键 + 单击」方式选择多个卡片类型";
-$_ADMINLANG['general']['allowautoauth'] = "允许 AutoAuth";
-$_ADMINLANG['general']['allowautoauthinfo'] = "AutoAuth 允许客户通过您信任的第三方代码自动登录";
+$_ADMINLANG['general']['disableEmailSending'] = "禁止发出邮件";
+$_ADMINLANG['general']['disableEmailSendingHelp'] = "禁用 WHMCS 中的所有外发邮件。";
+$_ADMINLANG['general']['disableRfc3834'] = "禁用 RFC3834 标头";
+$_ADMINLANG['general']['disableRfc3834Help'] = "发出的支持邮件包含 RFC-3834 标头可防止自动回复器之间进行循环回复。禁用此选项时可阻止该行为。";
 
 $_ADMINLANG['general']['clientEmailPreferences'] = "客户电子邮件首选项";
 $_ADMINLANG['general']['clientEmailPreferencesDescription'] = "选中复选框允许客户自定义他们收到的电子邮件通知类型";
 $_ADMINLANG['general']['pleaseWait'] = "请稍候…";
-$_ADMINLANG['general']['systemUrlNotConfigured'] = "您的系统 URL 尚未配置。";
 $_ADMINLANG['general']['disableclientareausermgmt'] = "禁用用户中心用户管理功能";
 $_ADMINLANG['general']['disableclientareausermgmtinfo'] = "阻止所有者邀请或管理与其账户关联的用户。";
+
+$_ADMINLANG['general']['orderformIncompatWarning'] = "分配的不兼容订购页面将被更新。";
+$_ADMINLANG['general']['moreDetails'] = "更多细节";
+$_ADMINLANG['general']['orderformIncompatAssigned'] = "以下订购页面不兼容，但当前已分配。";
+$_ADMINLANG['general']['orderformChangingTo'] = "保存本主题将会分配“:name”订购页面。";
 
 # Config Tax
 $_ADMINLANG['taxconfig']['taxrulestitle'] = "征税规则";
@@ -3773,7 +3802,7 @@ $_ADMINLANG['supportticketdepts']['supportticketdeptstitle'] = "支持工单部�
 $_ADMINLANG['supportticketdepts']['emailreqdfordept'] = "您必须输入部门的邮件地址";
 $_ADMINLANG['supportticketdepts']['namereqdfordept'] = "您您须输入部门的名称";
 $_ADMINLANG['supportticketdepts']['deptaddsuccess'] = "部门添加成功！";
-$_ADMINLANG['supportticketdepts']['deptaddsuccessdesc'] = "请记住，您需要在 <a href=\"configadmins.php\">系统设置 > 员工管理 > 管理员管理</a> 中指派可访问该新部门的管理员后，指派的管理员才能看到该部门。";
+$_ADMINLANG['supportticketdepts']['deptaddsuccessdesc'] = "请记住，您需要在 <a href=\"configadmins.php\">配置 (:icon) > 管理员管理</a> 中指派可访问该新部门的管理员后，指派的管理员才能看到该部门。";
 $_ADMINLANG['supportticketdepts']['changessavesuccess'] = "更改保存成功！";
 $_ADMINLANG['supportticketdepts']['changessavesuccessdesc'] = "对支持部门所做的更改已保存。";
 $_ADMINLANG['supportticketdepts']['supportticketdeptsconfigheredesc'] = "这是您配置的支持工单部门。您输入的邮件地址将用于检测发送到该部门，所有该部门的邮件也将用此邮件地址发出。邮件管道(Email Piping)允许通过邮件回复或开启工单，并可以使用以下方式之一设置。";
@@ -3793,11 +3822,17 @@ $_ADMINLANG['supportticketdepts']['ticketsclientareaonlydesc'] = "所有工单�
 $_ADMINLANG['supportticketdepts']['noautoresponder'] = "无自动回复";
 $_ADMINLANG['supportticketdepts']['noautoresponderdesc'] = "不要为新工单发送自动回复邮件";
 $_ADMINLANG['supportticketdepts']['hiddendesc'] = "从用户中心中隐藏";
-$_ADMINLANG['supportticketdepts']['pop3importconfigtitle'] = "POP3 导入配置";
-$_ADMINLANG['supportticketdepts']['pop3importconfigdesc'] = "（仅在使用 POP3 导入时需要）";
-$_ADMINLANG['supportticketdepts']['pop3port'] = "POP3 端口";
+$_ADMINLANG['supportticketdepts']['pop3importconfigtitle'] = "邮件导入配置";
+$_ADMINLANG['supportticketdepts']['pop3importconfigdesc'] = "（仅在使用 POP Cron 自动导入时需要）";
+$_ADMINLANG['supportticketdepts']['mailproviderstandard'] = "POP3/IMAP";
+$_ADMINLANG['supportticketdepts']['pop3port'] = "邮件服务器端口";
 $_ADMINLANG['supportticketdepts']['pop3user'] = "邮件地址";
 $_ADMINLANG['supportticketdepts']['pop3pass'] = "邮箱密码";
+$_ADMINLANG['supportticketdepts']['pop3testconnection'] = "测试连接";
+$_ADMINLANG['supportticketdepts']['pop3connectiontestinprogress'] = "正在尝试连接…";
+$_ADMINLANG['supportticketdepts']['pop3testconnectionsuccess'] = "邮件导入测试成功";
+$_ADMINLANG['supportticketdepts']['pop3testconnectionerror'] = "邮件导入测试失败";
+$_ADMINLANG['supportticketdepts']['pop3oauthsetupinstructions']['Google'] = "<h1>Google OAuth 设置指南</h1><p>1. 登录 <a href=\"https://console.developers.google.com/\" target=\"_blank\">Google Developer Console</a>。</p><p>2. 选择或创建新的项目。</p><p>3. 使用提供的 <i>重定向 URI</i> 创建 OAuth 凭据。</p><p>4. 在提供的字段中输入为您生成的<strong>客户编号/客户密钥</strong>。</p><p>5. 点击 <strong>&quot;连接&quot;</strong> 生成连接 Token。</p><p>6. 点击 <strong>&quot;测试连接&quot;</strong> 验证您的配置。</p>";
 $_ADMINLANG['supportticketdepts']['feedbackRequest'] = "反馈请求";
 $_ADMINLANG['supportticketdepts']['feedbackRequestDescription'] = "当工单结束后发送反馈请求评价/审核工单";
 $_ADMINLANG['supportticketdepts']['emailCannotBeAdmin'] = "邮件地址已被管理员用户使用。请提供一个不同的邮件地址。";
@@ -3926,6 +3961,7 @@ $_ADMINLANG['ticketstatusconfig']['includeinactivetickets'] = "包括打开的�
 $_ADMINLANG['ticketstatusconfig']['includeinawaitingreply'] = "包括等待回复";
 $_ADMINLANG['ticketstatusconfig']['autoclose'] = "您确定要自动关闭吗？";
 $_ADMINLANG['ticketstatusconfig']['statuscolor'] = "状态颜色";
+$_ADMINLANG['ticketstatusconfig']['title'] = "标题";
 
 # Config Security Questions
 $_ADMINLANG['securityquestionconfig']['add'] = "添加安全问题";
@@ -3949,7 +3985,7 @@ $_ADMINLANG['gatewaytranslog']['debugdata'] = "调试数据";
 $_ADMINLANG['gatewaytranslog']['filter'] = "过滤";
 
 # Mass Mail
-$_ADMINLANG['massmail']['pagedesc'] = "此邮件群发工具允许您发送电子邮件至您选择的组中的每个客户。您选择发送的邮件类型确定了什么字段可包含至其邮件中。举例，发送『产品/服务』相关的邮件您可以包含具体的产品项目，例如域名、用户名、服务器、下次付款日期等等。使用『Ctrl+单击』选择多个项目。";
+$_ADMINLANG['massmail']['pagedesc'] = "此邮件群发工具允许您发送电子邮件至您选择的组中的每个客户。您选择发送的邮件类型确定了什么字段可包含至其邮件中。举例，发送『产品/服务』相关的邮件您可以包含具体的产品项目，例如域名、用户名、服务器、下次付款日期等等。使用「Ctrl+单击」选择多个项目。";
 $_ADMINLANG['massmail']['messagetype'] = "消息类型";
 $_ADMINLANG['massmail']['emailtype'] = "电子邮件类型";
 $_ADMINLANG['massmail']['clientstatus'] = "客户状态";
@@ -4138,6 +4174,7 @@ $_ADMINLANG['orderstatusconfig']['color'] = "状态颜色";
 $_ADMINLANG['orderstatusconfig']['includeinpending'] = "包括待审核";
 $_ADMINLANG['orderstatusconfig']['includeinactive'] = "包括已激活";
 $_ADMINLANG['orderstatusconfig']['includeincancelled'] = "包括已取消";
+$_ADMINLANG['orderstatusconfig']['title'] = "标题";
 
 # Config Server
 $_ADMINLANG['configservers']['port'] = "端口";
@@ -4217,17 +4254,17 @@ $_ADMINLANG['configservers']['refreshAllData'] = "刷新全部远程数据";
 # 2FA Security
 $_ADMINLANG['twofa']['title'] = "两步验证";
 $_ADMINLANG['twofa']['introtext'] = "两步验证为您的登录增加了一层额外的保护，当您启用并配置一个管理员用户（每个用户必须单独的启用）时，每次用户登录时都会要求输入他们的用户名和密码以及两步验证代码，例如安全码。我们支持以下多种两步验证方式。";
-$_ADMINLANG['twofa']['enable'] = "启用 ".$_ADMINLANG['twofa']['title'];
-$_ADMINLANG['twofa']['disable'] = "停用 ".$_ADMINLANG['twofa']['title'];
+$_ADMINLANG['twofa']['enable'] = "启用 " . $_ADMINLANG['twofa']['title'];
+$_ADMINLANG['twofa']['disable'] = "停用 " . $_ADMINLANG['twofa']['title'];
 $_ADMINLANG['twofa']['activateintro'] = "两步验证为您的账户添加了一个额外的保护。当您启用后，每当您登录 WHMCS 管理区时，都会让您需要输入您的用户名和密码以及两步验证代码，例如安全码。";
-$_ADMINLANG['twofa']['disableintro'] = "要禁用 ".$_ADMINLANG['twofa']['title']."，请在下面的区域中填写您的密码。";
+$_ADMINLANG['twofa']['disableintro'] = "要禁用 " . $_ADMINLANG['twofa']['title'] . "，请在下面的区域中填写您的密码。";
 $_ADMINLANG['twofa']['choose'] = "请选择下面您需要的两步验证。";
-$_ADMINLANG['twofa']['enforced'] = "您的管理员已强制您必须启用 ".$_ADMINLANG['twofa']['title']." 才可以继续。本页面将引导您完成设置过程。";
+$_ADMINLANG['twofa']['enforced'] = "您的管理员已强制您必须启用 " . $_ADMINLANG['twofa']['title'] . " 才可以继续。本页面将引导您完成设置过程。";
 $_ADMINLANG['twofa']['getstarted'] = "开始";
 $_ADMINLANG['twofa']['activationerror'] = "激活 2FA 时发生错误。请再试一次。";
 $_ADMINLANG['twofa']['generalerror'] = "加载模块时发生错误。请再试一次。";
-$_ADMINLANG['twofa']['activationcomplete'] = $_ADMINLANG['twofa']['title']." 安装完成！";
-$_ADMINLANG['twofa']['disabledconfirmation'] = $_ADMINLANG['twofa']['title']." 您的账户目前已被禁用。";
+$_ADMINLANG['twofa']['activationcomplete'] = $_ADMINLANG['twofa']['title'] . " 安装完成！";
+$_ADMINLANG['twofa']['disabledconfirmation'] = $_ADMINLANG['twofa']['title'] . " 您的账户目前已被禁用。";
 $_ADMINLANG['twofa']['backupcodeis'] = "您的备份代码为";
 $_ADMINLANG['twofa']['backupcodeexpl'] = "将其写在纸上并妥善保管。<br/>当您丢失或两步验证设备无法使用时您会用得到。";
 $_ADMINLANG['twofa']['disableclickhere'] = "点击这里禁用";
@@ -4335,9 +4372,9 @@ $_ADMINLANG['healthCheck']['permissionCheckSuccess'] = "您的配置文件的权
 $_ADMINLANG['healthCheck']['permissionCheckConfigFileWritable'] = "您的配置文件为可写。这可能会造成安全隐患。我们建议您设置权限为只读。";
 $_ADMINLANG['healthCheck']['permissionCheckUnownedDirectories'] = "如下目录所有者设置了和执行 WHMCS 不同的用户。 这是一个潜在的不安全配置：";
 $_ADMINLANG['healthCheck']['permissionCheckUnownedDirectories2'] = "您可以查看我们的 <a :href>文档</a> 了解更多信息。";
-$_ADMINLANG['healthCheck']['customTemplates'] = "默认模板的使用";
+$_ADMINLANG['healthCheck']['customTemplates'] = "不应使用默认模板";
 $_ADMINLANG['healthCheck']['customTemplatesSuccess'] = "您的 WHMCS 正使用自定义模板，将不会在升级时覆盖。";
-$_ADMINLANG['healthCheck']['customTemplatesFailure'] = "我们检测到您的 WHMCS 当前正在使用一个或更多的默认的模板名，如果您对模板做了修改，我们强烈建议您新建一个自定义的模板目录以免下次升级导致定制丢失。<br /><br />您当前以下位置正使用默认模板：";
+$_ADMINLANG['healthCheck']['customTemplatesFailure'] = "我们检测到您的 WHMCS 当前正在使用一个或更多的默认的模板名，如果您对模板做了修改，我们强烈建议您新建一个自定义的模板目录以免下次升级导致定制丢失。<br /><br />您当前在以下位置正使用默认模板：";
 $_ADMINLANG['healthCheck']['customTemplatesFailure2'] = "请参阅我们的 <a :href>文档</a> 帮助您了解如何制作自定义主题。";
 $_ADMINLANG['healthCheck']['phpVersion'] = "PHP 版本";
 $_ADMINLANG['healthCheck']['phpVersionWhmcsSupported'] = "您的 PHP 版本 <strong>:version</strong> 支持 WHMCS。";
@@ -4420,6 +4457,7 @@ $_ADMINLANG['healthCheck']['webserverSupportCheck'] = "Web 服务器支持检查
 $_ADMINLANG['healthCheck']['supportedWebserver'] = "您的系统当前正在运行 \":server\" web 服务器。";
 $_ADMINLANG['healthCheck']['unsupportedWebserver'] = "检测到您正使用“:server”作为 Web 服务器。WHMCS <a href=\":envGuideline\">系统环境指南</a> 建议您使用支持 .htaccess 文件的 Web 服务器，例如 Apache。使用其它 Web 服务器时，可能需要其它安全性强化步骤。<a href=\":learnMore\">了解更多</a>";
 
+$_ADMINLANG['updater']['failure'] = "获取更新时发生致命错误。<br/>请检查并确保您的内存限制和执行时间已设置为 <a href=\"https://docs.whmcs.com/Automatic_Updater#System_Requirements\" target=\"_blank\">推荐的值</a>。";
 $_ADMINLANG['appLinks']['description'] = "应用链接允许您授予第三方应用程序访问 WHMCS 的用户账户。";
 $_ADMINLANG['appLinks']['description2'] = "已在下面列出所有支持应用链接的应用，可通过下面的开关简单的启用/禁用。启用应用链接将会在后台队列中创建初始的应用链接。请等待 30 分钟后才可以对所有产品/服务生效。";
 $_ADMINLANG['appLinks']['initPleaseWait'] = "正在初始化应用链接… 请稍候…";
@@ -4769,7 +4807,7 @@ $_ADMINLANG['storage']['configurations'] = '配置';
 $_ADMINLANG['storage']['createNewConfiguration'] = '新增配置';
 $_ADMINLANG['storage']['editConfiguration'] = '编辑配置';
 $_ADMINLANG['storage']['inUseConfigChangeRestricted'] = '此配置正在使用。关键设置将会被锁定。如果要更改这些，请创建新的存储配置并执行迁移或切换。';
-$_ADMINLANG['storage']['changeRequiresMigration'] = '更改现有存储方法需要迁移才能在后台运行。依据文件的数量，这可能需要一些时间才能完成。';
+$_ADMINLANG['storage']['changeRequiresMigration'] = '更改现有存储方法需要迁移才能在后台运行。取决于文件的数量，这可能需要一些时间才能完成。';
 $_ADMINLANG['storage']['sameConfigAlreadyExists'] = '已存在具有相同设置的存储配置。 请使用不同的配置值。';
 $_ADMINLANG['storage']['config']['confirmSave'] = '配置设置保存成功。';
 $_ADMINLANG['storage']['config']['confirmDelete'] = '存储配置删除成功。';
@@ -5389,6 +5427,8 @@ $_ADMINLANG['emailPreferences']['domainClientRequired'] = "如需停用域名通
 
 $_ADMINLANG['hooksDebugModeWarning']['title'] = "Hooks 调试模式已启用";
 $_ADMINLANG['hooksDebugModeWarning']['description'] = "Hooks 调试模式将生成大量活动日志条目，因此应谨慎使用。不再需要时应将其关闭。";
+$_ADMINLANG['emailSendingModeWarning']['title'] = "发出邮件已停用";
+$_ADMINLANG['emailSendingModeWarning']['description'] = "已停用发出邮件，这意味着将不向外发送邮件。您可以在「配置 > 常规设置 > 邮件」中重新启用发出邮件。";
 
 $_ADMINLANG['twoFactor']['duosecurity']['friendlyName'] = "Duo 安全";
 $_ADMINLANG['twoFactor']['duosecurity']['description'] = "通过 Duo 推送、短信或电话语音接收验证码。";
@@ -5399,7 +5439,7 @@ $_ADMINLANG['twoFactor']['yubico']['description'] = "使用 YubiKey 硬件设备
 
 $_ADMINLANG['openSidebar'] = "打开侧边栏";
 $_ADMINLANG['config']['sysLogs'] = "系统日志";
-$_ADMINLANG['config']['manageAdmins'] = "管理管理员";
+$_ADMINLANG['config']['manageAdmins'] = "管理员管理";
 
 $_ADMINLANG['account'] = "账户";
 $_ADMINLANG['searchPlaceholder'] = "输入搜索条件…";
@@ -5418,6 +5458,8 @@ $_ADMINLANG['user']['associateUser'] = "关联用户";
 $_ADMINLANG['user']['onePermissionRequired'] = "至少需要一个权限";
 $_ADMINLANG['user']['alreadyAssociated'] = "用户已与客户关联";
 $_ADMINLANG['user']['notFound'] = "用户未找到";
+$_ADMINLANG['user']['addressExists'] = "邮件地址为 :email 的用户已存在。";
+$_ADMINLANG['user']['associatedWithClient'] = "用户已关联到一个或多个客户";
 $_ADMINLANG['user']['associated'] = "用户已成功关联到客户";
 $_ADMINLANG['user']['invited'] = "邀请已成功发送";
 $_ADMINLANG['user']['invitePending'] = "待邀请";
@@ -5455,10 +5497,16 @@ $_ADMINLANG['user']['securityQuestionNotSet'] = "未设置";
 $_ADMINLANG['user']['accountOwner'] = "账户所有者";
 $_ADMINLANG['user']['manageUsers'] = "管理用户";
 $_ADMINLANG['user']['noAccounts'] = "未发现账户";
+$_ADMINLANG['user']['deleted'] = "用户删除成功";
+$_ADMINLANG['user']['permanentlyDelete'] = "永久删除";
+$_ADMINLANG['user']['deleteTooltip'] = "在删除之前，必须删除所有账户关联。";
+$_ADMINLANG['user']['confirmDelete'] = "您确定要删除该用户吗？";
+$_ADMINLANG['user']['disableSecurityQuestionHelp'] = "禁用安全问题和答案，允许用户设置新的问题。";
 
 $_ADMINLANG['mail']['provider'] = "邮件提供商";
+$_ADMINLANG['mail']['authentication'] = "认证方式";
 $_ADMINLANG['mail']['serviceProvider'] = "服务提供商";
-$_ADMINLANG['mail']['oauth2']['callback_url'] = "回调 URL";
+$_ADMINLANG['mail']['oauth2']['callback_url'] = "重定向 URL";
 $_ADMINLANG['mail']['test'] = "测试配置";
 $_ADMINLANG['mail']['testSuccess'] = "邮件提供商配置测试成功。";
 $_ADMINLANG['mail']['configuredProvider'] = "邮件提供商";
@@ -5475,9 +5523,58 @@ $_ADMINLANG['mail']['mailgun']['EU'] = "欧洲区";
 $_ADMINLANG['mail']['mailgun']['nonEU'] = "美国区";
 $_ADMINLANG['mail']['mailgun']['apiKey'] = "Mailgun 私有 API 密钥";
 $_ADMINLANG['mail']['mailgun']['sendingDomain'] = "发送域名";
-$_ADMINLANG['mail']['error']['systemUrlMissing'] = "要配置 OAuth2，必须先在「常规配置」中配置「系统 URL」。";
+$_ADMINLANG['mail']['error']['systemUrlMissing'] = "请在「常规配置」中配置「系统 URL」。该设置对于某些邮件提供商的配置选项来说是必需的。";
 
 $_ADMINLANG['healthCheck']['cronTimeZone'] = "Cron PHP 时区";
-$_ADMINLANG['healthCheck']['cronTimeZoneAligned'] = "时区用于 WHMCS cron 脚本和 UI 匹配。";
-$_ADMINLANG['healthCheck']['cronTimeZoneMisAligned'] = "时区用于 WHMCS cron 脚本，“:crontimezone”时区与 WHMCS 使用用时区具有 :diff 的时差。要了解更多有关这些 PHP 环境设置的重要性信息，请参阅 <a :href>cron 文档</a>。";
+$_ADMINLANG['healthCheck']['cronTimeZoneAligned'] = "时区用于 WHMCS Cron 脚本和 UI 匹配。";
+$_ADMINLANG['healthCheck']['cronTimeZoneMisAligned'] = "时区用于 WHMCS Cron 脚本，“:crontimezone”时区与 WHMCS 使用用时区具有 :diff 的时差。要了解更多有关这些 PHP 环境设置的重要性信息，请参阅 <a :href>Cron 文档</a>。";
+$_ADMINLANG['healthCheck']['cronMemoryLimitBelowMinimum'] = "您的 Cron 任务的 PHP memory_limit 记录为 <strong>:memorylimit</strong>。 WHMCS 至少需要<strong>:minimumlimit</strong> 才能正常运行，并建议设为至少 :recommendedlimit。<br />:learnmorelink";
+$_ADMINLANG['healthCheck']['cronMemoryLimitBelowRecommended'] = "您的 Cron 任务的 PHP memory_limit 记录为 <strong>:memorylimit</strong>。这虽然高于建议的最低要求，但我们建议设为 <strong>:recommendedlimit</strong> 以确保获得最佳体验。<br />:learnmorelink";
+$_ADMINLANG['healthCheck']['cronMemoryLimit'] = "Cron PHP 内存限制";
+$_ADMINLANG['healthCheck']['mysqlVariableCheck'] = "MySQL 配置检查";
+$_ADMINLANG['healthCheck']['mysqlVariableCheckErrorBody'] = "MySQL 配置中的一项或多项设置可能会降低 WHMCS 的性能。如果需要帮助，请联系系统管理员。";
+$_ADMINLANG['healthCheck']['mysqlVariableCheckError'] = "您的 <strong>:variable</strong> 设置为 :value。我们建议您设置为：:recommendedvalue。";
 
+# Login
+
+$_ADMINLANG['login']['captchaverify'] = "请在提供的文本框中输入下图中显示的字符。这是防止自动提交所必需的。";
+$_ADMINLANG['login']['captchafailed'] = "Recaptcha 验证失败";
+$_ADMINLANG['login']['rememberme'] = "记住我";
+$_ADMINLANG['login']['login'] = "登录";
+$_ADMINLANG['login']['logout'] = "注销";
+$_ADMINLANG['login']['logoutsuccessful'] = "您已成功注销。";
+$_ADMINLANG['login']['resetpassword'] = "重置密码";
+$_ADMINLANG['login']['newpassword'] = "新密码";
+$_ADMINLANG['login']['newpasswordverify'] = "新密码（请再输一遍）";
+$_ADMINLANG['login']['forgotpassword'] = "忘记密码？";
+$_ADMINLANG['login']['usernameoremail'] = "用户名或邮件地址";
+$_ADMINLANG['login']['backupcode'] = "备份验证码";
+$_ADMINLANG['login']['backupcodereset'] = "备用验证码仅一次有效。现在将重置。";
+$_ADMINLANG['login']['newbackupcode'] = "您的新备份验证码为：:code";
+$_ADMINLANG['login']['chooselanguage'] = "选择语言";
+$_ADMINLANG['login']['backtologin'] = "返回登录";
+$_ADMINLANG['login']['twofacantaccess2ndfactor'] = "无法访问您的两步验证设备？";
+$_ADMINLANG['login']['twofaloginusingbackupcode'] = "使用备份验证码登录";
+$_ADMINLANG['login']['twofainvalid'] = "<strong>两步验证无效。</strong>请重试。";
+$_ADMINLANG['login']['twofarequired'] = "您需要完成两步验证才能登录。";
+$_ADMINLANG['login']['twofabadmodule'] = "两步验证模块损坏。请联系支持。";
+$_ADMINLANG['login']['loginfailed'] = "<strong>登录失败。</strong>请重试。";
+$_ADMINLANG['login']['expiredlink'] = "链接已过期。请重试。";
+$_ADMINLANG['login']['invalidlink'] = "链接无效。请重试。";
+$_ADMINLANG['login']['confirmationerror'] = "发送确认邮件时出错。";
+$_ADMINLANG['login']['emailerror'] = "发送邮件时出错。请再试一次。";
+$_ADMINLANG['login']['emailabort'] = "该邮件无法发送。请与管理员联系以获取支持";
+$_ADMINLANG['login']['pwresetsuccess'] = "<strong>成功！</strong>请使用您的新密码登录。";
+$_ADMINLANG['login']['resetsuccessful'] = "<strong>成功！</strong>请检查您的电子邮件以进行下一步…";
+$_ADMINLANG['login']['resetbegin'] = "在下面输入您的邮件地址以开始该过程...";
+$_ADMINLANG['login']['error'] = "发生错误。请重试。";
+$_ADMINLANG['login']['useremailnotfound'] = "<strong>未找到用户或邮件地址。</strong>您的 IP 已被记录。";
+$_ADMINLANG['login']['disabled'] = "<strong>已被管理员禁用</strong>";
+$_ADMINLANG['login']['auth']['heading'] = "确认密码并继续";
+$_ADMINLANG['login']['auth']['paragraph'] = "您正在进入 WHMCS 的管理页面，必须确认密码才能继续。";
+$_ADMINLANG['login']['auth']['incorrect'] = "密码错误";
+
+$_ADMINLANG['customAdminPathWarning']['title'] = "无效的自定义管理页面目录";
+$_ADMINLANG['customAdminPathWarning']['description'] = "已检测到与用于自动 URL 路径生成的保留名称冲突，请务必纠正该冲突。";
+
+$_ADMINLANG['social']['accounts'] = "社交账户";
