@@ -67,6 +67,7 @@ $_LANG['announcementsdescription'] = "查看我们的最新新闻与公告";
 $_LANG['announcementsnone'] = "没有公告";
 $_LANG['announcementsrss'] = "RSS 订阅";
 $_LANG['announcementstitle'] = "公告信息";
+$_LANG['announcementscontinue'] = "继续阅读";
 $_LANG['bannedbanexpires'] = "禁止失效";
 $_LANG['bannedbanreason'] = "禁止原因";
 $_LANG['bannedhasbeenbanned'] = "已经被禁止";
@@ -259,6 +260,7 @@ $_LANG['contactheader'] = "如果您有任何售前疑问或者想与我们取�
 $_LANG['contactmessage'] = "信息";
 $_LANG['contactname'] = "名字";
 $_LANG['contactsend'] = "发送";
+$_LANG['contactUs'] = "联系我们";
 $_LANG['contactsent'] = "您的信息已成功发送";
 $_LANG['contactsubject'] = "主题";
 $_LANG['contacttitle'] = "售前咨询";
@@ -534,6 +536,8 @@ $_LANG['networkissuestitle'] = "网络故障";
 $_LANG['networkissuestypeother'] = "其它";
 $_LANG['networkissuestypeserver'] = "服务器";
 $_LANG['networkissuestypesystem'] = "系统";
+$_LANG['networkIssuesAware'] = "已知的潜在影响服务的问题。";
+$_LANG['networkIssuesScheduled'] = "计划的维护事件可能会影响我们的服务。";
 $_LANG['newpassword'] = "新密码";
 $_LANG['nextpage'] = "下一页";
 $_LANG['no'] = "否";
@@ -845,6 +849,9 @@ $_LANG['welcomeback'] = "欢迎回来";
 $_LANG['whoisresults'] = "WHOIS 结果";
 $_LANG['yes'] = "是";
 $_LANG['yourdetails'] = "您的详情";
+$_LANG['user'] = "用户";
+$_LANG['loggedInAs'] = "登录为";
+$_LANG['viewAllPricing'] = "查看所有价格";
 
 # Version 4.1
 
@@ -1240,6 +1247,7 @@ $_LANG['cancel'] = "取消";
 $_LANG['clientareabacklink'] = "&laquo; 返回";
 $_LANG['backtoserviceslist'] = "&laquo; 返回产品列表";
 $_LANG['backtodomainslist'] = "&laquo; 返回域名列表";
+$_LANG['copy'] = "复制";
 
 $_LANG['clientareahomeorder'] = "查看可购买的产品与服务，现有用户也可以在此处购买产品与附加服务。";
 $_LANG['clientareahomelogin'] = "已经注册？点击下面的按钮登录用户中心管理您的账户。";
@@ -1521,6 +1529,7 @@ $_LANG['domaincontactdetails']['Country'] = "国家";
 $_LANG['domaincontactdetails']['Phone'] = "手机";
 $_LANG['domaincontactdetails']['Phone Number'] = "手机号码";
 $_LANG['domaincontactdetails']['Fax'] = "传真";
+$_LANG['domaincontactdetails']['Phone Country Code'] = "国际电话区号";
 
 $_LANG['serverhostnameexample'] = "例如：server1(.yourdomain.com)";
 $_LANG['serverns1prefixexample'] = "例如：ns1(.yourdomain.com)";
@@ -1780,6 +1789,7 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "最近的工单";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "近期没有工单。如果您需要获取帮助，请 <a href=\"submitticket.php\">提交新工单</a>。";
 $_LANG['clientHomePanels']['affiliateSummary'] = "您已经通过推广赚到了 :commissionBalance，您需要再赚 :amountUntilWithdrawalLevel 才能够提现。";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "您当前的佣金余额为 :commissionBalance，您现在可以提现了。";
+$_LANG['clientHomePanels']['productsAndServices'] = "浏览我们的产品/服务";
 
 $_LANG['upgradeNotPossible'] = "无法升级此产品。如果您认为错误的跳转到了此页面，请联系我们的支持部门。否则请返回并仔细查看您的选项。";
 $_LANG['upgradeSameProductMustExtendCycle'] = "要升级结算周期，请选择一个大于当前结算周期的周期。";
@@ -3172,6 +3182,7 @@ $_LANG['redirectingToCompleteCheckout'] = "正在重定向以完成结账。请�
 $_LANG['paypalEmailAddress'] = "PayPal 邮件地址";
 
 $_LANG['fromJust'] = "from just";
+$_LANG['forJust'] = "for just";
 $_LANG['remoteTransError'] = "远程交易失败。请联系支持。";
 
 $_LANG['imageUnavailable'] = "图像不可用";
@@ -3729,6 +3740,7 @@ $_LANG['knowledgebase']['numArticles'] = ":num 文章";
 
 $_LANG['userLogin']['createAccount'] = "创建账户";
 $_LANG['userLogin']['signInToContinue'] = "登录您的账户并继续。";
+$_LANG['userLogin']['notRegistered'] = "尚未注册？";
 
 $_LANG['networkIssues']['scheduled'] = "有 :count 个受影响的网络维护计划。";
 $_LANG['networkIssues']['http'] = "HTTP";
